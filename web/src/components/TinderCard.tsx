@@ -2,7 +2,7 @@
 
 import React, { useRef } from "react";
 import { motion, useMotionValue, useTransform, PanInfo } from "framer-motion";
-import { Star, Clock, Info, CheckCircle2, Bookmark, XCircle, Clapperboard, Users } from "lucide-react";
+import { Star, Clock, Info, CheckCircle2, Bookmark, XCircle } from "lucide-react";
 import { Movie, SwipeAction } from "../types/movie";
 
 interface TinderCardProps {
@@ -25,23 +25,26 @@ export const TinderCard: React.FC<TinderCardProps> = ({
   // Dynamic rotation based on horizontal drag
   const rotate = useTransform(x, [-250, 0, 250], [-18, 0, 18]);
 
-  // Opacities for the stamps based on drag direction
+  // Opacities and transforms for stamps based on drag direction
   // Drag Right -> Watched (Green)
   const watchedOpacity = useTransform(x, [40, 140], [0, 1]);
   // Drag Left -> Want to Watch / Watchlist (Blue)
   const watchlistOpacity = useTransform(x, [-40, -140], [0, 1]);
   // Drag Down -> Not Interested / Pass (Red)
   const passOpacity = useTransform(y, [40, 140], [0, 1]);
-  // Drag Up -> Super Like (Cyan)
-  const superLikeOpacity = useTransform(y, [-40, -130], [0, 1]);
+  // Drag Up -> Super Like (Glowing Cyan)
+  const superlikeOpacity = useTransform(y, [-30, -100], [0, 1]);
+  const superlikeScale = useTransform(y, [-30, -110], [0.85, 1.05]);
 
   const handleDragEnd = (_: MouseEvent | TouchEvent | PointerEvent, info: PanInfo) => {
-    const thresholdX = 100;
-    const thresholdY = 100;
-    const velocityThreshold = 350;
+    const thresholdX = 110;
+    const thresholdYDown = 120;
+    const thresholdYUp = -100;
+    const velocityThreshold = 400;
+    const velocityThresholdUp = -350;
 
-    // Swipe Up -> Super Like
-    if (info.offset.y < -thresholdY || info.velocity.y < -velocityThreshold) {
+    // Swipe Up -> Super Like: y < -100 or velocity.y < -350
+    if (info.offset.y < thresholdYUp || info.velocity.y < velocityThresholdUp) {
       onSwipe("superlike");
     }
     // Swipe Right -> Watched
@@ -53,7 +56,7 @@ export const TinderCard: React.FC<TinderCardProps> = ({
       onSwipe("watchlist");
     }
     // Swipe Down -> Not Interested
-    else if (info.offset.y > thresholdY || info.velocity.y > velocityThreshold) {
+    else if (info.offset.y > thresholdYDown || info.velocity.y > velocityThreshold) {
       onSwipe("pass");
     }
   };
@@ -81,6 +84,7 @@ export const TinderCard: React.FC<TinderCardProps> = ({
           ? { scale: 1, y: 0, opacity: 1 }
           : { scale: 0.94, y: 16, opacity: 0.85 }
       }
+      exit={{ opacity: 0, scale: 0.85, transition: { duration: 0.2 } }}
       transition={{ type: "spring", stiffness: 300, damping: 25 }}
     >
       <div className="relative w-full h-full rounded-2xl overflow-hidden bg-[#14161b] border border-[#27272a] shadow-card flex flex-col justify-between">
@@ -92,14 +96,28 @@ export const TinderCard: React.FC<TinderCardProps> = ({
             className="w-full h-full object-cover filter brightness-[0.92] transition-transform duration-500 hover:scale-105"
             draggable={false}
           />
-          {/* Subtle vignette and bottom dark gradient */}
-          <div className="absolute inset-0 bg-gradient-to-t from-[#0b0c0e] via-[#0b0c0e]/70 to-transparent" />
+          {/* Rich bottom dark gradient for clean text readability */}
+          <div className="absolute inset-0 bg-gradient-to-t from-[#0b0c0e] via-[#0b0c0e]/85 via-50% to-transparent" />
           <div className="absolute inset-0 bg-gradient-to-b from-black/50 via-transparent to-transparent" />
         </div>
 
         {/* Dynamic Stamp Badges */}
         {isTop && (
           <>
+            {/* SWIPE UP: SUPER LIKE (Glowing Cyan / Star) */}
+            <motion.div
+              style={{
+                opacity: superlikeOpacity,
+                scale: superlikeScale,
+              }}
+              className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 -rotate-6 z-50 pointer-events-none"
+            >
+              <div className="flex items-center gap-2.5 px-6 py-2.5 rounded-xl border-4 border-cyan-400 bg-cyan-950/80 text-cyan-300 backdrop-blur-md font-black text-2xl tracking-widest shadow-[0_0_35px_rgba(34,211,238,0.7)]">
+                <Star className="w-8 h-8 text-cyan-300 fill-cyan-400 drop-shadow-[0_0_10px_rgba(34,211,238,0.9)]" />
+                <span>SUPER LIKE</span>
+              </div>
+            </motion.div>
+
             {/* SWIPE RIGHT: WATCHED */}
             <motion.div
               style={{ opacity: watchedOpacity }}
@@ -126,15 +144,6 @@ export const TinderCard: React.FC<TinderCardProps> = ({
               <XCircle className="w-7 h-7 text-rose-500" />
               NOT INTERESTED
             </motion.div>
-
-            {/* SWIPE UP: SUPER LIKE */}
-            <motion.div
-              style={{ opacity: superLikeOpacity }}
-              className="stamp stamp-superlike flex items-center gap-2"
-            >
-              <Star className="w-7 h-7 text-cyan-400 fill-current" />
-              SUPER LIKE
-            </motion.div>
           </>
         )}
 
@@ -147,11 +156,6 @@ export const TinderCard: React.FC<TinderCardProps> = ({
             <span className="px-2.5 py-1 rounded-full text-xs font-semibold bg-black/50 backdrop-blur-md border border-white/10 text-gray-300">
               {movie.certificate}
             </span>
-            {movie.genres && movie.genres[0] && (
-              <span className="px-2.5 py-1 rounded-full text-xs font-semibold bg-purple-950/60 backdrop-blur-md border border-purple-500/30 text-purple-300 hidden sm:inline-block">
-                {movie.genres[0]}
-              </span>
-            )}
           </div>
 
           <button
@@ -167,48 +171,70 @@ export const TinderCard: React.FC<TinderCardProps> = ({
         </div>
 
         {/* Bottom Movie Details Panel */}
-        <div className="relative z-10 p-5 sm:p-6 pt-10">
-          <h2 className="text-2xl sm:text-3xl font-extrabold text-white leading-tight drop-shadow-md line-clamp-2">
+        <div className="relative z-10 p-5 sm:p-6 pt-8">
+          <h2 className="text-2xl sm:text-3xl font-extrabold text-white leading-tight drop-shadow-md line-clamp-1">
             {movie.title}
           </h2>
 
-          <div className="flex flex-wrap items-center gap-3 mt-2.5 text-sm font-medium text-gray-300">
+          {/* Rating, Year, Duration */}
+          <div className="flex flex-wrap items-center gap-2 sm:gap-3 mt-2 text-sm font-medium text-gray-300">
             <div className="flex items-center gap-1.5 text-[#f5c518] font-bold">
               <Star className="w-4 h-4 fill-current" />
               <span>{movie.rating}</span>
               <span className="text-xs text-gray-400 font-normal">({movie.votes_display})</span>
             </div>
-            <span>•</span>
+            <span className="text-gray-500">•</span>
             <span className="text-gray-200">{movie.year}</span>
-            <span>•</span>
+            <span className="text-gray-500">•</span>
             <div className="flex items-center gap-1 text-gray-300">
               <Clock className="w-3.5 h-3.5" />
               <span>{movie.duration}</span>
             </div>
           </div>
 
-          {/* Director & Cast Tags */}
-          <div className="mt-2.5 space-y-1 text-xs text-gray-300">
-            {movie.director && movie.director !== "Unknown" && (
-              <div className="flex items-center gap-1.5 text-purple-300 font-medium">
-                <Clapperboard className="w-3.5 h-3.5 text-purple-400 shrink-0" />
-                <span>Dir: {movie.director}</span>
-              </div>
+          {/* Director & Genres Pills */}
+          <div className="flex flex-wrap items-center gap-1.5 mt-2.5">
+            {movie.director && (
+              <span className="inline-flex items-center gap-1 px-2.5 py-0.5 rounded-full text-xs font-semibold bg-white/10 backdrop-blur-md border border-white/15 text-gray-200 shadow-sm">
+                🎬 {movie.director}
+              </span>
             )}
-            {movie.cast && movie.cast.length > 0 && (
-              <div className="flex items-center gap-1.5 text-gray-400">
-                <Users className="w-3.5 h-3.5 text-gray-400 shrink-0" />
-                <span className="truncate">{movie.cast.slice(0, 3).join(", ")}</span>
-              </div>
+            {movie.genres && movie.genres.length > 0 && (
+              <span className="inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-medium bg-amber-500/15 backdrop-blur-md border border-amber-500/30 text-amber-300 shadow-sm">
+                {movie.genres.join(" • ")}
+              </span>
             )}
           </div>
 
+          {/* Cast Preview */}
+          {movie.cast && movie.cast.length > 0 && (
+            <div className="mt-2 text-xs text-gray-300 truncate">
+              <span className="text-gray-400 font-medium">Cast: </span>
+              <span className="text-gray-200">{movie.cast.slice(0, 3).join(", ")}</span>
+            </div>
+          )}
+
+          {/* Description Preview Line */}
+          {movie.description && (
+            <p className="mt-1.5 text-xs text-gray-300/90 line-clamp-2 leading-relaxed drop-shadow-sm">
+              {movie.description}
+            </p>
+          )}
+
           {/* Swipe hints */}
-          <div className="mt-3.5 pt-2.5 border-t border-white/10 grid grid-cols-4 text-center text-[10px] text-gray-400 font-semibold">
-            <span className="text-blue-400">← Watchlist</span>
-            <span className="text-cyan-400">↑ Super Like</span>
-            <span className="text-rose-400">↓ Pass</span>
-            <span className="text-emerald-400">Watched →</span>
+          <div className="mt-3 pt-2.5 border-t border-white/10 flex items-center justify-between text-[11px] text-gray-400 font-medium">
+            <span className="flex items-center gap-1 text-blue-400/90">
+              ← Haven't seen
+            </span>
+            <span className="flex items-center gap-1 text-cyan-400/90 font-semibold">
+              ↑ Super Like
+            </span>
+            <span className="flex items-center gap-1 text-rose-400/90">
+              ↓ Pass
+            </span>
+            <span className="flex items-center gap-1 text-emerald-400/90">
+              Watched →
+            </span>
           </div>
         </div>
       </div>

@@ -10,11 +10,14 @@ import {
   Star,
   Sparkles,
   Trophy,
-  Info
+  Info,
+  Volume2,
+  VolumeX,
 } from "lucide-react";
 import { useMovies } from "../context/MovieContext";
 import { TinderCard } from "./TinderCard";
 import { SwipeAction } from "../types/movie";
+import { sounds } from "../lib/sounds";
 
 export const SwipeDeck: React.FC = () => {
   const {
@@ -23,6 +26,8 @@ export const SwipeDeck: React.FC = () => {
     undo,
     history,
     stats,
+    soundEnabled,
+    toggleSound,
     setSelectedMovie,
     setActiveTab,
   } = useMovies();
@@ -32,6 +37,34 @@ export const SwipeDeck: React.FC = () => {
   const topMovie = deck[0];
   const nextMovie = deck[1];
   const thirdMovie = deck[2];
+
+  const handleSwipeAction = (action: SwipeAction) => {
+    if (!topMovie) return;
+
+    // Trigger instant sound feedback
+    if (action === "watched") sounds.playSwipeRight();
+    else if (action === "watchlist") sounds.playSwipeLeft();
+    else if (action === "pass") sounds.playSwipeDown();
+    else if (action === "superlike") sounds.playSuperLike();
+
+    swipe(topMovie, action);
+  };
+
+  const handleButtonSwipe = (action: SwipeAction) => {
+    if (!topMovie) return;
+    setSwipeDirection(action);
+
+    // Instant sound effect
+    if (action === "watched") sounds.playSwipeRight();
+    else if (action === "watchlist") sounds.playSwipeLeft();
+    else if (action === "pass") sounds.playSwipeDown();
+    else if (action === "superlike") sounds.playSuperLike();
+
+    setTimeout(() => {
+      swipe(topMovie, action);
+      setSwipeDirection(null);
+    }, 200);
+  };
 
   // Keyboard shortcut listener
   useEffect(() => {
@@ -46,10 +79,7 @@ export const SwipeDeck: React.FC = () => {
 
       if (!topMovie) return;
 
-      if (e.key === "ArrowUp") {
-        e.preventDefault();
-        handleButtonSwipe("superlike");
-      } else if (e.key === "ArrowRight") {
+      if (e.key === "ArrowRight") {
         e.preventDefault();
         handleButtonSwipe("watched");
       } else if (e.key === "ArrowLeft") {
@@ -58,6 +88,9 @@ export const SwipeDeck: React.FC = () => {
       } else if (e.key === "ArrowDown") {
         e.preventDefault();
         handleButtonSwipe("pass");
+      } else if (e.key === "ArrowUp") {
+        e.preventDefault();
+        handleButtonSwipe("superlike");
       } else if (e.key === "z" && (e.ctrlKey || e.metaKey)) {
         e.preventDefault();
         undo();
@@ -67,37 +100,49 @@ export const SwipeDeck: React.FC = () => {
       } else if (e.key === " ") {
         e.preventDefault();
         setSelectedMovie(topMovie);
+      } else if (e.key.toLowerCase() === "m") {
+        e.preventDefault();
+        toggleSound();
       }
     };
 
     window.addEventListener("keydown", handleKeyDown);
     return () => window.removeEventListener("keydown", handleKeyDown);
-  }, [topMovie, undo]);
-
-  const handleButtonSwipe = (action: SwipeAction) => {
-    if (!topMovie) return;
-    setSwipeDirection(action);
-    setTimeout(() => {
-      swipe(topMovie, action);
-      setSwipeDirection(null);
-    }, 180);
-  };
+  }, [topMovie, undo, toggleSound]);
 
   return (
-    <div className="flex flex-col items-center justify-between w-full max-w-md mx-auto h-[calc(100vh-140px)] min-h-[600px] max-h-[760px] px-4 py-2">
-      {/* Top Deck Stats Pill */}
+    <div className="flex flex-col items-center justify-between w-full max-w-md mx-auto h-[calc(100vh-140px)] min-h-[580px] max-h-[740px] px-4 py-2">
+      {/* Top Deck Stats Pill & Sound Toggle */}
       <div className="flex items-center justify-between w-full px-2 py-1 mb-2 text-xs font-semibold text-gray-400">
         <div className="flex items-center gap-1.5">
           <span className="w-2 h-2 rounded-full bg-emerald-500 animate-pulse" />
-          <span>{deck.length} remaining in deck</span>
+          <span>{deck.length} remaining</span>
         </div>
-        <div>
-          Watched: <span className="text-emerald-400 font-bold">{stats.watchedCount}</span> / 250 ({stats.completionPercentage}%)
+        <div className="flex items-center gap-3">
+          <div>
+            Watched: <span className="text-emerald-400 font-bold">{stats.watchedCount}</span> / 250 ({stats.completionPercentage}%)
+          </div>
+          {/* Audio Mute/Unmute Toggle */}
+          <button
+            onClick={toggleSound}
+            className={`p-1.5 rounded-lg border transition-all ${
+              soundEnabled
+                ? "bg-[#18181b] border-amber-500/40 text-[#f5c518] hover:border-amber-400 hover:scale-105"
+                : "bg-[#14161b] border-[#27272a] text-gray-500 hover:text-gray-400 hover:border-gray-500"
+            }`}
+            title={soundEnabled ? "Mute sound effects (M)" : "Enable sound effects (M)"}
+          >
+            {soundEnabled ? (
+              <Volume2 className="w-3.5 h-3.5" />
+            ) : (
+              <VolumeX className="w-3.5 h-3.5" />
+            )}
+          </button>
         </div>
       </div>
 
       {/* Card Deck Area */}
-      <div className="relative w-full flex-1 max-h-[580px]">
+      <div className="relative w-full flex-1 max-h-[560px]">
         {deck.length === 0 ? (
           /* Empty Deck State */
           <motion.div
@@ -109,11 +154,11 @@ export const SwipeDeck: React.FC = () => {
               <Trophy className="w-10 h-10 text-[#f5c518]" />
             </div>
             <h3 className="text-2xl font-black text-white mb-2">
-              You Classified All 250 Movies!
+              You Swiped All 250 Movies!
             </h3>
             <p className="text-gray-400 text-sm max-w-xs mb-6">
-              You've officially swiped every single film in the IMDb Top 250.
-              Explore your personalized taste profile and top recommendations!
+              You've officially classified every film in the IMDb Top 250.
+              Explore your personalized lists and smart AI recommendations!
             </p>
 
             <div className="grid grid-cols-2 gap-3 w-full mb-6">
@@ -129,16 +174,16 @@ export const SwipeDeck: React.FC = () => {
 
             <div className="flex flex-col gap-2.5 w-full">
               <button
-                onClick={() => setActiveTab("suggestions")}
-                className="w-full py-3 px-4 rounded-xl bg-[#f5c518] hover:bg-[#ffcf33] text-black font-bold text-sm flex items-center justify-center gap-2 transition-colors shadow-lg"
-              >
-                <Sparkles className="w-4 h-4" /> View AI Recommendations
-              </button>
-              <button
                 onClick={() => setActiveTab("watchlist")}
                 className="w-full py-3 px-4 rounded-xl bg-blue-600 hover:bg-blue-500 text-white font-bold text-sm flex items-center justify-center gap-2 transition-colors shadow-lg"
               >
-                <Bookmark className="w-4 h-4" /> Open Your Watchlist
+                <Bookmark className="w-4 h-4" /> View Your Watchlist
+              </button>
+              <button
+                onClick={() => setActiveTab("suggestions")}
+                className="w-full py-3 px-4 rounded-xl bg-[#f5c518] hover:bg-[#ffcf33] text-black font-bold text-sm flex items-center justify-center gap-2 transition-colors shadow-lg"
+              >
+                <Sparkles className="w-4 h-4" /> See Top Suggestions
               </button>
             </div>
           </motion.div>
@@ -178,7 +223,7 @@ export const SwipeDeck: React.FC = () => {
                   key={topMovie.rank}
                   movie={topMovie}
                   isTop={true}
-                  onSwipe={(action) => swipe(topMovie, action)}
+                  onSwipe={handleSwipeAction}
                   onOpenDetails={setSelectedMovie}
                 />
               )}
@@ -200,7 +245,7 @@ export const SwipeDeck: React.FC = () => {
           }`}
           title="Undo last swipe (Backspace / Ctrl+Z)"
         >
-          <RotateCcw className="w-4 h-4" />
+          <RotateCcw className="w-4 h-4 sm:w-5 sm:h-5" />
         </button>
 
         {/* Swipe Left: Haven't Watched / Watchlist */}
@@ -208,29 +253,29 @@ export const SwipeDeck: React.FC = () => {
           onClick={() => handleButtonSwipe("watchlist")}
           disabled={!topMovie}
           className="p-3.5 sm:p-4 rounded-full bg-[#18181b] border border-blue-500/40 text-blue-400 hover:bg-blue-500/10 hover:border-blue-400 transition-all transform active:scale-90 hover:scale-105 shadow-glow-watchlist disabled:opacity-40"
-          title="Haven't Watched / Watchlist (← Left Arrow)"
+          title="Haven't Watched / Add to Watchlist (← Left Arrow)"
         >
           <Bookmark className="w-5 h-5 sm:w-6 sm:h-6" />
         </button>
 
-        {/* Swipe Up: Super Like ⭐ */}
+        {/* Super Like: ⭐ Center Button between Left and Down */}
         <button
           onClick={() => handleButtonSwipe("superlike")}
           disabled={!topMovie}
-          className="p-3.5 sm:p-4 rounded-full bg-[#18181b] border border-cyan-400/50 text-cyan-400 hover:bg-cyan-500/10 hover:border-cyan-300 transition-all transform active:scale-90 hover:scale-110 shadow-lg shadow-cyan-500/30 disabled:opacity-40"
-          title="Super Like / Top Favorite (↑ Up Arrow)"
+          className="p-3.5 sm:p-4 rounded-full bg-gradient-to-br from-cyan-950/80 via-[#18181b] to-purple-950/80 border-2 border-cyan-400/70 text-cyan-300 hover:border-cyan-300 hover:shadow-[0_0_25px_rgba(34,211,238,0.55)] transition-all transform active:scale-90 hover:scale-110 shadow-lg disabled:opacity-40 group"
+          title="Super Like! (↑ Up Arrow)"
         >
-          <Star className="w-5 h-5 sm:w-6 sm:h-6 fill-current" />
+          <Star className="w-5 h-5 sm:w-6 sm:h-6 fill-cyan-400/30 text-cyan-300 group-hover:fill-cyan-300 group-hover:drop-shadow-[0_0_8px_rgba(34,211,238,0.8)] transition-all" />
         </button>
 
         {/* Swipe Down: Not Interested / Pass */}
         <button
           onClick={() => handleButtonSwipe("pass")}
           disabled={!topMovie}
-          className="p-3.5 sm:p-4 rounded-full bg-[#18181b] border border-rose-500/40 text-rose-500 hover:bg-rose-500/10 hover:border-rose-400 transition-all transform active:scale-90 hover:scale-105 shadow-glow-pass disabled:opacity-40"
+          className="p-3 sm:p-3.5 rounded-full bg-[#18181b] border border-rose-500/40 text-rose-500 hover:bg-rose-500/10 hover:border-rose-400 transition-all transform active:scale-90 hover:scale-105 shadow-glow-pass disabled:opacity-40"
           title="Not Interested / Skip (↓ Down Arrow)"
         >
-          <X className="w-5 h-5 sm:w-6 sm:h-6" />
+          <X className="w-4 h-4 sm:w-5 sm:h-5" />
         </button>
 
         {/* Swipe Right: Watched */}
@@ -243,14 +288,14 @@ export const SwipeDeck: React.FC = () => {
           <Check className="w-5 h-5 sm:w-6 sm:h-6 stroke-[3]" />
         </button>
 
-        {/* Info Details Button */}
+        {/* Info / Details Button */}
         <button
           onClick={() => topMovie && setSelectedMovie(topMovie)}
           disabled={!topMovie}
           className="p-3 rounded-full bg-[#18181b] border border-[#3f3f46] text-gray-300 hover:text-[#f5c518] hover:border-[#f5c518] transition-all transform active:scale-90 disabled:opacity-40"
           title="Movie Details (Space)"
         >
-          <Info className="w-4 h-4" />
+          <Info className="w-4 h-4 sm:w-5 sm:h-5" />
         </button>
       </div>
     </div>
