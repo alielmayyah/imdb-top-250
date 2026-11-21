@@ -1,0 +1,104 @@
+{
+  "source": "https://www.imdb.com/chart/top/",
+  "total_titles": 250,
+  "average_imdb_rating": 8.31,
+  "min_rating": 8.0,
+  "max_rating": 9.3,
+  "total_estimated_votes": 195606000,
+  "average_duration_minutes": 132.7,
+  "oldest_movie": {
+    "title": "The Kid",
+    "year": 1921
+  },
+  "newest_movie": {
+    "title": "The Odyssey",
+    "year": 2026
+  },
+  "chart_rules": [
+    "The top rated movie list only includes feature films.",
+    "Shorts, TV movies, and documentaries are not included.",
+    "The list is ranked by a formula which includes the number of ratings each movie received from users, and value of ratings received from regular users.",
+    "To be included on the list, a movie must receive ratings from at least 25000 users."
+  ],
+  "popular_charts": [
+    {
+      "name": "Top box office (US)",
+      "description": "From the past weekend",
+      "titles_count": 10,
+      "url": "https://www.imdb.com/chart/boxoffice/"
+    },
+    {
+      "name": "Most popular movies",
+      "description": "As determined by IMDb users",
+      "titles_count": 100,
+      "url": "https://www.imdb.com/chart/moviemeter/"
+    },
+    {
+      "name": "Top rated English movies",
+      "description": "English-language movies as rated by IMDb users",
+      "titles_count": 250,
+      "url": "https://www.imdb.com/chart/top-english-movies/"
+    },
+    {
+      "name": "Most popular TV shows",
+      "description": "As determined by IMDb users",
+      "titles_count": 100,
+      "url": "https://www.imdb.com/chart/tvmeter/"
+    },
+    {
+      "name": "Top 250 TV shows",
+      "description": "Top 250 as rated by IMDb Users",
+      "titles_count": 250,
+      "url": "https://www.imdb.com/chart/toptv/"
+    },
+    {
+      "name": "Lowest rated movies",
+      "description": "Bottom 100 as voted by IMDb users",
+      "titles_count": 100,
+      "url": "https://www.imdb.com/chart/bottom/"
+    },
+    {
+      "name": "Trending people",
+      "description": "As determined by IMDb users",
+      "titles_count": 100,
+      "url": "https://www.imdb.com/chart/starmeter/"
+    }
+  ],
+  "movie_news": [
+    {
+      "headline": "One Of The Most Unsettling Movies Of The '60s Is A Must-Watch On HBO Max",
+      "date": "11/21/2026",
+      "author": "Joe Roberts",
+      "outlet": "Slash Film",
+      "url": "https://www.slashfilm.com/2317952/persona-60s-most-unsettling-movies-must-watch-hbo-max/"
+    },
+    {
+      "headline": "Roger Ebert Preferred This Divisive 2007 Fantasy Movie Over The Lord Of The Rings",
+      "date": "11/21/2026",
+      "author": "Devin Meenan",
+      "outlet": "Slash Film",
+      "url": "https://www.slashfilm.com/2317922/roger-ebert-prefer-2007-fantasy-movie-over-lord-of-the-rings-the-golden-compass/"
+    },
+    {
+      "headline": "Box Office: ‘The Hunger Games: Sunrise on the Reaping’ Scores $56 Million on Friday, ‘I Play Rocky’ Follows With $3.8 Million",
+      "date": "11/21/2026",
+      "author": "Payton Turkeltaub",
+      "outlet": "Variety - Film News",
+      "url": "https://variety.com/2026/film/box-office/box-office-hunger-games-sunrise-of-the-reaping-opening-day-1236954987/"
+    },
+    {
+      "headline": "Nicolas Cage's Acclaimed '90s Neo Western Thriller Flop Is Worth Revisiting",
+      "date": "11/21/2026",
+      "author": "Jeremy Smith",
+      "outlet": "Slash Film",
+      "url": "https://www.slashfilm.com/2317782/nicolas-cage-90s-neo-western-thriller-flop-red-rock-west/"
+    },
+    {
+      "headline": "5 Of The Best 4K Blu-Ray Black Friday Deals Under $20",
+      "date": "11/21/2026",
+      "author": "Ryan Scott",
+      "outlet": "Slash Film",
+      "url": "https://www.slashfilm.com/2322792/best-4k-blu-ray-black-friday-deals-under-20-dollars/"
+    }
+  ]
+}
