@@ -1,8 +1,10 @@
 "use client";
 
-import React, { createContext, useContext, useEffect, useState } from "react";
+import React, { createContext, useContext, useEffect, useState, useMemo } from "react";
 import confetti from "canvas-confetti";
-import { Movie, SwipeAction, SwipeHistoryItem } from "../types/movie";
+import { Movie, SwipeAction, SwipeHistoryItem, TasteProfile } from "../types/movie";
+import { getTasteProfile } from "../lib/recommendation";
+import { sounds } from "../lib/sounds";
 import rawMoviesData from "../data/movies.json";
 
 interface MovieContextType {
@@ -12,6 +14,10 @@ interface MovieContextType {
   watchlist: Movie[];
   passed: Movie[];
   history: SwipeHistoryItem[];
+  superLikedRanks: Set<number>;
+  tasteProfile: TasteProfile;
+  soundEnabled: boolean;
+  toggleSound: () => void;
   activeTab: string;
   setActiveTab: (tab: string) => void;
   selectedMovie: Movie | null;
@@ -26,27 +32,30 @@ interface MovieContextType {
     watchlistCount: number;
     passedCount: number;
     unswipedCount: number;
+    superLikeCount: number;
     completionPercentage: number;
   };
 }
 
 const MovieContext = createContext<MovieContextType | undefined>(undefined);
 
-const STORAGE_KEY = "imdb_tinder_state_v1";
+const STORAGE_KEY = "imdb_tinder_state_v2";
 
 export const MovieProvider: React.FC<{ children: React.ReactNode }> = ({ children }) => {
   const allMovies = rawMoviesData as Movie[];
-  
+
   const [deck, setDeck] = useState<Movie[]>(allMovies);
   const [watched, setWatched] = useState<Movie[]>([]);
   const [watchlist, setWatchlist] = useState<Movie[]>([]);
   const [passed, setPassed] = useState<Movie[]>([]);
   const [history, setHistory] = useState<SwipeHistoryItem[]>([]);
+  const [superLikedRanks, setSuperLikedRanks] = useState<Set<number>>(new Set());
+  const [soundEnabled, setSoundEnabled] = useState<boolean>(true);
   const [activeTab, setActiveTab] = useState<string>("swipe");
   const [selectedMovie, setSelectedMovie] = useState<Movie | null>(null);
   const [isLoaded, setIsLoaded] = useState(false);
 
-  // Load state from localStorage on client mount
+  // Load from localStorage on mount
   useEffect(() => {
     try {
       const saved = localStorage.getItem(STORAGE_KEY);
@@ -56,19 +65,21 @@ export const MovieProvider: React.FC<{ children: React.ReactNode }> = ({ childre
         const watchlistList: Movie[] = parsed.watchlist || [];
         const passedList: Movie[] = parsed.passed || [];
         const historyList: SwipeHistoryItem[] = parsed.history || [];
+        const superLikes: number[] = parsed.superLikes || [];
 
         const swipedRanks = new Set([
-          ...watchedList.map(m => m.rank),
-          ...watchlistList.map(m => m.rank),
-          ...passedList.map(m => m.rank),
+          ...watchedList.map((m) => m.rank),
+          ...watchlistList.map((m) => m.rank),
+          ...passedList.map((m) => m.rank),
         ]);
 
-        const remainingDeck = allMovies.filter(m => !swipedRanks.has(m.rank));
+        const remainingDeck = allMovies.filter((m) => !swipedRanks.has(m.rank));
 
         setWatched(watchedList);
         setWatchlist(watchlistList);
         setPassed(passedList);
         setHistory(historyList);
+        setSuperLikedRanks(new Set(superLikes));
         setDeck(remainingDeck);
       }
     } catch (e) {
@@ -78,7 +89,7 @@ export const MovieProvider: React.FC<{ children: React.ReactNode }> = ({ childre
     }
   }, []);
 
-  // Save state to localStorage whenever lists change
+  // Sync to localStorage
   useEffect(() => {
     if (!isLoaded) return;
     try {
@@ -87,43 +98,69 @@ export const MovieProvider: React.FC<{ children: React.ReactNode }> = ({ childre
         watchlist,
         passed,
         history,
+        superLikes: Array.from(superLikedRanks),
       };
       localStorage.setItem(STORAGE_KEY, JSON.stringify(state));
     } catch (e) {
       console.error("Failed to save state:", e);
     }
-  }, [watched, watchlist, passed, history, isLoaded]);
+  }, [watched, watchlist, passed, history, superLikedRanks, isLoaded]);
+
+  const toggleSound = () => {
+    setSoundEnabled((prev) => {
+      sounds.enabled = !prev;
+      return !prev;
+    });
+  };
 
   const triggerMilestoneConfetti = (count: number) => {
     if ([10, 25, 50, 100, 150, 200, 250].includes(count)) {
       confetti({
-        particleCount: 100,
-        spread: 70,
+        particleCount: 120,
+        spread: 80,
         origin: { y: 0.6 },
-        colors: ["#f5c518", "#10b981", "#3b82f6", "#ffffff"]
+        colors: ["#f5c518", "#10b981", "#3b82f6", "#a855f7", "#ffffff"],
       });
     }
   };
 
   const swipe = (movie: Movie, action: SwipeAction) => {
-    // Remove from deck
-    setDeck(prev => prev.filter(m => m.rank !== movie.rank));
+    // Sound trigger
+    if (action === "watched") sounds.playSwipeRight();
+    else if (action === "watchlist") sounds.playSwipeLeft();
+    else if (action === "pass") sounds.playSwipeDown();
+    else if (action === "superlike") sounds.playSuperLike();
 
-    // Add to appropriate list
-    if (action === "watched") {
-      setWatched(prev => {
-        const updated = [movie, ...prev.filter(m => m.rank !== movie.rank)];
+    // Remove from deck
+    setDeck((prev) => prev.filter((m) => m.rank !== movie.rank));
+
+    if (action === "superlike") {
+      setSuperLikedRanks((prev) => new Set([...prev, movie.rank]));
+      setWatched((prev) => {
+        const updated = [movie, ...prev.filter((m) => m.rank !== movie.rank)];
+        triggerMilestoneConfetti(updated.length);
+        return updated;
+      });
+      // Superlike celebration confetti
+      confetti({
+        particleCount: 60,
+        spread: 60,
+        origin: { y: 0.7 },
+        colors: ["#38bdf8", "#818cf8", "#f5c518"],
+      });
+    } else if (action === "watched") {
+      setWatched((prev) => {
+        const updated = [movie, ...prev.filter((m) => m.rank !== movie.rank)];
         triggerMilestoneConfetti(updated.length);
         return updated;
       });
     } else if (action === "watchlist") {
-      setWatchlist(prev => [movie, ...prev.filter(m => m.rank !== movie.rank)]);
+      setWatchlist((prev) => [movie, ...prev.filter((m) => m.rank !== movie.rank)]);
     } else if (action === "pass") {
-      setPassed(prev => [movie, ...prev.filter(m => m.rank !== movie.rank)]);
+      setPassed((prev) => [movie, ...prev.filter((m) => m.rank !== movie.rank)]);
     }
 
-    // Record history for undo
-    setHistory(prev => [{ movie, action, timestamp: Date.now() }, ...prev]);
+    setHistory((prev) => [{ movie, action, timestamp: Date.now() }, ...prev]);
   };
 
   const undo = () => {
@@ -131,35 +168,47 @@ export const MovieProvider: React.FC<{ children: React.ReactNode }> = ({ childre
     const [lastAction, ...restHistory] = history;
     const { movie, action } = lastAction;
 
-    // Remove from whichever list it was in
-    if (action === "watched") {
-      setWatched(prev => prev.filter(m => m.rank !== movie.rank));
+    if (action === "watched" || action === "superlike") {
+      setWatched((prev) => prev.filter((m) => m.rank !== movie.rank));
+      if (action === "superlike") {
+        setSuperLikedRanks((prev) => {
+          const next = new Set(prev);
+          next.delete(movie.rank);
+          return next;
+        });
+      }
     } else if (action === "watchlist") {
-      setWatchlist(prev => prev.filter(m => m.rank !== movie.rank));
+      setWatchlist((prev) => prev.filter((m) => m.rank !== movie.rank));
     } else if (action === "pass") {
-      setPassed(prev => prev.filter(m => m.rank !== movie.rank));
+      setPassed((prev) => prev.filter((m) => m.rank !== movie.rank));
     }
 
-    // Add back to front of deck
-    setDeck(prev => [movie, ...prev.filter(m => m.rank !== movie.rank)]);
+    setDeck((prev) => [movie, ...prev.filter((m) => m.rank !== movie.rank)]);
     setHistory(restHistory);
   };
 
   const moveMovie = (movie: Movie, toAction: SwipeAction | "unswiped") => {
-    // Remove from all current lists
-    setWatched(prev => prev.filter(m => m.rank !== movie.rank));
-    setWatchlist(prev => prev.filter(m => m.rank !== movie.rank));
-    setPassed(prev => prev.filter(m => m.rank !== movie.rank));
-    setDeck(prev => prev.filter(m => m.rank !== movie.rank));
+    setWatched((prev) => prev.filter((m) => m.rank !== movie.rank));
+    setWatchlist((prev) => prev.filter((m) => m.rank !== movie.rank));
+    setPassed((prev) => prev.filter((m) => m.rank !== movie.rank));
+    setDeck((prev) => prev.filter((m) => m.rank !== movie.rank));
 
     if (toAction === "unswiped") {
-      setDeck(prev => [movie, ...prev]);
+      setDeck((prev) => [movie, ...prev]);
+      setSuperLikedRanks((prev) => {
+        const next = new Set(prev);
+        next.delete(movie.rank);
+        return next;
+      });
     } else if (toAction === "watched") {
-      setWatched(prev => [movie, ...prev]);
+      setWatched((prev) => [movie, ...prev]);
+    } else if (toAction === "superlike") {
+      setSuperLikedRanks((prev) => new Set([...prev, movie.rank]));
+      setWatched((prev) => [movie, ...prev]);
     } else if (toAction === "watchlist") {
-      setWatchlist(prev => [movie, ...prev]);
+      setWatchlist((prev) => [movie, ...prev]);
     } else if (toAction === "pass") {
-      setPassed(prev => [movie, ...prev]);
+      setPassed((prev) => [movie, ...prev]);
     }
   };
 
@@ -169,10 +218,15 @@ export const MovieProvider: React.FC<{ children: React.ReactNode }> = ({ childre
       setWatchlist([]);
       setPassed([]);
       setHistory([]);
+      setSuperLikedRanks(new Set());
       setDeck(allMovies);
       localStorage.removeItem(STORAGE_KEY);
     }
   };
+
+  const tasteProfile = useMemo(() => {
+    return getTasteProfile(watched, superLikedRanks);
+  }, [watched, superLikedRanks]);
 
   const completionPercentage = Math.round((watched.length / allMovies.length) * 100);
 
@@ -182,6 +236,7 @@ export const MovieProvider: React.FC<{ children: React.ReactNode }> = ({ childre
     watchlistCount: watchlist.length,
     passedCount: passed.length,
     unswipedCount: deck.length,
+    superLikeCount: superLikedRanks.size,
     completionPercentage,
   };
 
@@ -194,6 +249,10 @@ export const MovieProvider: React.FC<{ children: React.ReactNode }> = ({ childre
         watchlist,
         passed,
         history,
+        superLikedRanks,
+        tasteProfile,
+        soundEnabled,
+        toggleSound,
         activeTab,
         setActiveTab,
         selectedMovie,

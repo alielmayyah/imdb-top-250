@@ -7,12 +7,15 @@ import {
   CheckCircle2,
   Sparkles,
   BarChart3,
-  RotateCcw
+  RotateCcw,
+  Volume2,
+  VolumeX,
+  Star
 } from "lucide-react";
 import { useMovies } from "../context/MovieContext";
 
 export const Navbar: React.FC = () => {
-  const { activeTab, setActiveTab, stats, resetAll } = useMovies();
+  const { activeTab, setActiveTab, stats, resetAll, soundEnabled, toggleSound } = useMovies();
 
   return (
     <header className="sticky top-0 z-40 w-full bg-[#0b0c0e]/90 backdrop-blur-md border-b border-[#242731]">
@@ -123,11 +126,28 @@ export const Navbar: React.FC = () => {
           </button>
         </nav>
 
-        {/* Right Section: Progress & Reset */}
-        <div className="hidden lg:flex items-center gap-4">
+        {/* Right Section: Progress & Sound & Reset */}
+        <div className="hidden lg:flex items-center gap-3">
+          <button
+            onClick={toggleSound}
+            className={`p-2 rounded-lg transition-colors ${
+              soundEnabled
+                ? "text-yellow-400 bg-yellow-400/10 hover:bg-yellow-400/20"
+                : "text-gray-500 hover:text-gray-300 hover:bg-white/5"
+            }`}
+            title={soundEnabled ? "Sound Effects Enabled (Click to mute)" : "Sound Effects Muted (Click to enable)"}
+          >
+            {soundEnabled ? <Volume2 className="w-4 h-4" /> : <VolumeX className="w-4 h-4" />}
+          </button>
+
           <div className="text-right">
-            <div className="text-xs font-bold text-gray-300">
-              {stats.watchedCount} / 250 Watched
+            <div className="text-xs font-bold text-gray-300 flex items-center justify-end gap-1.5">
+              <span>{stats.watchedCount} / 250 Watched</span>
+              {stats.superLikeCount > 0 && (
+                <span className="text-cyan-400 flex items-center gap-0.5 text-[11px]">
+                  <Star className="w-3 h-3 fill-current" /> {stats.superLikeCount}
+                </span>
+              )}
             </div>
             <div className="w-28 h-1.5 bg-gray-800 rounded-full overflow-hidden mt-1">
               <div

@@ -12,7 +12,17 @@
     "votes_count": 3300000,
     "imdb_url": "https://www.imdb.com/title/tt0111161/",
     "poster_url": "https://m.media-amazon.com/images/M/MV5BMDAyY2FhYjctNDc5OS00MDNlLThiMGUtY2UxYWVkNGY2ZjljXkEyXkFqcGc@._V1_.jpg",
-    "local_poster_path": "posters/001_The_Shawshank_Redemption_tt0111161.jpg"
+    "local_poster_path": "posters/001_The_Shawshank_Redemption_tt0111161.jpg",
+    "genres": [
+      "Drama"
+    ],
+    "director": "Frank Darabont",
+    "cast": [
+      "Tim Robbins",
+      "Morgan Freeman",
+      "Bob Gunton"
+    ],
+    "description": "After a banker is sentenced to life in Shawshank Prison, he forms an unlikely friendship with a seasoned inmate and clings to hope amid cruelty and corruption."
   },
   {
     "rank": 2,
@@ -27,7 +37,18 @@
     "votes_count": 2300000,
     "imdb_url": "https://www.imdb.com/title/tt0068646/",
     "poster_url": "https://m.media-amazon.com/images/M/MV5BNGEwYjgwOGQtYjg5ZS00Njc1LTk2ZGEtM2QwZWQ2NjdhZTE5XkEyXkFqcGc@._V1_.jpg",
-    "local_poster_path": "posters/002_The_Godfather_tt0068646.jpg"
+    "local_poster_path": "posters/002_The_Godfather_tt0068646.jpg",
+    "genres": [
+      "Crime",
+      "Drama"
+    ],
+    "director": "Francis Ford Coppola",
+    "cast": [
+      "Marlon Brando",
+      "Al Pacino",
+      "James Caan"
+    ],
+    "description": "The aging patriarch of an organized crime dynasty transfers control of his clandestine empire to his reluctant son."
   },
   {
     "rank": 3,
@@ -42,7 +63,18 @@
     "votes_count": 3300000,
     "imdb_url": "https://www.imdb.com/title/tt0468569/",
     "poster_url": "https://m.media-amazon.com/images/M/MV5BMTMxNTMwODM0NF5BMl5BanBnXkFtZTcwODAyMTk2Mw@@._V1_.jpg",
-    "local_poster_path": "posters/003_The_Dark_Knight_tt0468569.jpg"
+    "local_poster_path": "posters/003_The_Dark_Knight_tt0468569.jpg",
+    "genres": [
+      "Crime",
+      "Thriller"
+    ],
+    "director": "Christopher Nolan",
+    "cast": [
+      "Christian Bale",
+      "Heath Ledger",
+      "Aaron Eckhart"
+    ],
+    "description": "When a menace known as the Joker wreaks havoc and chaos on the people of Gotham, Batman, James Gordon and Harvey Dent must work together to put an end to the madness."
   },
   {
     "rank": 4,
@@ -57,7 +89,18 @@
     "votes_count": 1500000,
     "imdb_url": "https://www.imdb.com/title/tt0071562/",
     "poster_url": "https://m.media-amazon.com/images/M/MV5BMDIxMzBlZDktZjMxNy00ZGI4LTgxNDEtYWRlNzRjMjJmOGQ1XkEyXkFqcGc@._V1_.jpg",
-    "local_poster_path": "posters/004_The_Godfather_Part_II_tt0071562.jpg"
+    "local_poster_path": "posters/004_The_Godfather_Part_II_tt0071562.jpg",
+    "genres": [
+      "Crime",
+      "Drama"
+    ],
+    "director": "Francis Ford Coppola",
+    "cast": [
+      "Al Pacino",
+      "Robert De Niro",
+      "Robert Duvall"
+    ],
+    "description": "The early life and career of Vito Corleone in 1920s New York City is portrayed, while his son, Michael, expands and tightens his grip on the family crime syndicate."
   },
   {
     "rank": 5,
@@ -72,7 +115,19 @@
     "votes_count": 2200000,
     "imdb_url": "https://www.imdb.com/title/tt0167260/",
     "poster_url": "https://m.media-amazon.com/images/M/MV5BMTZkMjBjNWMtZGI5OC00MGU0LTk4ZTItODg2NWM3NTVmNWQ4XkEyXkFqcGc@._V1_.jpg",
-    "local_poster_path": "posters/005_The_Lord_of_the_Rings_The_Return_of_the_King_tt0167260.jpg"
+    "local_poster_path": "posters/005_The_Lord_of_the_Rings_The_Return_of_the_King_tt0167260.jpg",
+    "genres": [
+      "Adventure",
+      "Drama",
+      "Fantasy"
+    ],
+    "director": "Peter Jackson",
+    "cast": [
+      "Elijah Wood",
+      "Viggo Mortensen",
+      "Ian McKellen"
+    ],
+    "description": "Gandalf and Aragorn lead the World of Men against Sauron's army to draw his gaze from Frodo and Sam as they approach Mount Doom with the One Ring."
   },
   {
     "rank": 6,
@@ -87,7 +142,18 @@
     "votes_count": 1000000,
     "imdb_url": "https://www.imdb.com/title/tt0050083/",
     "poster_url": "https://m.media-amazon.com/images/M/MV5BYjE4NzdmOTYtYjc5Yi00YzBiLWEzNDEtNTgxZGQ2MWVkN2NiXkEyXkFqcGc@._V1_.jpg",
-    "local_poster_path": "posters/006_12_Angry_Men_tt0050083.jpg"
+    "local_poster_path": "posters/006_12_Angry_Men_tt0050083.jpg",
+    "genres": [
+      "Crime",
+      "Drama"
+    ],
+    "director": "Sidney Lumet",
+    "cast": [
+      "Henry Fonda",
+      "Lee J. Cobb",
+      "Martin Balsam"
+    ],
+    "description": "The jury in a New York City murder trial is frustrated by a single member whose skeptical caution forces them to more carefully consider the evidence before jumping to a hasty verdict."
   },
   {
     "rank": 7,
@@ -102,7 +168,19 @@
     "votes_count": 1600000,
     "imdb_url": "https://www.imdb.com/title/tt0108052/",
     "poster_url": "https://m.media-amazon.com/images/M/MV5BNjM1ZDQxYWUtMzQyZS00MTE1LWJmZGYtNGUyNTdlYjM3ZmVmXkEyXkFqcGc@._V1_.jpg",
-    "local_poster_path": "posters/007_Schindler's_List_tt0108052.jpg"
+    "local_poster_path": "posters/007_Schindler's_List_tt0108052.jpg",
+    "genres": [
+      "Biography",
+      "Drama",
+      "History"
+    ],
+    "director": "Steven Spielberg",
+    "cast": [
+      "Liam Neeson",
+      "Ralph Fiennes",
+      "Ben Kingsley"
+    ],
+    "description": "In German-occupied Poland during World War II, industrialist Oskar Schindler gradually becomes concerned for his Jewish workforce after witnessing their persecution by the Nazis."
   },
   {
     "rank": 8,
@@ -117,7 +195,19 @@
     "votes_count": 2300000,
     "imdb_url": "https://www.imdb.com/title/tt0120737/",
     "poster_url": "https://m.media-amazon.com/images/M/MV5BNzIxMDQ2YTctNDY4MC00ZTRhLTk4ODQtMTVlOWY4NTdiYmMwXkEyXkFqcGc@._V1_.jpg",
-    "local_poster_path": "posters/008_The_Lord_of_the_Rings_The_Fellowship_of_the_Ring_tt0120737.jpg"
+    "local_poster_path": "posters/008_The_Lord_of_the_Rings_The_Fellowship_of_the_Ring_tt0120737.jpg",
+    "genres": [
+      "Adventure",
+      "Drama",
+      "Fantasy"
+    ],
+    "director": "Peter Jackson",
+    "cast": [
+      "Elijah Wood",
+      "Ian McKellen",
+      "Orlando Bloom"
+    ],
+    "description": "A meek Hobbit from the Shire and eight companions set out on a journey to destroy the powerful One Ring and save Middle-earth from the Dark Lord Sauron."
   },
   {
     "rank": 9,
@@ -132,7 +222,18 @@
     "votes_count": 2500000,
     "imdb_url": "https://www.imdb.com/title/tt0110912/",
     "poster_url": "https://m.media-amazon.com/images/M/MV5BYTViYTE3ZGQtNDBlMC00ZTAyLTkyODMtZGRiZDg0MjA2YThkXkEyXkFqcGc@._V1_.jpg",
-    "local_poster_path": "posters/009_Pulp_Fiction_tt0110912.jpg"
+    "local_poster_path": "posters/009_Pulp_Fiction_tt0110912.jpg",
+    "genres": [
+      "Crime",
+      "Drama"
+    ],
+    "director": "Quentin Tarantino",
+    "cast": [
+      "John Travolta",
+      "Uma Thurman",
+      "Samuel L. Jackson"
+    ],
+    "description": "The lives of two mob hitmen, a boxer, a gangster and his wife, and a pair of diner bandits intertwine in four tales of violence and redemption."
   },
   {
     "rank": 10,
@@ -147,7 +248,19 @@
     "votes_count": 2000000,
     "imdb_url": "https://www.imdb.com/title/tt0167261/",
     "poster_url": "https://m.media-amazon.com/images/M/MV5BMGQxMDdiOWUtYjc1Ni00YzM1LWE2NjMtZTg3Y2JkMjEzMTJjXkEyXkFqcGc@._V1_.jpg",
-    "local_poster_path": "posters/010_The_Lord_of_the_Rings_The_Two_Towers_tt0167261.jpg"
+    "local_poster_path": "posters/010_The_Lord_of_the_Rings_The_Two_Towers_tt0167261.jpg",
+    "genres": [
+      "Adventure",
+      "Drama",
+      "Fantasy"
+    ],
+    "director": "Peter Jackson",
+    "cast": [
+      "Elijah Wood",
+      "Ian McKellen",
+      "Viggo Mortensen"
+    ],
+    "description": "While Frodo and Sam edge closer to Mordor with the help of the shifty Gollum, the divided fellowship makes a stand against Sauron's new ally, Saruman, and his hordes of Isengard."
   },
   {
     "rank": 11,
@@ -162,7 +275,19 @@
     "votes_count": 907000,
     "imdb_url": "https://www.imdb.com/title/tt0060196/",
     "poster_url": "https://m.media-amazon.com/images/M/MV5BMWM5ZjQxM2YtNDlmYi00ZDNhLWI4MWUtN2VkYjBlMTY1ZTkwXkEyXkFqcGc@._V1_.jpg",
-    "local_poster_path": "posters/011_The_Good,_the_Bad_and_the_Ugly_tt0060196.jpg"
+    "local_poster_path": "posters/011_The_Good,_the_Bad_and_the_Ugly_tt0060196.jpg",
+    "genres": [
+      "Adventure",
+      "Drama",
+      "Western"
+    ],
+    "director": "Sergio Leone",
+    "cast": [
+      "Clint Eastwood",
+      "Eli Wallach",
+      "Lee Van Cleef"
+    ],
+    "description": "A bounty-hunting scam joins two men in an uneasy alliance against a third in a race to find a fortune in gold buried in a remote cemetery."
   },
   {
     "rank": 12,
@@ -177,7 +302,18 @@
     "votes_count": 2600000,
     "imdb_url": "https://www.imdb.com/title/tt0109830/",
     "poster_url": "https://m.media-amazon.com/images/M/MV5BNDYwNzVjMTItZmU5YS00YjQ5LTljYjgtMjY2NDVmYWMyNWFmXkEyXkFqcGc@._V1_.jpg",
-    "local_poster_path": "posters/012_Forrest_Gump_tt0109830.jpg"
+    "local_poster_path": "posters/012_Forrest_Gump_tt0109830.jpg",
+    "genres": [
+      "Drama",
+      "Romance"
+    ],
+    "director": "Robert Zemeckis",
+    "cast": [
+      "Tom Hanks",
+      "Robin Wright",
+      "Gary Sinise"
+    ],
+    "description": "The history of the United States from the 1950s to the '70s unfolds from the perspective of an Alabama man with an IQ of 75, who yearns to be reunited with his childhood sweetheart."
   },
   {
     "rank": 13,
@@ -192,7 +328,19 @@
     "votes_count": 2900000,
     "imdb_url": "https://www.imdb.com/title/tt1375666/",
     "poster_url": "https://m.media-amazon.com/images/M/MV5BMjAxMzY3NjcxNF5BMl5BanBnXkFtZTcwNTI5OTM0Mw@@._V1_.jpg",
-    "local_poster_path": "posters/013_Inception_tt1375666.jpg"
+    "local_poster_path": "posters/013_Inception_tt1375666.jpg",
+    "genres": [
+      "Adventure",
+      "Sci-Fi",
+      "Thriller"
+    ],
+    "director": "Christopher Nolan",
+    "cast": [
+      "Leonardo DiCaprio",
+      "Joseph Gordon-Levitt",
+      "Elliot Page"
+    ],
+    "description": "A thief who steals corporate secrets through the use of dream-sharing technology is given the inverse task of planting an idea into the mind of a CEO, but his tragic past may doom the project and his team to disaster."
   },
   {
     "rank": 14,
@@ -207,7 +355,19 @@
     "votes_count": 2700000,
     "imdb_url": "https://www.imdb.com/title/tt0137523/",
     "poster_url": "https://m.media-amazon.com/images/M/MV5BOTgyOGQ1NDItNGU3Ny00MjU3LTg2YWEtNmEyYjBiMjI1Y2M5XkEyXkFqcGc@._V1_.jpg",
-    "local_poster_path": "posters/014_Fight_Club_tt0137523.jpg"
+    "local_poster_path": "posters/014_Fight_Club_tt0137523.jpg",
+    "genres": [
+      "Crime",
+      "Drama",
+      "Thriller"
+    ],
+    "director": "David Fincher",
+    "cast": [
+      "Brad Pitt",
+      "Edward Norton",
+      "Meat Loaf"
+    ],
+    "description": "An insomniac office worker and a devil-may-care soap maker form an underground fight club that evolves into much more."
   },
   {
     "rank": 15,
@@ -222,7 +382,19 @@
     "votes_count": 1500000,
     "imdb_url": "https://www.imdb.com/title/tt0080684/",
     "poster_url": "https://m.media-amazon.com/images/M/MV5BMTkxNGFlNDktZmJkNC00MDdhLTg0MTEtZjZiYWI3MGE5NWIwXkEyXkFqcGc@._V1_.jpg",
-    "local_poster_path": "posters/015_Star_Wars_Episode_V_-_The_Empire_Strikes_Back_tt0080684.jpg"
+    "local_poster_path": "posters/015_Star_Wars_Episode_V_-_The_Empire_Strikes_Back_tt0080684.jpg",
+    "genres": [
+      "Adventure",
+      "Fantasy",
+      "Sci-Fi"
+    ],
+    "director": "Irvin Kershner",
+    "cast": [
+      "Mark Hamill",
+      "Harrison Ford",
+      "Carrie Fisher"
+    ],
+    "description": "After the Empire overpowers the Rebel Alliance, Luke Skywalker begins training with Jedi Master Yoda, while Darth Vader and bounty hunter Boba Fett pursue his friends across the galaxy."
   },
   {
     "rank": 16,
@@ -237,7 +409,18 @@
     "votes_count": 2300000,
     "imdb_url": "https://www.imdb.com/title/tt0133093/",
     "poster_url": "https://m.media-amazon.com/images/M/MV5BN2NmN2VhMTQtMDNiOS00NDlhLTliMjgtODE2ZTY0ODQyNDRhXkEyXkFqcGc@._V1_.jpg",
-    "local_poster_path": "posters/016_The_Matrix_tt0133093.jpg"
+    "local_poster_path": "posters/016_The_Matrix_tt0133093.jpg",
+    "genres": [
+      "Action",
+      "Sci-Fi"
+    ],
+    "director": "Lana Wachowski",
+    "cast": [
+      "Keanu Reeves",
+      "Laurence Fishburne",
+      "Carrie-Anne Moss"
+    ],
+    "description": "A computer hacker discovers that his life is nothing more than an elaborate simulation run by an evil AI."
   },
   {
     "rank": 17,
@@ -252,7 +435,18 @@
     "votes_count": 2600000,
     "imdb_url": "https://www.imdb.com/title/tt0816692/",
     "poster_url": "https://m.media-amazon.com/images/M/MV5BYzdjMDAxZGItMjI2My00ODA1LTlkNzItOWFjMDU5ZDJlYWY3XkEyXkFqcGc@._V1_.jpg",
-    "local_poster_path": "posters/017_Interstellar_tt0816692.jpg"
+    "local_poster_path": "posters/017_Interstellar_tt0816692.jpg",
+    "genres": [
+      "Adventure",
+      "Sci-Fi"
+    ],
+    "director": "Christopher Nolan",
+    "cast": [
+      "Matthew McConaughey",
+      "Anne Hathaway",
+      "Jessica Chastain"
+    ],
+    "description": "In a dystopian future where Earth has become near-uninhabitable, a team of astronauts embark on a mission to find a new home for humanity."
   },
   {
     "rank": 18,
@@ -267,7 +461,19 @@
     "votes_count": 1400000,
     "imdb_url": "https://www.imdb.com/title/tt0099685/",
     "poster_url": "https://m.media-amazon.com/images/M/MV5BN2E5NzI2ZGMtY2VjNi00YTRjLWI1MDUtZGY5OWU1MWJjZjRjXkEyXkFqcGc@._V1_.jpg",
-    "local_poster_path": "posters/018_GoodFellas_tt0099685.jpg"
+    "local_poster_path": "posters/018_GoodFellas_tt0099685.jpg",
+    "genres": [
+      "Biography",
+      "Crime",
+      "Drama"
+    ],
+    "director": "Martin Scorsese",
+    "cast": [
+      "Robert De Niro",
+      "Ray Liotta",
+      "Joe Pesci"
+    ],
+    "description": "The story of Henry Hill and his life in the mafia, covering his relationship with his wife Karen and his mob partners Jimmy Conway and Tommy DeVito."
   },
   {
     "rank": 19,
@@ -282,7 +488,17 @@
     "votes_count": 1200000,
     "imdb_url": "https://www.imdb.com/title/tt0073486/",
     "poster_url": "https://m.media-amazon.com/images/M/MV5BYjBkMjgzMzYtNzRiMS00NDc3LWE4YTUtZjYxYjZhNjNhYzhhXkEyXkFqcGc@._V1_.jpg",
-    "local_poster_path": "posters/019_One_Flew_Over_the_Cuckoo's_Nest_tt0073486.jpg"
+    "local_poster_path": "posters/019_One_Flew_Over_the_Cuckoo's_Nest_tt0073486.jpg",
+    "genres": [
+      "Drama"
+    ],
+    "director": "Miloš Forman",
+    "cast": [
+      "Jack Nicholson",
+      "Louise Fletcher",
+      "Michael Berryman"
+    ],
+    "description": "A rebellious convict is sent to a psychiatric hospital for evaluation in 1963 Oregon, and encourages his docile companions to take more control of their lives and defy the tyrannical head nurse."
   },
   {
     "rank": 20,
@@ -297,7 +513,19 @@
     "votes_count": 2100000,
     "imdb_url": "https://www.imdb.com/title/tt0114369/",
     "poster_url": "https://m.media-amazon.com/images/M/MV5BY2IzNzMxZjctZjUxZi00YzAxLTk3ZjMtODFjODdhMDU5NDM1XkEyXkFqcGc@._V1_.jpg",
-    "local_poster_path": "posters/020_Seven_tt0114369.jpg"
+    "local_poster_path": "posters/020_Seven_tt0114369.jpg",
+    "genres": [
+      "Crime",
+      "Drama",
+      "Mystery"
+    ],
+    "director": "David Fincher",
+    "cast": [
+      "Morgan Freeman",
+      "Brad Pitt",
+      "Kevin Spacey"
+    ],
+    "description": "Two detectives try to track down a serial killer who chooses his victims based on the Seven Deadly Sins."
   },
   {
     "rank": 21,
@@ -312,7 +540,19 @@
     "votes_count": 564000,
     "imdb_url": "https://www.imdb.com/title/tt0038650/",
     "poster_url": "https://m.media-amazon.com/images/M/MV5BMDM4OWFhYjEtNTE5Yy00NjcyLTg5N2UtZDQwNDZlYjlmNDU5XkEyXkFqcGc@._V1_.jpg",
-    "local_poster_path": "posters/021_It's_a_Wonderful_Life_tt0038650.jpg"
+    "local_poster_path": "posters/021_It's_a_Wonderful_Life_tt0038650.jpg",
+    "genres": [
+      "Drama",
+      "Family",
+      "Fantasy"
+    ],
+    "director": "Frank Capra",
+    "cast": [
+      "James Stewart",
+      "Donna Reed",
+      "Lionel Barrymore"
+    ],
+    "description": "An angel is sent from Heaven to help a desperately frustrated businessman see the value of his own life."
   },
   {
     "rank": 22,
@@ -327,7 +567,19 @@
     "votes_count": 1800000,
     "imdb_url": "https://www.imdb.com/title/tt0102926/",
     "poster_url": "https://m.media-amazon.com/images/M/MV5BNDdhOGJhYzctYzYwZC00YmI2LWI0MjctYjg4ODdlMDExYjBlXkEyXkFqcGc@._V1_.jpg",
-    "local_poster_path": "posters/022_The_Silence_of_the_Lambs_tt0102926.jpg"
+    "local_poster_path": "posters/022_The_Silence_of_the_Lambs_tt0102926.jpg",
+    "genres": [
+      "Crime",
+      "Drama",
+      "Horror"
+    ],
+    "director": "Jonathan Demme",
+    "cast": [
+      "Jodie Foster",
+      "Anthony Hopkins",
+      "Scott Glenn"
+    ],
+    "description": "A young FBI cadet is aided by a manipulative cannibal killer in her pursuit of a madman who skins his victims."
   },
   {
     "rank": 23,
@@ -342,7 +594,18 @@
     "votes_count": 1700000,
     "imdb_url": "https://www.imdb.com/title/tt0120815/",
     "poster_url": "https://m.media-amazon.com/images/M/MV5BZGZhZGQ1ZWUtZTZjYS00MDJhLWFkYjctN2ZlYjE5NWYwZDM2XkEyXkFqcGc@._V1_.jpg",
-    "local_poster_path": "posters/023_Saving_Private_Ryan_tt0120815.jpg"
+    "local_poster_path": "posters/023_Saving_Private_Ryan_tt0120815.jpg",
+    "genres": [
+      "Drama",
+      "War"
+    ],
+    "director": "Steven Spielberg",
+    "cast": [
+      "Tom Hanks",
+      "Matt Damon",
+      "Tom Sizemore"
+    ],
+    "description": "Following the Normandy Landings, a group of U.S. soldiers go behind enemy lines to retrieve a paratrooper whose brothers have been killed in action."
   },
   {
     "rank": 24,
@@ -357,7 +620,18 @@
     "votes_count": 408000,
     "imdb_url": "https://www.imdb.com/title/tt0047478/",
     "poster_url": "https://m.media-amazon.com/images/M/MV5BZjliMWExOTMtZDQ3ZS00NWU3LWIyN2EtMjllNzk3ZTNlYzg4XkEyXkFqcGc@._V1_.jpg",
-    "local_poster_path": "posters/024_Seven_Samurai_tt0047478.jpg"
+    "local_poster_path": "posters/024_Seven_Samurai_tt0047478.jpg",
+    "genres": [
+      "Action",
+      "Drama"
+    ],
+    "director": "Akira Kurosawa",
+    "cast": [
+      "Toshiro Mifune",
+      "Takashi Shimura",
+      "Keiko Tsushima"
+    ],
+    "description": "Farmers from a village exploited by bandits hire a veteran samurai for protection, and he gathers six other samurai to join him."
   },
   {
     "rank": 25,
@@ -372,7 +646,19 @@
     "votes_count": 1600000,
     "imdb_url": "https://www.imdb.com/title/tt0120689/",
     "poster_url": "https://m.media-amazon.com/images/M/MV5BMTUxMzQyNjA5MF5BMl5BanBnXkFtZTYwOTU2NTY3._V1_.jpg",
-    "local_poster_path": "posters/025_The_Green_Mile_tt0120689.jpg"
+    "local_poster_path": "posters/025_The_Green_Mile_tt0120689.jpg",
+    "genres": [
+      "Crime",
+      "Drama",
+      "Fantasy"
+    ],
+    "director": "Frank Darabont",
+    "cast": [
+      "Tom Hanks",
+      "Michael Clarke Duncan",
+      "David Morse"
+    ],
+    "description": "A death row guard learns that a gentle giant in his charge possesses a mysterious gift."
   },
   {
     "rank": 26,
@@ -387,7 +673,18 @@
     "votes_count": 888000,
     "imdb_url": "https://www.imdb.com/title/tt0317248/",
     "poster_url": "https://m.media-amazon.com/images/M/MV5BYjY4NGI5OTUtY2ZlZS00Zjk4LTk5N2MtN2JmYWVjNGNmMGRlXkEyXkFqcGc@._V1_.jpg",
-    "local_poster_path": "posters/026_City_of_God_tt0317248.jpg"
+    "local_poster_path": "posters/026_City_of_God_tt0317248.jpg",
+    "genres": [
+      "Crime",
+      "Drama"
+    ],
+    "director": "Kátia Lund",
+    "cast": [
+      "Alexandre Rodrigues",
+      "Leandro Firmino",
+      "Matheus Nachtergaele"
+    ],
+    "description": "In the slums of Rio, two kids' paths diverge as one struggles to become a photographer and the other a kingpin."
   },
   {
     "rank": 27,
@@ -402,7 +699,19 @@
     "votes_count": 828000,
     "imdb_url": "https://www.imdb.com/title/tt0118799/",
     "poster_url": "https://m.media-amazon.com/images/M/MV5BZTBhOGYzZjQtYzE0Mi00MGIwLWE0MWYtNzMxNTM2OTFkM2NjXkEyXkFqcGc@._V1_.jpg",
-    "local_poster_path": "posters/027_Life_Is_Beautiful_tt0118799.jpg"
+    "local_poster_path": "posters/027_Life_Is_Beautiful_tt0118799.jpg",
+    "genres": [
+      "Comedy",
+      "Drama",
+      "Romance"
+    ],
+    "director": "Roberto Benigni",
+    "cast": [
+      "Roberto Benigni",
+      "Nicoletta Braschi",
+      "Giorgio Cantarini"
+    ],
+    "description": "When an open-minded Jewish waiter and his son become victims of the Holocaust, he uses a perfect mixture of will, humor and imagination to protect his son from the dangers around their camp."
   },
   {
     "rank": 28,
@@ -417,7 +726,19 @@
     "votes_count": 1300000,
     "imdb_url": "https://www.imdb.com/title/tt0103064/",
     "poster_url": "https://m.media-amazon.com/images/M/MV5BNGMyMGNkMDUtMjc2Ni00NWFlLTgyODEtZTY2MzBiZTg0OWZiXkEyXkFqcGc@._V1_.jpg",
-    "local_poster_path": "posters/028_Terminator_2_Judgment_Day_tt0103064.jpg"
+    "local_poster_path": "posters/028_Terminator_2_Judgment_Day_tt0103064.jpg",
+    "genres": [
+      "Action",
+      "Adventure",
+      "Sci-Fi"
+    ],
+    "director": "James Cameron",
+    "cast": [
+      "Arnold Schwarzenegger",
+      "Linda Hamilton",
+      "Edward Furlong"
+    ],
+    "description": "A cyborg from the future, identical to the one who failed to kill Sarah Connor, must now protect her ten-year-old son John from an even more advanced and powerful cyborg."
   },
   {
     "rank": 29,
@@ -432,7 +753,19 @@
     "votes_count": 1500000,
     "imdb_url": "https://www.imdb.com/title/tt0088763/",
     "poster_url": "https://m.media-amazon.com/images/M/MV5BZmM3ZjE0NzctNjBiOC00MDZmLTgzMTUtNGVlOWFlOTNiZDJiXkEyXkFqcGc@._V1_.jpg",
-    "local_poster_path": "posters/029_Back_to_the_Future_tt0088763.jpg"
+    "local_poster_path": "posters/029_Back_to_the_Future_tt0088763.jpg",
+    "genres": [
+      "Adventure",
+      "Comedy",
+      "Sci-Fi"
+    ],
+    "director": "Robert Zemeckis",
+    "cast": [
+      "Michael J. Fox",
+      "Christopher Lloyd",
+      "Lea Thompson"
+    ],
+    "description": "Marty McFly, a 17-year-old high school student, is accidentally sent 30 years into the past in a time-traveling DeLorean invented by his close friend, the maverick scientist Doc Brown."
   },
   {
     "rank": 30,
@@ -447,7 +780,19 @@
     "votes_count": 1600000,
     "imdb_url": "https://www.imdb.com/title/tt0076759/",
     "poster_url": "https://m.media-amazon.com/images/M/MV5BOGUwMDk0Y2MtNjBlNi00NmRiLTk2MWYtMGMyMDlhYmI4ZDBjXkEyXkFqcGc@._V1_.jpg",
-    "local_poster_path": "posters/030_Star_Wars_Episode_IV_-_A_New_Hope_tt0076759.jpg"
+    "local_poster_path": "posters/030_Star_Wars_Episode_IV_-_A_New_Hope_tt0076759.jpg",
+    "genres": [
+      "Action",
+      "Adventure",
+      "Fantasy"
+    ],
+    "director": "George Lucas",
+    "cast": [
+      "Mark Hamill",
+      "Harrison Ford",
+      "Carrie Fisher"
+    ],
+    "description": "A farmboy joins forces with various allies to save their galaxy from the evil Empire's planet-destroying battle station, while also rescuing the princess leading the rebellion against them."
   },
   {
     "rank": 31,
@@ -462,7 +807,19 @@
     "votes_count": 1900000,
     "imdb_url": "https://www.imdb.com/title/tt0172495/",
     "poster_url": "https://m.media-amazon.com/images/M/MV5BYWQ4YmNjYjEtOWE1Zi00Y2U4LWI4NTAtMTU0MjkxNWQ1ZmJiXkEyXkFqcGc@._V1_.jpg",
-    "local_poster_path": "posters/031_Gladiator_tt0172495.jpg"
+    "local_poster_path": "posters/031_Gladiator_tt0172495.jpg",
+    "genres": [
+      "Action",
+      "Adventure",
+      "Drama"
+    ],
+    "director": "Ridley Scott",
+    "cast": [
+      "Russell Crowe",
+      "Joaquin Phoenix",
+      "Connie Nielsen"
+    ],
+    "description": "A former Roman General sets out to exact vengeance against the corrupt emperor who murdered his family and sent him into slavery."
   },
   {
     "rank": 32,
@@ -477,7 +834,19 @@
     "votes_count": 994000,
     "imdb_url": "https://www.imdb.com/title/tt0245429/",
     "poster_url": "https://m.media-amazon.com/images/M/MV5BNTEyNmEwOWUtYzkyOC00ZTQ4LTllZmUtMjk0Y2YwOGUzYjRiXkEyXkFqcGc@._V1_.jpg",
-    "local_poster_path": "posters/032_Spirited_Away_tt0245429.jpg"
+    "local_poster_path": "posters/032_Spirited_Away_tt0245429.jpg",
+    "genres": [
+      "Animation",
+      "Adventure",
+      "Family"
+    ],
+    "director": "Hayao Miyazaki",
+    "cast": [
+      "Miyu Irino",
+      "Rumi Hiiragi",
+      "Mari Natsuki"
+    ],
+    "description": "During her family's move to the suburbs, a sullen 10-year-old girl wanders into a world ruled by gods, witches and spirits, and where humans are changed into beasts."
   },
   {
     "rank": 33,
@@ -492,7 +861,19 @@
     "votes_count": 1000000,
     "imdb_url": "https://www.imdb.com/title/tt0253474/",
     "poster_url": "https://m.media-amazon.com/images/M/MV5BMjEwNmEwYjgtNTk3ZC00NjljLTg5ZDctZTY3ZGQwZjRkZmQxXkEyXkFqcGc@._V1_.jpg",
-    "local_poster_path": "posters/033_The_Pianist_tt0253474.jpg"
+    "local_poster_path": "posters/033_The_Pianist_tt0253474.jpg",
+    "genres": [
+      "Biography",
+      "Drama",
+      "Music"
+    ],
+    "director": "Roman Polanski",
+    "cast": [
+      "Adrien Brody",
+      "Thomas Kretschmann",
+      "Frank Finlay"
+    ],
+    "description": "During WWII, acclaimed Polish musician Wladyslaw faces various struggles as he loses contact with his family. As the situation worsens, he hides in the ruins of Warsaw in order to survive."
   },
   {
     "rank": 34,
@@ -507,7 +888,19 @@
     "votes_count": 71000,
     "imdb_url": "https://www.imdb.com/title/tt6019206/",
     "poster_url": "https://m.media-amazon.com/images/M/MV5BZDc2YzhkODAtZmRmZS00YzcxLWJkYWEtM2ZhZjY3MmMyZmJiXkEyXkFqcGc@._V1_.jpg",
-    "local_poster_path": "posters/034_Kill_Bill_The_Whole_Bloody_Affair_tt6019206.jpg"
+    "local_poster_path": "posters/034_Kill_Bill_The_Whole_Bloody_Affair_tt6019206.jpg",
+    "genres": [
+      "Action",
+      "Crime",
+      "Thriller"
+    ],
+    "director": "Quentin Tarantino",
+    "cast": [
+      "Vivica A. Fox",
+      "Ambrosia Kelley",
+      "Michael Parks"
+    ],
+    "description": "A female assassin seeks revenge on her former lover and squad members, all of whom left her for dead."
   },
   {
     "rank": 35,
@@ -522,7 +915,18 @@
     "votes_count": 1200000,
     "imdb_url": "https://www.imdb.com/title/tt6751668/",
     "poster_url": "https://m.media-amazon.com/images/M/MV5BYjk1Y2U4MjQtY2ZiNS00OWQyLWI3MmYtZWUwNmRjYWRiNWNhXkEyXkFqcGc@._V1_.jpg",
-    "local_poster_path": "posters/035_Parasite_tt6751668.jpg"
+    "local_poster_path": "posters/035_Parasite_tt6751668.jpg",
+    "genres": [
+      "Drama",
+      "Thriller"
+    ],
+    "director": "Bong Joon Ho",
+    "cast": [
+      "Song Kang-ho",
+      "Lee Sun-kyun",
+      "Cho Yeo-jeong"
+    ],
+    "description": "Greed and class discrimination threaten the newly formed symbiotic relationship between the wealthy Park family and the destitute Kim clan."
   },
   {
     "rank": 36,
@@ -537,7 +941,19 @@
     "votes_count": 402000,
     "imdb_url": "https://www.imdb.com/title/tt0095327/",
     "poster_url": "https://m.media-amazon.com/images/M/MV5BNTY5MmE2OGMtN2IxNC00MDY4LTkwMGEtZDUzOTYyNWE0ZTNjXkEyXkFqcGc@._V1_.jpg",
-    "local_poster_path": "posters/036_Grave_of_the_Fireflies_tt0095327.jpg"
+    "local_poster_path": "posters/036_Grave_of_the_Fireflies_tt0095327.jpg",
+    "genres": [
+      "Animation",
+      "Drama",
+      "War"
+    ],
+    "director": "Isao Takahata",
+    "cast": [
+      "Tsutomu Tatsumi",
+      "Ayano Shiraishi",
+      "Akemi Yamaguchi"
+    ],
+    "description": "A young boy and his little sister struggle to survive in Japan during World War II."
   },
   {
     "rank": 37,
@@ -552,7 +968,18 @@
     "votes_count": 96000,
     "imdb_url": "https://www.imdb.com/title/tt0056058/",
     "poster_url": "https://m.media-amazon.com/images/M/MV5BZThiZjU5ZDQtZDI4Mi00ZGYyLTkzOTktYmIzZTFlZTkxYzg5XkEyXkFqcGc@._V1_.jpg",
-    "local_poster_path": "posters/037_Harakiri_tt0056058.jpg"
+    "local_poster_path": "posters/037_Harakiri_tt0056058.jpg",
+    "genres": [
+      "Drama",
+      "Mystery"
+    ],
+    "director": "Masaki Kobayashi",
+    "cast": [
+      "Tatsuya Nakadai",
+      "Akira Ishihama",
+      "Shima Iwashita"
+    ],
+    "description": "When a ronin requesting seppuku at a feudal lord's palace is told of the brutal suicide of another ronin who previously visited, he reveals how their pasts are intertwined - and in doing so challenges the clan's integrity."
   },
   {
     "rank": 38,
@@ -567,7 +994,19 @@
     "votes_count": 1300000,
     "imdb_url": "https://www.imdb.com/title/tt0110357/",
     "poster_url": "https://m.media-amazon.com/images/M/MV5BZGRiZDZhZjItM2M3ZC00Y2IyLTk3Y2MtMWY5YjliNDFkZTJlXkEyXkFqcGc@._V1_.jpg",
-    "local_poster_path": "posters/038_The_Lion_King_tt0110357.jpg"
+    "local_poster_path": "posters/038_The_Lion_King_tt0110357.jpg",
+    "genres": [
+      "Animation",
+      "Adventure",
+      "Drama"
+    ],
+    "director": "Roger Allers",
+    "cast": [
+      "Matthew Broderick",
+      "Jeremy Irons",
+      "James Earl Jones"
+    ],
+    "description": "Lion prince Simba and his father are targeted by his bitter uncle, who wants to ascend the throne himself."
   },
   {
     "rank": 39,
@@ -582,7 +1021,19 @@
     "votes_count": 801000,
     "imdb_url": "https://www.imdb.com/title/tt0054215/",
     "poster_url": "https://m.media-amazon.com/images/M/MV5BYjZhMzFiZjItODA3ZC00MmRhLWIzMGYtMmVjOWUwYTA3MTRjXkEyXkFqcGc@._V1_.jpg",
-    "local_poster_path": "posters/039_Psycho_tt0054215.jpg"
+    "local_poster_path": "posters/039_Psycho_tt0054215.jpg",
+    "genres": [
+      "Drama",
+      "Horror",
+      "Mystery"
+    ],
+    "director": "Alfred Hitchcock",
+    "cast": [
+      "Anthony Perkins",
+      "Janet Leigh",
+      "Vera Miles"
+    ],
+    "description": "A secretary on the run for embezzlement takes refuge at a secluded California motel owned by a repressed man and his overbearing mother."
   },
   {
     "rank": 40,
@@ -597,7 +1048,19 @@
     "votes_count": 1600000,
     "imdb_url": "https://www.imdb.com/title/tt0407887/",
     "poster_url": "https://m.media-amazon.com/images/M/MV5BMTI1MTY2OTIxNV5BMl5BanBnXkFtZTYwNjQ4NjY3._V1_.jpg",
-    "local_poster_path": "posters/040_The_Departed_tt0407887.jpg"
+    "local_poster_path": "posters/040_The_Departed_tt0407887.jpg",
+    "genres": [
+      "Crime",
+      "Drama",
+      "Thriller"
+    ],
+    "director": "Martin Scorsese",
+    "cast": [
+      "Leonardo DiCaprio",
+      "Matt Damon",
+      "Jack Nicholson"
+    ],
+    "description": "An undercover cop and a mole in the police attempt to identify each other while infiltrating an Irish gang in South Boston."
   },
   {
     "rank": 41,
@@ -612,7 +1075,18 @@
     "votes_count": 1200000,
     "imdb_url": "https://www.imdb.com/title/tt2582802/",
     "poster_url": "https://m.media-amazon.com/images/M/MV5BMDFjOWFkYzktYzhhMC00NmYyLTkwY2EtYjViMDhmNzg0OGFkXkEyXkFqcGc@._V1_.jpg",
-    "local_poster_path": "posters/041_Whiplash_tt2582802.jpg"
+    "local_poster_path": "posters/041_Whiplash_tt2582802.jpg",
+    "genres": [
+      "Drama",
+      "Music"
+    ],
+    "director": "Damien Chazelle",
+    "cast": [
+      "Miles Teller",
+      "J.K. Simmons",
+      "Melissa Benoist"
+    ],
+    "description": "A promising young drummer enrolls at a cut-throat music conservatory where his dreams of greatness are mentored by an instructor who will stop at nothing to realize a student's potential."
   },
   {
     "rank": 42,
@@ -627,7 +1101,19 @@
     "votes_count": 1600000,
     "imdb_url": "https://www.imdb.com/title/tt0482571/",
     "poster_url": "https://m.media-amazon.com/images/M/MV5BZWU0NWZhYzMtZmNlYy00MjA1LTgyZWEtYmNjNzdjYmRkOTkzXkEyXkFqcGc@._V1_.jpg",
-    "local_poster_path": "posters/042_The_Prestige_tt0482571.jpg"
+    "local_poster_path": "posters/042_The_Prestige_tt0482571.jpg",
+    "genres": [
+      "Drama",
+      "Mystery",
+      "Sci-Fi"
+    ],
+    "director": "Christopher Nolan",
+    "cast": [
+      "Christian Bale",
+      "Hugh Jackman",
+      "Scarlett Johansson"
+    ],
+    "description": "Two magicians dismantle their lives to outmaneuver each other following a shared tragedy. They chase the ultimate illusion across Victorian London, sacrificing sanity and safety to master a teleportation feat that defies all logic."
   },
   {
     "rank": 43,
@@ -642,7 +1128,18 @@
     "votes_count": 1300000,
     "imdb_url": "https://www.imdb.com/title/tt0120586/",
     "poster_url": "https://m.media-amazon.com/images/M/MV5BMzhiOTQ0NDItOTg0Zi00OGVmLWE0OGEtMTI4NDM0NWMxZWU4XkEyXkFqcGc@._V1_.jpg",
-    "local_poster_path": "posters/043_American_History_X_tt0120586.jpg"
+    "local_poster_path": "posters/043_American_History_X_tt0120586.jpg",
+    "genres": [
+      "Crime",
+      "Drama"
+    ],
+    "director": "Tony Kaye",
+    "cast": [
+      "Edward Norton",
+      "Edward Furlong",
+      "Beverly D&apos;Angelo"
+    ],
+    "description": "A neo-Nazi is released from prison a changed man and hopes to prevent his younger brother from following in his footsteps."
   },
   {
     "rank": 44,
@@ -657,7 +1154,19 @@
     "votes_count": 564000,
     "imdb_url": "https://www.imdb.com/title/tt9362722/",
     "poster_url": "https://m.media-amazon.com/images/M/MV5BNThiZjA3MjItZGY5Ni00ZmJhLWEwN2EtOTBlYTA4Y2E0M2ZmXkEyXkFqcGc@._V1_.jpg",
-    "local_poster_path": "posters/044_Spider-Man_Across_the_Spider-Verse_tt9362722.jpg"
+    "local_poster_path": "posters/044_Spider-Man_Across_the_Spider-Verse_tt9362722.jpg",
+    "genres": [
+      "Animation",
+      "Action",
+      "Adventure"
+    ],
+    "director": "Joaquim Dos Santos",
+    "cast": [
+      "Shameik Moore",
+      "Hailee Steinfeld",
+      "Brian Tyree Henry"
+    ],
+    "description": "Traveling across the multiverse, Miles Morales meets a new team of Spider-People, made up of heroes from different dimensions. But when the heroes clash over how to deal with a new threat, Miles finds himself at a crossroads."
   },
   {
     "rank": 45,
@@ -672,7 +1181,18 @@
     "votes_count": 323000,
     "imdb_url": "https://www.imdb.com/title/tt0095765/",
     "poster_url": "https://m.media-amazon.com/images/M/MV5BMTljNzc4YWEtYTZlMS00ODMyLWIwMTAtNWQxY2VkMDEwYTk5XkEyXkFqcGc@._V1_.jpg",
-    "local_poster_path": "posters/045_Cinema_Paradiso_tt0095765.jpg"
+    "local_poster_path": "posters/045_Cinema_Paradiso_tt0095765.jpg",
+    "genres": [
+      "Drama",
+      "Romance"
+    ],
+    "director": "Giuseppe Tornatore",
+    "cast": [
+      "Philippe Noiret",
+      "Enzo Cannavale",
+      "Antonella Attili"
+    ],
+    "description": "Salvatore, a famous film director, returns to his hometown for the funeral of the local theater's film projectionist, Alfredo. He reminisces about his life as a young boy falling in love with cinema."
   },
   {
     "rank": 46,
@@ -687,7 +1207,19 @@
     "votes_count": 1400000,
     "imdb_url": "https://www.imdb.com/title/tt0110413/",
     "poster_url": "https://m.media-amazon.com/images/M/MV5BNGRkYTNhOWQtYmI0Ni00MjZhLWJmMzAtMTA2Mjg4NGNiNDU0XkEyXkFqcGc@._V1_.jpg",
-    "local_poster_path": "posters/046_Leon_tt0110413.jpg"
+    "local_poster_path": "posters/046_Leon_tt0110413.jpg",
+    "genres": [
+      "Action",
+      "Crime",
+      "Drama"
+    ],
+    "director": "Luc Besson",
+    "cast": [
+      "Jean Reno",
+      "Gary Oldman",
+      "Natalie Portman"
+    ],
+    "description": "When her family is murdered by a group of corrupt officers led by the tyrannical Norman Stansfield, a young 12-year-old girl enlists the help of an Italian-American hitman to seek revenge."
   },
   {
     "rank": 47,
@@ -702,7 +1234,19 @@
     "votes_count": 665000,
     "imdb_url": "https://www.imdb.com/title/tt0034583/",
     "poster_url": "https://m.media-amazon.com/images/M/MV5BNWEzN2U1YTYtYTQyMS00NTVkLWE2NGQtZWFlMmM0MDNjMmRiXkEyXkFqcGc@._V1_.jpg",
-    "local_poster_path": "posters/047_Casablanca_tt0034583.jpg"
+    "local_poster_path": "posters/047_Casablanca_tt0034583.jpg",
+    "genres": [
+      "Drama",
+      "Romance",
+      "War"
+    ],
+    "director": "Michael Curtiz",
+    "cast": [
+      "Humphrey Bogart",
+      "Ingrid Bergman",
+      "Paul Henreid"
+    ],
+    "description": "A cynical expatriate American cafe owner struggles to decide whether or not to help his former lover and her fugitive husband escape the Nazis in French Morocco."
   },
   {
     "rank": 48,
@@ -717,7 +1261,18 @@
     "votes_count": 1000000,
     "imdb_url": "https://www.imdb.com/title/tt1675434/",
     "poster_url": "https://m.media-amazon.com/images/M/MV5BMTYxNDA3MDQwNl5BMl5BanBnXkFtZTcwNTU4Mzc1Nw@@._V1_.jpg",
-    "local_poster_path": "posters/048_Untouchable_tt1675434.jpg"
+    "local_poster_path": "posters/048_Untouchable_tt1675434.jpg",
+    "genres": [
+      "Comedy",
+      "Drama"
+    ],
+    "director": "Olivier Nakache",
+    "cast": [
+      "François Cluzet",
+      "Omar Sy",
+      "Anne Le Ny"
+    ],
+    "description": "After he becomes a quadriplegic from a paragliding accident, an aristocrat hires a young man from the projects to be his caregiver."
   },
   {
     "rank": 49,
@@ -732,7 +1287,19 @@
     "votes_count": 1300000,
     "imdb_url": "https://www.imdb.com/title/tt0114814/",
     "poster_url": "https://m.media-amazon.com/images/M/MV5BOTE5MDUxZDUtZWZmZC00NDVmLWFhOGQtNWI2YTc4NzY3MGQ0XkEyXkFqcGc@._V1_.jpg",
-    "local_poster_path": "posters/049_The_Usual_Suspects_tt0114814.jpg"
+    "local_poster_path": "posters/049_The_Usual_Suspects_tt0114814.jpg",
+    "genres": [
+      "Crime",
+      "Drama",
+      "Mystery"
+    ],
+    "director": "Bryan Singer",
+    "cast": [
+      "Kevin Spacey",
+      "Gabriel Byrne",
+      "Chazz Palminteri"
+    ],
+    "description": "The sole survivor of a pier shoot-out tells the story of how a notorious criminal influenced the events that began with five criminals meeting in a seemingly random police lineup."
   },
   {
     "rank": 50,
@@ -747,7 +1314,18 @@
     "votes_count": 1900000,
     "imdb_url": "https://www.imdb.com/title/tt1853728/",
     "poster_url": "https://m.media-amazon.com/images/M/MV5BMjIyNTQ5NjQ1OV5BMl5BanBnXkFtZTcwODg1MDU4OA@@._V1_.jpg",
-    "local_poster_path": "posters/050_Django_Unchained_tt1853728.jpg"
+    "local_poster_path": "posters/050_Django_Unchained_tt1853728.jpg",
+    "genres": [
+      "Drama",
+      "Western"
+    ],
+    "director": "Quentin Tarantino",
+    "cast": [
+      "Jamie Foxx",
+      "Christoph Waltz",
+      "Leonardo DiCaprio"
+    ],
+    "description": "With the help of a German bounty-hunter, a freed slave sets out to rescue his wife from a brutal plantation owner in Mississippi."
   },
   {
     "rank": 51,
@@ -762,7 +1340,17 @@
     "votes_count": 1100000,
     "imdb_url": "https://www.imdb.com/title/tt0078748/",
     "poster_url": "https://m.media-amazon.com/images/M/MV5BN2NhMDk2MmEtZDQzOC00MmY5LThhYzAtMDdjZGFjOGZjMjdjXkEyXkFqcGc@._V1_.jpg",
-    "local_poster_path": "posters/051_Alien_tt0078748.jpg"
+    "local_poster_path": "posters/051_Alien_tt0078748.jpg",
+    "genres": [
+      "Sci-Fi"
+    ],
+    "director": "Ridley Scott",
+    "cast": [
+      "Sigourney Weaver",
+      "Tom Skerritt",
+      "John Hurt"
+    ],
+    "description": "After investigating a mysterious transmission of unknown origin, the crew of a commercial spacecraft encounters a deadly lifeform."
   },
   {
     "rank": 52,
@@ -777,7 +1365,19 @@
     "votes_count": 577000,
     "imdb_url": "https://www.imdb.com/title/tt0047396/",
     "poster_url": "https://m.media-amazon.com/images/M/MV5BODZhOWI1ODgtMzdiOS00YjNkLTgwOGUtYmIyZDg5ZmQwMzQ1XkEyXkFqcGc@._V1_.jpg",
-    "local_poster_path": "posters/052_Rear_Window_tt0047396.jpg"
+    "local_poster_path": "posters/052_Rear_Window_tt0047396.jpg",
+    "genres": [
+      "Drama",
+      "Mystery",
+      "Thriller"
+    ],
+    "director": "Alfred Hitchcock",
+    "cast": [
+      "James Stewart",
+      "Grace Kelly",
+      "Wendell Corey"
+    ],
+    "description": "A bored photographer recovering from a broken leg passes the time by watching his neighbors and begins to suspect one of them of murder."
   },
   {
     "rank": 53,
@@ -792,7 +1392,19 @@
     "votes_count": 289000,
     "imdb_url": "https://www.imdb.com/title/tt0027977/",
     "poster_url": "https://m.media-amazon.com/images/M/MV5BODVkZGFhNGQtYjdiYi00Njc4LWFmYTItNTlmNzJjMTg1ZDc5XkEyXkFqcGc@._V1_.jpg",
-    "local_poster_path": "posters/053_Modern_Times_tt0027977.jpg"
+    "local_poster_path": "posters/053_Modern_Times_tt0027977.jpg",
+    "genres": [
+      "Comedy",
+      "Drama",
+      "Romance"
+    ],
+    "director": "Charles Chaplin",
+    "cast": [
+      "Charles Chaplin",
+      "Paulette Goddard",
+      "Henry Bergman"
+    ],
+    "description": "The Tramp struggles to live in modern industrial society with the help of a young homeless woman."
   },
   {
     "rank": 54,
@@ -807,7 +1419,18 @@
     "votes_count": 390000,
     "imdb_url": "https://www.imdb.com/title/tt0064116/",
     "poster_url": "https://m.media-amazon.com/images/M/MV5BZjYyNGY1MDEtN2I1MC00MGVhLTljZTYtODQ1NzQ0ODc2NzZlXkEyXkFqcGc@._V1_.jpg",
-    "local_poster_path": "posters/054_Once_Upon_a_Time_in_the_West_tt0064116.jpg"
+    "local_poster_path": "posters/054_Once_Upon_a_Time_in_the_West_tt0064116.jpg",
+    "genres": [
+      "Drama",
+      "Western"
+    ],
+    "director": "Sergio Leone",
+    "cast": [
+      "Henry Fonda",
+      "Charles Bronson",
+      "Claudia Cardinale"
+    ],
+    "description": "A mysterious stranger with a harmonica teams up with a notorious desperado to protect a beautiful widow and her land from a ruthless assassin in the employ of a railroad tycoon."
   },
   {
     "rank": 55,
@@ -822,7 +1445,19 @@
     "votes_count": 1400000,
     "imdb_url": "https://www.imdb.com/title/tt0910970/",
     "poster_url": "https://m.media-amazon.com/images/M/MV5BMjExMTg5OTU0NF5BMl5BanBnXkFtZTcwMjMxMzMzMw@@._V1_.jpg",
-    "local_poster_path": "posters/055_WALL·E_tt0910970.jpg"
+    "local_poster_path": "posters/055_WALL·E_tt0910970.jpg",
+    "genres": [
+      "Animation",
+      "Adventure",
+      "Family"
+    ],
+    "director": "Andrew Stanton",
+    "cast": [
+      "Ben Burtt",
+      "Elissa Knight",
+      "Jeff Garlin"
+    ],
+    "description": "In a future where humans have temporarily abandoned Earth, a trash-compacting robot falls in love with a flying droid and helps her on her quest to restore hope to mankind."
   },
   {
     "rank": 56,
@@ -837,7 +1472,19 @@
     "votes_count": 219000,
     "imdb_url": "https://www.imdb.com/title/tt0021749/",
     "poster_url": "https://m.media-amazon.com/images/M/MV5BM2U4NjgzODUtODkyOC00YTE2LTlhNTItYzFlYmM1NTEzZDA2XkEyXkFqcGc@._V1_.jpg",
-    "local_poster_path": "posters/056_City_Lights_tt0021749.jpg"
+    "local_poster_path": "posters/056_City_Lights_tt0021749.jpg",
+    "genres": [
+      "Comedy",
+      "Drama",
+      "Romance"
+    ],
+    "director": "Charles Chaplin",
+    "cast": [
+      "Charles Chaplin",
+      "Virginia Cherrill",
+      "Florence Lee"
+    ],
+    "description": "With the aid of a wealthy erratic tippler, a dewy-eyed tramp who has fallen in love with a blind flower girl accumulates money to be able to help her medically."
   },
   {
     "rank": 57,
@@ -852,7 +1499,19 @@
     "votes_count": 783000,
     "imdb_url": "https://www.imdb.com/title/tt0078788/",
     "poster_url": "https://m.media-amazon.com/images/M/MV5BZDhiMTljYjYtODc1Yy00MmEwLTg2OTYtYmE1YTRmNDE4MmEwXkEyXkFqcGc@._V1_.jpg",
-    "local_poster_path": "posters/057_Apocalypse_Now_tt0078788.jpg"
+    "local_poster_path": "posters/057_Apocalypse_Now_tt0078788.jpg",
+    "genres": [
+      "Drama",
+      "Mystery",
+      "War"
+    ],
+    "director": "Francis Ford Coppola",
+    "cast": [
+      "Martin Sheen",
+      "Marlon Brando",
+      "Robert Duvall"
+    ],
+    "description": "A U.S. Army officer serving in Vietnam is tasked with assassinating a renegade Special Forces Colonel who sees himself as a god."
   },
   {
     "rank": 58,
@@ -867,7 +1526,19 @@
     "votes_count": 1400000,
     "imdb_url": "https://www.imdb.com/title/tt4154756/",
     "poster_url": "https://m.media-amazon.com/images/M/MV5BMjMxNjY2MDU1OV5BMl5BanBnXkFtZTgwNzY1MTUwNTM@._V1_.jpg",
-    "local_poster_path": "posters/058_Avengers_Infinity_War_tt4154756.jpg"
+    "local_poster_path": "posters/058_Avengers_Infinity_War_tt4154756.jpg",
+    "genres": [
+      "Action",
+      "Adventure",
+      "Sci-Fi"
+    ],
+    "director": "Anthony Russo",
+    "cast": [
+      "Robert Downey Jr.",
+      "Chris Hemsworth",
+      "Mark Ruffalo"
+    ],
+    "description": "The Avengers and their allies must be willing to sacrifice all in an attempt to defeat the powerful Thanos before his blitz of devastation and ruin puts an end to the universe."
   },
   {
     "rank": 59,
@@ -882,7 +1553,18 @@
     "votes_count": 1500000,
     "imdb_url": "https://www.imdb.com/title/tt0209144/",
     "poster_url": "https://m.media-amazon.com/images/M/MV5BMGQ3Y2Q4NjktN2E4Ny00Y2Q2LTliZDUtZTNiNjRhY2I0NGIyXkEyXkFqcGc@._V1_.jpg",
-    "local_poster_path": "posters/059_Memento_tt0209144.jpg"
+    "local_poster_path": "posters/059_Memento_tt0209144.jpg",
+    "genres": [
+      "Mystery",
+      "Thriller"
+    ],
+    "director": "Christopher Nolan",
+    "cast": [
+      "Guy Pearce",
+      "Carrie-Anne Moss",
+      "Joe Pantoliano"
+    ],
+    "description": "A former insurance investigator who now suffers from anterograde amnesia uses notes and tattoos to hunt down his wife's murderer."
   },
   {
     "rank": 60,
@@ -897,7 +1579,19 @@
     "votes_count": 808000,
     "imdb_url": "https://www.imdb.com/title/tt15239678/",
     "poster_url": "https://m.media-amazon.com/images/M/MV5BNTc0YmQxMjEtODI5MC00NjFiLTlkMWUtOGQ5NjFmYWUyZGJhXkEyXkFqcGc@._V1_.jpg",
-    "local_poster_path": "posters/060_Dune_Part_Two_tt15239678.jpg"
+    "local_poster_path": "posters/060_Dune_Part_Two_tt15239678.jpg",
+    "genres": [
+      "Action",
+      "Adventure",
+      "Drama"
+    ],
+    "director": "Denis Villeneuve",
+    "cast": [
+      "Timothée Chalamet",
+      "Zendaya",
+      "Rebecca Ferguson"
+    ],
+    "description": "Paul Atreides unites with the Fremen while on a warpath of revenge against the conspirators who destroyed his family. Facing a choice between the love of his life and the fate of the universe, he endeavors to prevent a terrible fu..."
   },
   {
     "rank": 61,
@@ -912,7 +1606,17 @@
     "votes_count": 1100000,
     "imdb_url": "https://www.imdb.com/title/tt0082971/",
     "poster_url": "https://m.media-amazon.com/images/M/MV5BOGNhMjg2ZjgtYzk4Ni00MTViLTg1MmUtYzM2MDZiYjZlMmU3XkEyXkFqcGc@._V1_.jpg",
-    "local_poster_path": "posters/061_Raiders_of_the_Lost_Ark_tt0082971.jpg"
+    "local_poster_path": "posters/061_Raiders_of_the_Lost_Ark_tt0082971.jpg",
+    "genres": [
+      "Adventure"
+    ],
+    "director": "Steven Spielberg",
+    "cast": [
+      "Harrison Ford",
+      "Karen Allen",
+      "Paul Freeman"
+    ],
+    "description": "In 1936, archaeologist Indiana Jones is tasked by Army Intelligence to help locate a legendary ancient power, the Ark of Covenant, before the Nazis get it first."
   },
   {
     "rank": 62,
@@ -927,7 +1631,19 @@
     "votes_count": 826000,
     "imdb_url": "https://www.imdb.com/title/tt4633694/",
     "poster_url": "https://m.media-amazon.com/images/M/MV5BMjMwNDkxMTgzOF5BMl5BanBnXkFtZTgwNTkwNTQ3NjM@._V1_.jpg",
-    "local_poster_path": "posters/062_Spider-Man_Into_the_Spider-Verse_tt4633694.jpg"
+    "local_poster_path": "posters/062_Spider-Man_Into_the_Spider-Verse_tt4633694.jpg",
+    "genres": [
+      "Animation",
+      "Action",
+      "Adventure"
+    ],
+    "director": "Bob Persichetti",
+    "cast": [
+      "Shameik Moore",
+      "Jake Johnson",
+      "Hailee Steinfeld"
+    ],
+    "description": "Teen Miles Morales becomes the Spider-Man of his universe and must join with five spider-powered individuals from other dimensions to stop a threat for all realities."
   },
   {
     "rank": 63,
@@ -942,7 +1658,19 @@
     "votes_count": 449000,
     "imdb_url": "https://www.imdb.com/title/tt0405094/",
     "poster_url": "https://m.media-amazon.com/images/M/MV5BYjM1N2Q0YWEtN2E5MC00NDM3LTk2NTEtMTc1NTk5OTA5ZGIzXkEyXkFqcGc@._V1_.jpg",
-    "local_poster_path": "posters/063_The_Lives_of_Others_tt0405094.jpg"
+    "local_poster_path": "posters/063_The_Lives_of_Others_tt0405094.jpg",
+    "genres": [
+      "Drama",
+      "Mystery",
+      "Thriller"
+    ],
+    "director": "Florian Henckel von Donnersmarck",
+    "cast": [
+      "Ulrich Mühe",
+      "Martina Gedeck",
+      "Sebastian Koch"
+    ],
+    "description": "In 1984 East Berlin, an agent of the secret police conducting surveillance on a writer and his lover finds himself becoming increasingly absorbed by their lives."
   },
   {
     "rank": 64,
@@ -957,7 +1685,18 @@
     "votes_count": 265000,
     "imdb_url": "https://www.imdb.com/title/tt0043014/",
     "poster_url": "https://m.media-amazon.com/images/M/MV5BMTU0NTkyNzYwMF5BMl5BanBnXkFtZTgwMDU0NDk5MTI@._V1_.jpg",
-    "local_poster_path": "posters/064_Sunset_Boulevard_tt0043014.jpg"
+    "local_poster_path": "posters/064_Sunset_Boulevard_tt0043014.jpg",
+    "genres": [
+      "Drama",
+      "Film-Noir"
+    ],
+    "director": "Billy Wilder",
+    "cast": [
+      "William Holden",
+      "Gloria Swanson",
+      "Erich von Stroheim"
+    ],
+    "description": "A failed screenwriter falls into a mercenary romance with a faded silent-film star."
   },
   {
     "rank": 65,
@@ -972,7 +1711,19 @@
     "votes_count": 166000,
     "imdb_url": "https://www.imdb.com/title/tt0051201/",
     "poster_url": "https://m.media-amazon.com/images/M/MV5BNjRhNTQzMzQtMWViMi00ODQ1LTg0MTEtYWE4ZWZlYjM4YjJhXkEyXkFqcGc@._V1_.jpg",
-    "local_poster_path": "posters/065_Witness_for_the_Prosecution_tt0051201.jpg"
+    "local_poster_path": "posters/065_Witness_for_the_Prosecution_tt0051201.jpg",
+    "genres": [
+      "Crime",
+      "Drama",
+      "Mystery"
+    ],
+    "director": "Billy Wilder",
+    "cast": [
+      "Tyrone Power",
+      "Marlene Dietrich",
+      "Charles Laughton"
+    ],
+    "description": "A veteran British barrister must defend his client in a murder trial that has surprise after surprise."
   },
   {
     "rank": 66,
@@ -987,7 +1738,18 @@
     "votes_count": 244000,
     "imdb_url": "https://www.imdb.com/title/tt0050825/",
     "poster_url": "https://m.media-amazon.com/images/M/MV5BNmQ2NmI2ODYtMDQzNS00NzQyLTkzZjgtZmZlYTQ5MTc1OWU3XkEyXkFqcGc@._V1_.jpg",
-    "local_poster_path": "posters/066_Paths_of_Glory_tt0050825.jpg"
+    "local_poster_path": "posters/066_Paths_of_Glory_tt0050825.jpg",
+    "genres": [
+      "Drama",
+      "War"
+    ],
+    "director": "Stanley Kubrick",
+    "cast": [
+      "Kirk Douglas",
+      "Ralph Meeker",
+      "Adolphe Menjou"
+    ],
+    "description": "A colonel defends three of his soldiers in a court-martial after they abandon a suicidal attack."
   },
   {
     "rank": 67,
@@ -1002,7 +1764,18 @@
     "votes_count": 1800000,
     "imdb_url": "https://www.imdb.com/title/tt0361748/",
     "poster_url": "https://m.media-amazon.com/images/M/MV5BODZhMWJlNjYtNDExNC00MTIzLTllM2ItOGQ2NGVjNDQ3MzkzXkEyXkFqcGc@._V1_.jpg",
-    "local_poster_path": "posters/067_Inglourious_Basterds_tt0361748.jpg"
+    "local_poster_path": "posters/067_Inglourious_Basterds_tt0361748.jpg",
+    "genres": [
+      "Drama",
+      "War"
+    ],
+    "director": "Quentin Tarantino",
+    "cast": [
+      "Brad Pitt",
+      "Diane Kruger",
+      "Eli Roth"
+    ],
+    "description": "In Nazi-occupied France during World War II, a plan to assassinate Nazi leaders by a group of Jewish U.S. soldiers coincides with a theatre owner's vengeful plans for the same."
   },
   {
     "rank": 68,
@@ -1017,7 +1790,18 @@
     "votes_count": 1300000,
     "imdb_url": "https://www.imdb.com/title/tt0081505/",
     "poster_url": "https://m.media-amazon.com/images/M/MV5BNmM5ZThhY2ItOGRjOS00NzZiLWEwYTItNDgyMjFkOTgxMmRiXkEyXkFqcGc@._V1_.jpg",
-    "local_poster_path": "posters/068_The_Shining_tt0081505.jpg"
+    "local_poster_path": "posters/068_The_Shining_tt0081505.jpg",
+    "genres": [
+      "Drama",
+      "Horror"
+    ],
+    "director": "Stanley Kubrick",
+    "cast": [
+      "Jack Nicholson",
+      "Shelley Duvall",
+      "Danny Lloyd"
+    ],
+    "description": "A family heads to an isolated hotel for the winter, where a sinister presence influences the father into violence. At the same time, his psychic son sees horrifying forebodings from both the past and the future."
   },
   {
     "rank": 69,
@@ -1032,7 +1816,19 @@
     "votes_count": 262000,
     "imdb_url": "https://www.imdb.com/title/tt0032553/",
     "poster_url": "https://m.media-amazon.com/images/M/MV5BNDE3NmIzZjItMzNlMi00YWI0LWIzMTktMGRkMWE0ZDhiMmM5XkEyXkFqcGc@._V1_.jpg",
-    "local_poster_path": "posters/069_The_Great_Dictator_tt0032553.jpg"
+    "local_poster_path": "posters/069_The_Great_Dictator_tt0032553.jpg",
+    "genres": [
+      "Comedy",
+      "Drama",
+      "War"
+    ],
+    "director": "Charles Chaplin",
+    "cast": [
+      "Charles Chaplin",
+      "Paulette Goddard",
+      "Jack Oakie"
+    ],
+    "description": "Dictator Adenoid Hynkel tries to expand his empire while a poor Jewish barber tries to avoid persecution from Hynkel's regime."
   },
   {
     "rank": 70,
@@ -1047,7 +1843,19 @@
     "votes_count": 853000,
     "imdb_url": "https://www.imdb.com/title/tt0090605/",
     "poster_url": "https://m.media-amazon.com/images/M/MV5BN2ZiMmQ0YWItN2IwZS00Y2NhLWE0NzQtNGNiOGFjN2U4MWNmXkEyXkFqcGc@._V1_.jpg",
-    "local_poster_path": "posters/070_Aliens_tt0090605.jpg"
+    "local_poster_path": "posters/070_Aliens_tt0090605.jpg",
+    "genres": [
+      "Action",
+      "Adventure",
+      "Sci-Fi"
+    ],
+    "director": "James Cameron",
+    "cast": [
+      "Sigourney Weaver",
+      "Michael Biehn",
+      "Carrie Henn"
+    ],
+    "description": "Decades after surviving the Nostromo incident, Ellen Ripley is sent out to re-establish contact with a terraforming colony but finds herself battling the Alien Queen and her offspring."
   },
   {
     "rank": 71,
@@ -1062,7 +1870,19 @@
     "votes_count": 75000,
     "imdb_url": "https://www.imdb.com/title/tt0057565/",
     "poster_url": "https://m.media-amazon.com/images/M/MV5BMGJiNzllYjktODAzNS00OGUzLTlmY2MtMjA2ZTZhYTY1OTc4XkEyXkFqcGc@._V1_.jpg",
-    "local_poster_path": "posters/071_High_and_Low_tt0057565.jpg"
+    "local_poster_path": "posters/071_High_and_Low_tt0057565.jpg",
+    "genres": [
+      "Crime",
+      "Drama",
+      "Mystery"
+    ],
+    "director": "Akira Kurosawa",
+    "cast": [
+      "Toshiro Mifune",
+      "Yutaka Sada",
+      "Tatsuya Nakadai"
+    ],
+    "description": "An executive of a Yokohama shoe company becomes a victim of extortion when his chauffeur's son is kidnapped by mistake and held for ransom."
   },
   {
     "rank": 72,
@@ -1077,7 +1897,19 @@
     "votes_count": 1500000,
     "imdb_url": "https://www.imdb.com/title/tt4154796/",
     "poster_url": "https://m.media-amazon.com/images/M/MV5BMTc5MDE2ODcwNV5BMl5BanBnXkFtZTgwMzI2NzQ2NzM@._V1_.jpg",
-    "local_poster_path": "posters/072_Avengers_Endgame_tt4154796.jpg"
+    "local_poster_path": "posters/072_Avengers_Endgame_tt4154796.jpg",
+    "genres": [
+      "Action",
+      "Adventure",
+      "Sci-Fi"
+    ],
+    "director": "Anthony Russo",
+    "cast": [
+      "Robert Downey Jr.",
+      "Chris Evans",
+      "Mark Ruffalo"
+    ],
+    "description": "After the devastating events of Avengers: Infinity War (2018), the universe is in ruins. With the help of remaining allies, the Avengers assemble once more in order to reverse Thanos' actions and restore balance to the universe."
   },
   {
     "rank": 73,
@@ -1092,7 +1924,18 @@
     "votes_count": 1300000,
     "imdb_url": "https://www.imdb.com/title/tt0119217/",
     "poster_url": "https://m.media-amazon.com/images/M/MV5BNDdjZGQ5YzEtNTc2My00Mjc0LWFlMTctYzkwMzZlNzdiZWYzXkEyXkFqcGc@._V1_.jpg",
-    "local_poster_path": "posters/073_Good_Will_Hunting_tt0119217.jpg"
+    "local_poster_path": "posters/073_Good_Will_Hunting_tt0119217.jpg",
+    "genres": [
+      "Drama",
+      "Romance"
+    ],
+    "director": "Gus Van Sant",
+    "cast": [
+      "Robin Williams",
+      "Matt Damon",
+      "Ben Affleck"
+    ],
+    "description": "A therapist counsels Will Hunting, a janitor with a genius IQ."
   },
   {
     "rank": 74,
@@ -1107,7 +1950,18 @@
     "votes_count": 180000,
     "imdb_url": "https://www.imdb.com/title/tt23849204/",
     "poster_url": "https://m.media-amazon.com/images/M/MV5BNTE3OTIxZDYtNjA0NC00N2YxLTg1NGQtOTYxNmZkMDkwOWNjXkEyXkFqcGc@._V1_.jpg",
-    "local_poster_path": "posters/074_12th_Fail_tt23849204.jpg"
+    "local_poster_path": "posters/074_12th_Fail_tt23849204.jpg",
+    "genres": [
+      "Biography",
+      "Drama"
+    ],
+    "director": "Vidhu Vinod Chopra",
+    "cast": [
+      "Vikrant Massey",
+      "Harish Khanna",
+      "Geeta Agrawal Sharma"
+    ],
+    "description": "The real-life story of IPS Officer Manoj Kumar Sharma and IRS Officer Shraddha Joshi."
   },
   {
     "rank": 75,
@@ -1122,7 +1976,19 @@
     "votes_count": 736000,
     "imdb_url": "https://www.imdb.com/title/tt2380307/",
     "poster_url": "https://m.media-amazon.com/images/M/MV5BMDIyM2E2NTAtMzlhNy00ZGUxLWI1NjgtZDY5MzhiMDc5NGU3XkEyXkFqcGc@._V1_.jpg",
-    "local_poster_path": "posters/075_Coco_tt2380307.jpg"
+    "local_poster_path": "posters/075_Coco_tt2380307.jpg",
+    "genres": [
+      "Animation",
+      "Adventure",
+      "Drama"
+    ],
+    "director": "Adrian Molina",
+    "cast": [
+      "Anthony Gonzalez",
+      "Gael García Bernal",
+      "Benjamin Bratt"
+    ],
+    "description": "Aspiring musician Miguel, confronted with his family's ancestral ban on music, enters the Land of the Dead to find his great-great-grandfather, a legendary singer."
   },
   {
     "rank": 76,
@@ -1137,7 +2003,19 @@
     "votes_count": 1200000,
     "imdb_url": "https://www.imdb.com/title/tt0114709/",
     "poster_url": "https://m.media-amazon.com/images/M/MV5BZTA3OWVjOWItNjE1NS00NzZiLWE1MjgtZDZhMWI1ZTlkNzYwXkEyXkFqcGc@._V1_.jpg",
-    "local_poster_path": "posters/076_Toy_Story_tt0114709.jpg"
+    "local_poster_path": "posters/076_Toy_Story_tt0114709.jpg",
+    "genres": [
+      "Animation",
+      "Adventure",
+      "Comedy"
+    ],
+    "director": "John Lasseter",
+    "cast": [
+      "Tom Hanks",
+      "Tim Allen",
+      "Don Rickles"
+    ],
+    "description": "A cowboy doll is profoundly jealous when a new spaceman action figure supplants him as the top toy in a boy's bedroom. When circumstances separate them from their owner, the duo have to put aside their differences to return to him."
   },
   {
     "rank": 77,
@@ -1152,7 +2030,18 @@
     "votes_count": 2000000,
     "imdb_url": "https://www.imdb.com/title/tt1345836/",
     "poster_url": "https://m.media-amazon.com/images/M/MV5BMTk4ODQzNDY3Ml5BMl5BanBnXkFtZTcwODA0NTM4Nw@@._V1_.jpg",
-    "local_poster_path": "posters/077_The_Dark_Knight_Rises_tt1345836.jpg"
+    "local_poster_path": "posters/077_The_Dark_Knight_Rises_tt1345836.jpg",
+    "genres": [
+      "Crime",
+      "Thriller"
+    ],
+    "director": "Christopher Nolan",
+    "cast": [
+      "Christian Bale",
+      "Tom Hardy",
+      "Anne Hathaway"
+    ],
+    "description": "Bane, an imposing terrorist, attacks Gotham City and disrupts its eight-year-long period of peace. This forces Bruce Wayne to come out of hiding and don the cape and cowl of Batman again."
   },
   {
     "rank": 78,
@@ -1167,7 +2056,19 @@
     "votes_count": 476000,
     "imdb_url": "https://www.imdb.com/title/tt0086879/",
     "poster_url": "https://m.media-amazon.com/images/M/MV5BMzc2MjM0NTMtOGY4NC00NzY1LWE2ODUtZjMzY2RhNGNkZDAyXkEyXkFqcGc@._V1_.jpg",
-    "local_poster_path": "posters/078_Amadeus_tt0086879.jpg"
+    "local_poster_path": "posters/078_Amadeus_tt0086879.jpg",
+    "genres": [
+      "Biography",
+      "Drama",
+      "Music"
+    ],
+    "director": "Miloš Forman",
+    "cast": [
+      "F. Murray Abraham",
+      "Tom Hulce",
+      "Elizabeth Berridge"
+    ],
+    "description": "In 18th-century Vienna, court composer Antonio Salieri becomes awed and consumed by envy when the gifted, irreverent Wolfgang Amadeus Mozart bursts onto the imperial music scene."
   },
   {
     "rank": 79,
@@ -1182,7 +2083,19 @@
     "votes_count": 411000,
     "imdb_url": "https://www.imdb.com/title/tt5311514/",
     "poster_url": "https://m.media-amazon.com/images/M/MV5BMjI1ODZkYTgtYTY3Yy00ZTJkLWFkOTgtZDUyYWM4MzQwNjk0XkEyXkFqcGc@._V1_.jpg",
-    "local_poster_path": "posters/079_Your_Name._tt5311514.jpg"
+    "local_poster_path": "posters/079_Your_Name._tt5311514.jpg",
+    "genres": [
+      "Animation",
+      "Drama",
+      "Fantasy"
+    ],
+    "director": "Makoto Shinkai",
+    "cast": [
+      "Ryûnosuke Kamiki",
+      "Mone Kamishiraishi",
+      "Ryo Narita"
+    ],
+    "description": "Two teenagers, a city boy in Tokyo and a girl in rural Japan, mysteriously begin swapping bodies, forging a connection that sends them searching for one another."
   },
   {
     "rank": 80,
@@ -1197,7 +2110,19 @@
     "votes_count": 585000,
     "imdb_url": "https://www.imdb.com/title/tt33764258/",
     "poster_url": "https://m.media-amazon.com/images/M/MV5BNTcyNmJlZmQtNDUwYy00NDBjLTg1NGQtYTY2Y2UxMWM3NmI1XkEyXkFqcGc@._V1_.jpg",
-    "local_poster_path": "posters/080_The_Odyssey_tt33764258.jpg"
+    "local_poster_path": "posters/080_The_Odyssey_tt33764258.jpg",
+    "genres": [
+      "Action",
+      "Adventure",
+      "Drama"
+    ],
+    "director": "Christopher Nolan",
+    "cast": [
+      "Matt Damon",
+      "Tom Holland",
+      "Anne Hathaway"
+    ],
+    "description": "After the Trojan War, Odysseus faces a dangerous voyage back to Ithaca, meeting creatures like the Cyclops Polyphemus, Sirens, and Calypso along the way."
   },
   {
     "rank": 81,
@@ -1212,7 +2137,18 @@
     "votes_count": 493000,
     "imdb_url": "https://www.imdb.com/title/tt1187043/",
     "poster_url": "https://m.media-amazon.com/images/M/MV5BNzc4ZWQ3NmYtODE0Ny00YTQ4LTlkZWItNTBkMGQ0MmUwMmJlXkEyXkFqcGc@._V1_.jpg",
-    "local_poster_path": "posters/081_3_Idiots_tt1187043.jpg"
+    "local_poster_path": "posters/081_3_Idiots_tt1187043.jpg",
+    "genres": [
+      "Comedy",
+      "Drama"
+    ],
+    "director": "Rajkumar Hirani",
+    "cast": [
+      "Aamir Khan",
+      "Madhavan",
+      "Mona Singh"
+    ],
+    "description": "Two friends search for a brilliant, free-spirited classmate whose unconventional approach to engineering school changed their lives and challenged a rigid education system."
   },
   {
     "rank": 82,
@@ -1227,7 +2163,18 @@
     "votes_count": 1200000,
     "imdb_url": "https://www.imdb.com/title/tt0112573/",
     "poster_url": "https://m.media-amazon.com/images/M/MV5BNGMxZDBhNGQtYTZlNi00N2UzLWI4NDEtNmUzNWM2NTdmZDA0XkEyXkFqcGc@._V1_.jpg",
-    "local_poster_path": "posters/082_Braveheart_tt0112573.jpg"
+    "local_poster_path": "posters/082_Braveheart_tt0112573.jpg",
+    "genres": [
+      "Drama",
+      "War"
+    ],
+    "director": "Mel Gibson",
+    "cast": [
+      "Mel Gibson",
+      "Sophie Marceau",
+      "Patrick McGoohan"
+    ],
+    "description": "Scottish warrior William Wallace leads his countrymen in a rebellion to free his homeland from the tyranny of King Edward I of England."
   },
   {
     "rank": 83,
@@ -1242,7 +2189,18 @@
     "votes_count": 292000,
     "imdb_url": "https://www.imdb.com/title/tt0082096/",
     "poster_url": "https://m.media-amazon.com/images/M/MV5BNGU0MWZlMTUtM2Y3Ny00NGNmLWE5NmEtN2YxOWQzMGM3ZWYzXkEyXkFqcGc@._V1_.jpg",
-    "local_poster_path": "posters/083_Das_Boot_tt0082096.jpg"
+    "local_poster_path": "posters/083_Das_Boot_tt0082096.jpg",
+    "genres": [
+      "Drama",
+      "War"
+    ],
+    "director": "Wolfgang Petersen",
+    "cast": [
+      "Jürgen Prochnow",
+      "Herbert Grönemeyer",
+      "Klaus Wennemann"
+    ],
+    "description": "During World War II, a German U-boat crew embarks on a perilous Atlantic patrol, confronting enemy attacks, isolation, and the crushing strain of life underwater."
   },
   {
     "rank": 84,
@@ -1257,7 +2215,19 @@
     "votes_count": 495000,
     "imdb_url": "https://www.imdb.com/title/tt0119698/",
     "poster_url": "https://m.media-amazon.com/images/M/MV5BZTcyN2Y0MDYtMGI1NC00MWQ1LWFhZGMtN2U4NTcxZGYyNjljXkEyXkFqcGc@._V1_.jpg",
-    "local_poster_path": "posters/084_Princess_Mononoke_tt0119698.jpg"
+    "local_poster_path": "posters/084_Princess_Mononoke_tt0119698.jpg",
+    "genres": [
+      "Animation",
+      "Adventure",
+      "Fantasy"
+    ],
+    "director": "Hayao Miyazaki",
+    "cast": [
+      "Yôji Matsuda",
+      "Yuriko Ishida",
+      "Yûko Tanaka"
+    ],
+    "description": "After a deadly curse forces him from home, young warrior Ashitaka journeys west and is drawn into a conflict between ancient forest spirits, an iron town, and a wolf-raised girl."
   },
   {
     "rank": 85,
@@ -1272,7 +2242,19 @@
     "votes_count": 33000,
     "imdb_url": "https://www.imdb.com/title/tt2056785/",
     "poster_url": "https://m.media-amazon.com/images/M/MV5BN2JjOGQ1OGMtZmUwYS00YmQ2LTllNzQtZjU2YjY1NzM2NzJjXkEyXkFqcGc@._V1_.jpg",
-    "local_poster_path": "posters/085_Wildwood_tt2056785.jpg"
+    "local_poster_path": "posters/085_Wildwood_tt2056785.jpg",
+    "genres": [
+      "Animation",
+      "Adventure",
+      "Fantasy"
+    ],
+    "director": "Travis Knight",
+    "cast": [
+      "Peyton Elizabeth Lee",
+      "Jacob Tremblay",
+      "Carey Mulligan"
+    ],
+    "description": "The adventures of Prue McKeel as she sets off to the forests outside Portland to find her kidnapped brother."
   },
   {
     "rank": 86,
@@ -1287,7 +2269,19 @@
     "votes_count": 739000,
     "imdb_url": "https://www.imdb.com/title/tt0364569/",
     "poster_url": "https://m.media-amazon.com/images/M/MV5BMTAwNzNjYWItZmI0Ni00ZTcyLWIwNWMtZjlmNGMxZTEyYTJmXkEyXkFqcGc@._V1_.jpg",
-    "local_poster_path": "posters/086_Oldboy_tt0364569.jpg"
+    "local_poster_path": "posters/086_Oldboy_tt0364569.jpg",
+    "genres": [
+      "Action",
+      "Drama",
+      "Mystery"
+    ],
+    "director": "Park Chan-wook",
+    "cast": [
+      "Choi Min-sik",
+      "Yoo Ji-tae",
+      "Kang Hye-jeong"
+    ],
+    "description": "After being kidnapped and imprisoned for fifteen years, Oh Dae-Su is released, only to find that he must track down his captor in five days."
   },
   {
     "rank": 87,
@@ -1302,7 +2296,18 @@
     "votes_count": 557000,
     "imdb_url": "https://www.imdb.com/title/tt0057012/",
     "poster_url": "https://m.media-amazon.com/images/M/MV5BMjFjYzBlOTktMTI2OS00ZWVhLTgxMDUtNzAwODY2NmI3YTAzXkEyXkFqcGc@._V1_.jpg",
-    "local_poster_path": "posters/087_Dr._Strangelove_or_How_I_Learned_to_Stop_Worrying__tt0057012.jpg"
+    "local_poster_path": "posters/087_Dr._Strangelove_or_How_I_Learned_to_Stop_Worrying__tt0057012.jpg",
+    "genres": [
+      "Comedy",
+      "War"
+    ],
+    "director": "Stanley Kubrick",
+    "cast": [
+      "Peter Sellers",
+      "George C. Scott",
+      "Sterling Hayden"
+    ],
+    "description": "After a rogue U.S. general orders an unauthorized nuclear attack on the Soviet Union, leaders in the War Room race to prevent global catastrophe."
   },
   {
     "rank": 88,
@@ -1317,7 +2322,19 @@
     "votes_count": 41000,
     "imdb_url": "https://www.imdb.com/title/tt33175825/",
     "poster_url": "https://m.media-amazon.com/images/M/MV5BNzVjOWEwYjEtNDJhOC00YjUyLThjMWItMDQwZGY1ODM4YzI3XkEyXkFqcGc@._V1_.jpg",
-    "local_poster_path": "posters/088_Attack_on_Titan_The_Last_Attack_tt33175825.jpg"
+    "local_poster_path": "posters/088_Attack_on_Titan_The_Last_Attack_tt33175825.jpg",
+    "genres": [
+      "Animation",
+      "Action",
+      "Adventure"
+    ],
+    "director": "Ryota Aikei",
+    "cast": [
+      "Tomás Abalo",
+      "Natsuki Hanae",
+      "Yoshimasa Hosoya"
+    ],
+    "description": "The fate of the world hangs in the balance as Eren unleashes the ultimate power of the Titans. With a burning determination to eliminate all who threaten Eldia, he leads an unstoppable army of Colossal Titans towards Marley."
   },
   {
     "rank": 89,
@@ -1332,7 +2349,17 @@
     "votes_count": 1300000,
     "imdb_url": "https://www.imdb.com/title/tt0169547/",
     "poster_url": "https://m.media-amazon.com/images/M/MV5BMDI1MDE0OTMtMmI2MS00Yjc2LTg2MTItMWExYTg5NzA1OGUzXkEyXkFqcGc@._V1_.jpg",
-    "local_poster_path": "posters/089_American_Beauty_tt0169547.jpg"
+    "local_poster_path": "posters/089_American_Beauty_tt0169547.jpg",
+    "genres": [
+      "Drama"
+    ],
+    "director": "Sam Mendes",
+    "cast": [
+      "Kevin Spacey",
+      "Annette Bening",
+      "Thora Birch"
+    ],
+    "description": "A sexually frustrated suburban father has a mid-life crisis after becoming infatuated with his daughter's best friend."
   },
   {
     "rank": 90,
@@ -1347,7 +2374,17 @@
     "votes_count": 128000,
     "imdb_url": "https://www.imdb.com/title/tt8267604/",
     "poster_url": "https://m.media-amazon.com/images/M/MV5BYzEyMzQ1OTktZTljZi00OWQzLWE2ZmUtZjQyNzBjYjE1NTc0XkEyXkFqcGc@._V1_.jpg",
-    "local_poster_path": "posters/090_Capernaum_tt8267604.jpg"
+    "local_poster_path": "posters/090_Capernaum_tt8267604.jpg",
+    "genres": [
+      "Drama"
+    ],
+    "director": "Nadine Labaki",
+    "cast": [
+      "Zain Al Rafeea",
+      "Yordanos Shifera",
+      "Boluwatife Treasure Bankole"
+    ],
+    "description": "While serving a five-year sentence for a violent crime, a 12-year-old boy sues his parents for neglect."
   },
   {
     "rank": 91,
@@ -1362,7 +2399,19 @@
     "votes_count": 288000,
     "imdb_url": "https://www.imdb.com/title/tt0045152/",
     "poster_url": "https://m.media-amazon.com/images/M/MV5BMGQzZDFjZWUtZDU4ZS00ZjM3LTgyYmItYjA3YmIwYzRkZWY3XkEyXkFqcGc@._V1_.jpg",
-    "local_poster_path": "posters/091_Singin'_in_the_Rain_tt0045152.jpg"
+    "local_poster_path": "posters/091_Singin'_in_the_Rain_tt0045152.jpg",
+    "genres": [
+      "Comedy",
+      "Musical",
+      "Romance"
+    ],
+    "director": "Stanley Donen",
+    "cast": [
+      "Gene Kelly",
+      "Donald O&apos;Connor",
+      "Debbie Reynolds"
+    ],
+    "description": "When Hollywood's silent era gives way to talkies, a dashing screen idol and a gifted newcomer navigate romance, rivalry, and the comic chaos of reinventing the movies."
   },
   {
     "rank": 92,
@@ -1377,7 +2426,18 @@
     "votes_count": 415000,
     "imdb_url": "https://www.imdb.com/title/tt0087843/",
     "poster_url": "https://m.media-amazon.com/images/M/MV5BMDQ0ZTg2OGUtZjMyOC00M2M5LThkMmItZmM2MmUzMmIxMWJhXkEyXkFqcGc@._V1_.jpg",
-    "local_poster_path": "posters/092_Once_Upon_a_Time_in_America_tt0087843.jpg"
+    "local_poster_path": "posters/092_Once_Upon_a_Time_in_America_tt0087843.jpg",
+    "genres": [
+      "Crime",
+      "Drama"
+    ],
+    "director": "Sergio Leone",
+    "cast": [
+      "Robert De Niro",
+      "James Woods",
+      "Elizabeth McGovern"
+    ],
+    "description": "A former New York gangster returns after decades in exile, confronting the friendships, dreams, and regrets that shaped his rise from street kid to Prohibition-era mobster."
   },
   {
     "rank": 93,
@@ -1392,7 +2452,17 @@
     "votes_count": 1700000,
     "imdb_url": "https://www.imdb.com/title/tt7286456/",
     "poster_url": "https://m.media-amazon.com/images/M/MV5BNzY3OWQ5NDktNWQ2OC00ZjdlLThkMmItMDhhNDk3NTFiZGU4XkEyXkFqcGc@._V1_.jpg",
-    "local_poster_path": "posters/093_Joker_tt7286456.jpg"
+    "local_poster_path": "posters/093_Joker_tt7286456.jpg",
+    "genres": [
+      "Drama"
+    ],
+    "director": "Todd Phillips",
+    "cast": [
+      "Joaquin Phoenix",
+      "Robert De Niro",
+      "Zazie Beetz"
+    ],
+    "description": "Arthur Fleck, a party clown and a failed stand-up comedian, leads an impoverished life with his ailing mother. However, when society shuns him and brands him as a freak, he decides to embrace the life of chaos in Gotham City."
   },
   {
     "rank": 94,
@@ -1407,7 +2477,19 @@
     "votes_count": 997000,
     "imdb_url": "https://www.imdb.com/title/tt0435761/",
     "poster_url": "https://m.media-amazon.com/images/M/MV5BMTgxOTY4Mjc0MF5BMl5BanBnXkFtZTcwNTA4MDQyMw@@._V1_.jpg",
-    "local_poster_path": "posters/094_Toy_Story_3_tt0435761.jpg"
+    "local_poster_path": "posters/094_Toy_Story_3_tt0435761.jpg",
+    "genres": [
+      "Animation",
+      "Adventure",
+      "Comedy"
+    ],
+    "director": "Lee Unkrich",
+    "cast": [
+      "Tom Hanks",
+      "Tim Allen",
+      "Joan Cusack"
+    ],
+    "description": "As Andy prepares to leave for college, Woody, Buzz and the gang face an uncertain future when a mix-up sends them to a daycare center full of new toys."
   },
   {
     "rank": 95,
@@ -1422,7 +2504,19 @@
     "votes_count": 1200000,
     "imdb_url": "https://www.imdb.com/title/tt0086190/",
     "poster_url": "https://m.media-amazon.com/images/M/MV5BNWEwOTI0MmUtMGNmNy00ODViLTlkZDQtZTg1YmQ3MDgyNTUzXkEyXkFqcGc@._V1_.jpg",
-    "local_poster_path": "posters/095_Star_Wars_Episode_VI_-_Return_of_the_Jedi_tt0086190.jpg"
+    "local_poster_path": "posters/095_Star_Wars_Episode_VI_-_Return_of_the_Jedi_tt0086190.jpg",
+    "genres": [
+      "Action",
+      "Adventure",
+      "Fantasy"
+    ],
+    "director": "Richard Marquand",
+    "cast": [
+      "Mark Hamill",
+      "Harrison Ford",
+      "Carrie Fisher"
+    ],
+    "description": "After rescuing Han Solo from Jabba the Hutt, the Rebel Alliance attempts to destroy the second Death Star while Luke struggles to help Darth Vader back from the dark side."
   },
   {
     "rank": 96,
@@ -1437,7 +2531,19 @@
     "votes_count": 128000,
     "imdb_url": "https://www.imdb.com/title/tt0091251/",
     "poster_url": "https://m.media-amazon.com/images/M/MV5BNDlkZmVkZDAtZGFmMS00OWIzLWJkY2YtNWE5NjNhNjhiZGE3XkEyXkFqcGc@._V1_.jpg",
-    "local_poster_path": "posters/096_Come_and_See_tt0091251.jpg"
+    "local_poster_path": "posters/096_Come_and_See_tt0091251.jpg",
+    "genres": [
+      "Drama",
+      "Thriller",
+      "War"
+    ],
+    "director": "Elem Klimov",
+    "cast": [
+      "Aleksey Kravchenko",
+      "Olga Mironova",
+      "Liubomiras Laucevicius"
+    ],
+    "description": "After finding a rifle, a Belarusian teenager joins Soviet partisans in World War II and is swept into the harrowing realities of Nazi occupation."
   },
   {
     "rank": 97,
@@ -1452,7 +2558,19 @@
     "votes_count": 264000,
     "imdb_url": "https://www.imdb.com/title/tt1255953/",
     "poster_url": "https://m.media-amazon.com/images/M/MV5BYWFmMjdmNjctNzhhOC00ZmMzLTkwOGItMmVmZDU4MjE2MTYwXkEyXkFqcGc@._V1_.jpg",
-    "local_poster_path": "posters/097_Incendies_tt1255953.jpg"
+    "local_poster_path": "posters/097_Incendies_tt1255953.jpg",
+    "genres": [
+      "Drama",
+      "Mystery",
+      "War"
+    ],
+    "director": "Denis Villeneuve",
+    "cast": [
+      "Lubna Azabal",
+      "Mélissa Désormeaux-Poulin",
+      "Maxim Gaudette"
+    ],
+    "description": "Twins journey to the Middle East to discover their family history and fulfill their mother's last wishes."
   },
   {
     "rank": 98,
@@ -1467,7 +2585,17 @@
     "votes_count": 991000,
     "imdb_url": "https://www.imdb.com/title/tt0180093/",
     "poster_url": "https://m.media-amazon.com/images/M/MV5BN2ZlMjIzZjctYzA2My00ZWYyLWI4ZjctMGI2NWYyNzFiZjAwXkEyXkFqcGc@._V1_.jpg",
-    "local_poster_path": "posters/098_Requiem_for_a_Dream_tt0180093.jpg"
+    "local_poster_path": "posters/098_Requiem_for_a_Dream_tt0180093.jpg",
+    "genres": [
+      "Drama"
+    ],
+    "director": "Darren Aronofsky",
+    "cast": [
+      "Ellen Burstyn",
+      "Jared Leto",
+      "Jennifer Connelly"
+    ],
+    "description": "Four Coney Island dreamers chase love, fame, and escape, but addiction and obsession begin to distort their hopes for a better life."
   },
   {
     "rank": 99,
@@ -1482,7 +2610,17 @@
     "votes_count": 105000,
     "imdb_url": "https://www.imdb.com/title/tt0044741/",
     "poster_url": "https://m.media-amazon.com/images/M/MV5BOGU1YTBlN2ItMDAxNy00NjM5LWE4MTAtNTBhZmY4ZTgzYTlkXkEyXkFqcGc@._V1_.jpg",
-    "local_poster_path": "posters/099_Ikiru_tt0044741.jpg"
+    "local_poster_path": "posters/099_Ikiru_tt0044741.jpg",
+    "genres": [
+      "Drama"
+    ],
+    "director": "Akira Kurosawa",
+    "cast": [
+      "Takashi Shimura",
+      "Nobuo Kaneko",
+      "Shin&apos;ichi Himori"
+    ],
+    "description": "An aging Tokyo bureaucrat, shaken by a grave diagnosis, breaks from his hollow routine and searches for meaning, connection, and one worthwhile act."
   },
   {
     "rank": 100,
@@ -1497,7 +2635,17 @@
     "votes_count": 423000,
     "imdb_url": "https://www.imdb.com/title/tt2106476/",
     "poster_url": "https://m.media-amazon.com/images/M/MV5BMTg2NDg3ODg4NF5BMl5BanBnXkFtZTcwNzk3NTc3Nw@@._V1_.jpg",
-    "local_poster_path": "posters/100_The_Hunt_tt2106476.jpg"
+    "local_poster_path": "posters/100_The_Hunt_tt2106476.jpg",
+    "genres": [
+      "Drama"
+    ],
+    "director": "Thomas Vinterberg",
+    "cast": [
+      "Mads Mikkelsen",
+      "Thomas Bo Larsen",
+      "Annika Wedderkopp"
+    ],
+    "description": "A teacher lives a lonely life, all the while struggling over his son's custody. His life slowly gets better as he finds love and receives good news from his son, but his new luck is about to be brutally shattered by an innocent li..."
   },
   {
     "rank": 101,
@@ -1512,7 +2660,19 @@
     "votes_count": 1200000,
     "imdb_url": "https://www.imdb.com/title/tt0338013/",
     "poster_url": "https://m.media-amazon.com/images/M/MV5BMTY4NzcwODg3Nl5BMl5BanBnXkFtZTcwNTEwOTMyMw@@._V1_.jpg",
-    "local_poster_path": "posters/101_Eternal_Sunshine_of_the_Spotless_Mind_tt0338013.jpg"
+    "local_poster_path": "posters/101_Eternal_Sunshine_of_the_Spotless_Mind_tt0338013.jpg",
+    "genres": [
+      "Drama",
+      "Romance",
+      "Sci-Fi"
+    ],
+    "director": "Michel Gondry",
+    "cast": [
+      "Jim Carrey",
+      "Kate Winslet",
+      "Tom Wilkinson"
+    ],
+    "description": "When their relationship turns sour, a couple undergoes a medical procedure to have each other erased from their memories forever."
   },
   {
     "rank": 102,
@@ -1527,7 +2687,19 @@
     "votes_count": 225000,
     "imdb_url": "https://www.imdb.com/title/tt0053604/",
     "poster_url": "https://m.media-amazon.com/images/M/MV5BNDdhMzVhOWQtNDU2Mi00ZmZmLWJiZDMtY2QxMjhjY2Y1ZTI5XkEyXkFqcGc@._V1_.jpg",
-    "local_poster_path": "posters/102_The_Apartment_tt0053604.jpg"
+    "local_poster_path": "posters/102_The_Apartment_tt0053604.jpg",
+    "genres": [
+      "Comedy",
+      "Drama",
+      "Romance"
+    ],
+    "director": "Billy Wilder",
+    "cast": [
+      "Jack Lemmon",
+      "Shirley MacLaine",
+      "Fred MacMurray"
+    ],
+    "description": "A Manhattan insurance clerk tries to rise in his company by letting its executives use his apartment for trysts, but office politics and his own romantic hopes complicate matters."
   },
   {
     "rank": 103,
@@ -1542,7 +2714,19 @@
     "votes_count": 349000,
     "imdb_url": "https://www.imdb.com/title/tt0056172/",
     "poster_url": "https://m.media-amazon.com/images/M/MV5BYjY0YTQ1OTAtYjEyNy00NTQ4LThlMTQtM2QwYTVhYWFhNjU5XkEyXkFqcGc@._V1_.jpg",
-    "local_poster_path": "posters/103_Lawrence_of_Arabia_tt0056172.jpg"
+    "local_poster_path": "posters/103_Lawrence_of_Arabia_tt0056172.jpg",
+    "genres": [
+      "Adventure",
+      "Biography",
+      "Drama"
+    ],
+    "director": "David Lean",
+    "cast": [
+      "Peter O&apos;Toole",
+      "Alec Guinness",
+      "Anthony Quinn"
+    ],
+    "description": "The story of T.E. Lawrence, the English officer who successfully united and led the diverse, often warring, Arab tribes during World War I in order to fight the Turks."
   },
   {
     "rank": 104,
@@ -1557,7 +2741,19 @@
     "votes_count": 825000,
     "imdb_url": "https://www.imdb.com/title/tt0113277/",
     "poster_url": "https://m.media-amazon.com/images/M/MV5BMTkxYjU1OTMtYWViZC00ZjAzLWI3MDktZGQ2N2VmMjVjNDRlXkEyXkFqcGc@._V1_.jpg",
-    "local_poster_path": "posters/104_Heat_tt0113277.jpg"
+    "local_poster_path": "posters/104_Heat_tt0113277.jpg",
+    "genres": [
+      "Action",
+      "Crime",
+      "Drama"
+    ],
+    "director": "Michael Mann",
+    "cast": [
+      "Al Pacino",
+      "Robert De Niro",
+      "Val Kilmer"
+    ],
+    "description": "A group of high-end professional thieves start to feel the heat from the LAPD when they unknowingly leave a verbal clue at their latest heist."
   },
   {
     "rank": 105,
@@ -1572,7 +2768,18 @@
     "votes_count": 1000000,
     "imdb_url": "https://www.imdb.com/title/tt0086250/",
     "poster_url": "https://m.media-amazon.com/images/M/MV5BNDUzYjY0NmUtMDM4OS00Y2Q5LWJiODYtNTk0ZTk0YjZhMTg1XkEyXkFqcGc@._V1_.jpg",
-    "local_poster_path": "posters/105_Scarface_tt0086250.jpg"
+    "local_poster_path": "posters/105_Scarface_tt0086250.jpg",
+    "genres": [
+      "Crime",
+      "Drama"
+    ],
+    "director": "Brian De Palma",
+    "cast": [
+      "Al Pacino",
+      "Michelle Pfeiffer",
+      "Steven Bauer"
+    ],
+    "description": "In the 1980s, a determined criminal-minded Cuban immigrant becomes the biggest drug smuggler in Miami, and is eventually undone by his own drug addiction."
   },
   {
     "rank": 106,
@@ -1587,7 +2794,19 @@
     "votes_count": 1300000,
     "imdb_url": "https://www.imdb.com/title/tt1049413/",
     "poster_url": "https://m.media-amazon.com/images/M/MV5BNmI1ZTc5MWMtMDYyOS00ZDc2LTkzOTAtNjQ4NWIxNjYyNDgzXkEyXkFqcGc@._V1_.jpg",
-    "local_poster_path": "posters/106_Up_tt1049413.jpg"
+    "local_poster_path": "posters/106_Up_tt1049413.jpg",
+    "genres": [
+      "Animation",
+      "Adventure",
+      "Comedy"
+    ],
+    "director": "Pete Docter",
+    "cast": [
+      "Edward Asner",
+      "Jordan Nagai",
+      "John Ratzenberger"
+    ],
+    "description": "A grumpy old man turns his house into an airship using balloons and flies off to South America with a young stowaway."
   },
   {
     "rank": 107,
@@ -1602,7 +2821,18 @@
     "votes_count": 1200000,
     "imdb_url": "https://www.imdb.com/title/tt0105236/",
     "poster_url": "https://m.media-amazon.com/images/M/MV5BMmMzYjg4NDctYWY0Mi00OGViLWIzMTMtYWNlZGY5ZDJmYjk3XkEyXkFqcGc@._V1_.jpg",
-    "local_poster_path": "posters/107_Reservoir_Dogs_tt0105236.jpg"
+    "local_poster_path": "posters/107_Reservoir_Dogs_tt0105236.jpg",
+    "genres": [
+      "Crime",
+      "Thriller"
+    ],
+    "director": "Quentin Tarantino",
+    "cast": [
+      "Harvey Keitel",
+      "Tim Roth",
+      "Michael Madsen"
+    ],
+    "description": "When a simple jewelry heist goes horribly wrong, the surviving criminals begin to suspect that one of them is a police informant."
   },
   {
     "rank": 108,
@@ -1617,7 +2847,18 @@
     "votes_count": 798000,
     "imdb_url": "https://www.imdb.com/title/tt0062622/",
     "poster_url": "https://m.media-amazon.com/images/M/MV5BNjU0NDFkMTQtZWY5OS00MmZhLTg3Y2QtZmJhMzMzMWYyYjc2XkEyXkFqcGc@._V1_.jpg",
-    "local_poster_path": "posters/108_2001_A_Space_Odyssey_tt0062622.jpg"
+    "local_poster_path": "posters/108_2001_A_Space_Odyssey_tt0062622.jpg",
+    "genres": [
+      "Adventure",
+      "Sci-Fi"
+    ],
+    "director": "Stanley Kubrick",
+    "cast": [
+      "Keir Dullea",
+      "Gary Lockwood",
+      "William Sylvester"
+    ],
+    "description": "When a mysterious artifact is uncovered on the Moon, a spacecraft manned by two scientists and one supercomputer is dispatched to Jupiter to find its origins."
   },
   {
     "rank": 109,
@@ -1632,7 +2873,19 @@
     "votes_count": 184000,
     "imdb_url": "https://www.imdb.com/title/tt0036775/",
     "poster_url": "https://m.media-amazon.com/images/M/MV5BM2YwNjZlZDktNTlmNS00ODQwLWJmNmUtYmE1NTBhYjc1YTY5XkEyXkFqcGc@._V1_.jpg",
-    "local_poster_path": "posters/109_Double_Indemnity_tt0036775.jpg"
+    "local_poster_path": "posters/109_Double_Indemnity_tt0036775.jpg",
+    "genres": [
+      "Crime",
+      "Drama",
+      "Film-Noir"
+    ],
+    "director": "Billy Wilder",
+    "cast": [
+      "Fred MacMurray",
+      "Barbara Stanwyck",
+      "Edward G. Robinson"
+    ],
+    "description": "An insurance representative is seduced by a dissatisfied housewife into a scheme of insurance fraud and murder that arouses the suspicion of his colleague, a claims investigator."
   },
   {
     "rank": 110,
@@ -1647,7 +2900,18 @@
     "votes_count": 238000,
     "imdb_url": "https://www.imdb.com/title/tt0986264/",
     "poster_url": "https://m.media-amazon.com/images/M/MV5BZTI0ZGRiMDEtNGNjMS00MGU4LWI3OTktNzcxMDZmZTk3MTljXkEyXkFqcGc@._V1_.jpg",
-    "local_poster_path": "posters/110_Like_Stars_on_Earth_tt0986264.jpg"
+    "local_poster_path": "posters/110_Like_Stars_on_Earth_tt0986264.jpg",
+    "genres": [
+      "Drama",
+      "Family"
+    ],
+    "director": "Aamir Khan",
+    "cast": [
+      "Darsheel Safary",
+      "Aamir Khan",
+      "Tisca Chopra"
+    ],
+    "description": "A young boy is thought to be nothing but a lazy troublemaker until the new art teacher has the patience and compassion to discover the real problem behind his struggles in school."
   },
   {
     "rank": 111,
@@ -1662,7 +2926,19 @@
     "votes_count": 374000,
     "imdb_url": "https://www.imdb.com/title/tt0053125/",
     "poster_url": "https://m.media-amazon.com/images/M/MV5BZWIzODI2OGItMzM0Ny00OGRmLTlkNmItMDQxMTFmMTk3YmQwXkEyXkFqcGc@._V1_.jpg",
-    "local_poster_path": "posters/111_North_by_Northwest_tt0053125.jpg"
+    "local_poster_path": "posters/111_North_by_Northwest_tt0053125.jpg",
+    "genres": [
+      "Action",
+      "Adventure",
+      "Drama"
+    ],
+    "director": "Alfred Hitchcock",
+    "cast": [
+      "Cary Grant",
+      "Eva Marie Saint",
+      "James Mason"
+    ],
+    "description": "A New York City advertising executive goes on the run after being mistaken for a government agent by a group of foreign spies, and falls for a woman whose loyalties he begins to doubt."
   },
   {
     "rank": 112,
@@ -1677,7 +2953,18 @@
     "votes_count": 865000,
     "imdb_url": "https://www.imdb.com/title/tt0093058/",
     "poster_url": "https://m.media-amazon.com/images/M/MV5BYWUzNzZkNzUtNDdiYy00Nzk5LTgxMmItNTk0MjRjNjdjNDA0XkEyXkFqcGc@._V1_.jpg",
-    "local_poster_path": "posters/112_Full_Metal_Jacket_tt0093058.jpg"
+    "local_poster_path": "posters/112_Full_Metal_Jacket_tt0093058.jpg",
+    "genres": [
+      "Drama",
+      "War"
+    ],
+    "director": "Stanley Kubrick",
+    "cast": [
+      "Matthew Modine",
+      "R. Lee Ermey",
+      "Vincent D&apos;Onofrio"
+    ],
+    "description": "A pragmatic U.S. Marine observes the dehumanizing effects the Vietnam War has on his fellow recruits from their brutal boot camp training to the bloody street fighting in Hue."
   },
   {
     "rank": 113,
@@ -1692,7 +2979,18 @@
     "votes_count": 75000,
     "imdb_url": "https://www.imdb.com/title/tt31514146/",
     "poster_url": "https://m.media-amazon.com/images/M/MV5BNWQxYTMyZTktZDg5Yi00Y2YwLWI4YzQtMjkyYmYxNmFjYThmXkEyXkFqcGc@._V1_.jpg",
-    "local_poster_path": "posters/113_I_Swear_tt31514146.jpg"
+    "local_poster_path": "posters/113_I_Swear_tt31514146.jpg",
+    "genres": [
+      "Biography",
+      "Drama"
+    ],
+    "director": "Kirk Jones",
+    "cast": [
+      "Robert Aramayo",
+      "Maxine Peake",
+      "Somerled Campbell"
+    ],
+    "description": "John Davidson: diagnosed with Tourette's syndrome at a young age which alienated him from his peers, he struggled with a condition few people had witnessed."
   },
   {
     "rank": 114,
@@ -1707,7 +3005,17 @@
     "votes_count": 282000,
     "imdb_url": "https://www.imdb.com/title/tt1832382/",
     "poster_url": "https://m.media-amazon.com/images/M/MV5BMDM0ZWRmMzctM2M5ZS00ZjU0LWIxN2MtNWNlNGY1ZDhjMDVhXkEyXkFqcGc@._V1_.jpg",
-    "local_poster_path": "posters/114_A_Separation_tt1832382.jpg"
+    "local_poster_path": "posters/114_A_Separation_tt1832382.jpg",
+    "genres": [
+      "Drama"
+    ],
+    "director": "Asghar Farhadi",
+    "cast": [
+      "Payman Maadi",
+      "Leila Hatami",
+      "Sareh Bayat"
+    ],
+    "description": "A married couple have to decide whether to improve their daughter's life by moving abroad or to stay in Iran and look after a deteriorating parent with Alzheimer's disease."
   },
   {
     "rank": 115,
@@ -1722,7 +3030,18 @@
     "votes_count": 1000000,
     "imdb_url": "https://www.imdb.com/title/tt0095016/",
     "poster_url": "https://m.media-amazon.com/images/M/MV5BMGNlYmM1NmQtYWExMS00NmRjLTg5ZmEtMmYyYzJkMzljYWMxXkEyXkFqcGc@._V1_.jpg",
-    "local_poster_path": "posters/115_Die_Hard_tt0095016.jpg"
+    "local_poster_path": "posters/115_Die_Hard_tt0095016.jpg",
+    "genres": [
+      "Action",
+      "Thriller"
+    ],
+    "director": "John McTiernan",
+    "cast": [
+      "Bruce Willis",
+      "Alan Rickman",
+      "Bonnie Bedelia"
+    ],
+    "description": "A New York City cop tries to save his wife and several others taken hostage by terrorists during a Christmas party in a Los Angeles skyscraper."
   },
   {
     "rank": 116,
@@ -1737,7 +3056,17 @@
     "votes_count": 876000,
     "imdb_url": "https://www.imdb.com/title/tt0097576/",
     "poster_url": "https://m.media-amazon.com/images/M/MV5BNGIxNzQ0YzYtMjNmYi00YjBlLWFjNzEtNGE3ZGFmYTczM2MwXkEyXkFqcGc@._V1_.jpg",
-    "local_poster_path": "posters/116_Indiana_Jones_and_the_Last_Crusade_tt0097576.jpg"
+    "local_poster_path": "posters/116_Indiana_Jones_and_the_Last_Crusade_tt0097576.jpg",
+    "genres": [
+      "Adventure"
+    ],
+    "director": "Steven Spielberg",
+    "cast": [
+      "Harrison Ford",
+      "Sean Connery",
+      "Alison Doody"
+    ],
+    "description": "In 1938, after his father goes missing while pursuing the Holy Grail, Indiana Jones finds himself up against the Nazis again to stop them from obtaining its powers."
   },
   {
     "rank": 117,
@@ -1752,7 +3081,19 @@
     "votes_count": 185000,
     "imdb_url": "https://www.imdb.com/title/tt0022100/",
     "poster_url": "https://m.media-amazon.com/images/M/MV5BYWE0NDIxZTktMDg2Yi00NjA5LTlhMzMtZjViOTNkODhjNjZjXkEyXkFqcGc@._V1_.jpg",
-    "local_poster_path": "posters/117_M_tt0022100.jpg"
+    "local_poster_path": "posters/117_M_tt0022100.jpg",
+    "genres": [
+      "Crime",
+      "Mystery",
+      "Thriller"
+    ],
+    "director": "Fritz Lang",
+    "cast": [
+      "Peter Lorre",
+      "Ellen Widmann",
+      "Inge Landgut"
+    ],
+    "description": "When the police in a German city are unable to catch a child-murderer, other criminals join in the manhunt."
   },
   {
     "rank": 118,
@@ -1767,7 +3108,18 @@
     "votes_count": 355000,
     "imdb_url": "https://www.imdb.com/title/tt0056592/",
     "poster_url": "https://m.media-amazon.com/images/M/MV5BZTlkYWU4MGEtZmQyYi00OWEzLTgzY2EtYzVjOTEzYzAyNTk1XkEyXkFqcGc@._V1_.jpg",
-    "local_poster_path": "posters/118_To_Kill_a_Mockingbird_tt0056592.jpg"
+    "local_poster_path": "posters/118_To_Kill_a_Mockingbird_tt0056592.jpg",
+    "genres": [
+      "Crime",
+      "Drama"
+    ],
+    "director": "Robert Mulligan",
+    "cast": [
+      "Gregory Peck",
+      "John Megna",
+      "Frank Overton"
+    ],
+    "description": "A widowed lawyer in Depression-era Alabama defends a black man against a false rape charge while teaching his young children about the sad reality of prejudice."
   },
   {
     "rank": 119,
@@ -1782,7 +3134,18 @@
     "votes_count": 851000,
     "imdb_url": "https://www.imdb.com/title/tt0211915/",
     "poster_url": "https://m.media-amazon.com/images/M/MV5BOTNmYzY0MWQtZGZmNy00Y2Y4LWFmMDQtMTZjYTdiYzEwZGQ2XkEyXkFqcGc@._V1_.jpg",
-    "local_poster_path": "posters/119_Amélie_tt0211915.jpg"
+    "local_poster_path": "posters/119_Amélie_tt0211915.jpg",
+    "genres": [
+      "Comedy",
+      "Romance"
+    ],
+    "director": "Jean-Pierre Jeunet",
+    "cast": [
+      "Audrey Tautou",
+      "Mathieu Kassovitz",
+      "Rufus"
+    ],
+    "description": "Despite being caught in her imaginative world, young waitress Amelie decides to help people find happiness. Her quest to spread joy leads her on a journey during which she finds true love."
   },
   {
     "rank": 120,
@@ -1797,7 +3160,19 @@
     "votes_count": 465000,
     "imdb_url": "https://www.imdb.com/title/tt0052357/",
     "poster_url": "https://m.media-amazon.com/images/M/MV5BNzEyZTUxMWItMGVhYy00Y2NlLTljYTMtYzBmMzI1YmUyMDBkXkEyXkFqcGc@._V1_.jpg",
-    "local_poster_path": "posters/120_Vertigo_tt0052357.jpg"
+    "local_poster_path": "posters/120_Vertigo_tt0052357.jpg",
+    "genres": [
+      "Mystery",
+      "Romance",
+      "Thriller"
+    ],
+    "director": "Alfred Hitchcock",
+    "cast": [
+      "James Stewart",
+      "Kim Novak",
+      "Barbara Bel Geddes"
+    ],
+    "description": "A former San Francisco police detective juggles wrestling with his personal demons and becoming obsessed with the hauntingly beautiful woman he has been hired to trail, who may be deeply disturbed."
   },
   {
     "rank": 121,
@@ -1812,7 +3187,18 @@
     "votes_count": 499000,
     "imdb_url": "https://www.imdb.com/title/tt0033467/",
     "poster_url": "https://m.media-amazon.com/images/M/MV5BYjk1ZDJlMmUtOWQ0Zi00MDM5LTk1OGYtODczNjFmMGYwZGVkXkEyXkFqcGc@._V1_.jpg",
-    "local_poster_path": "posters/121_Citizen_Kane_tt0033467.jpg"
+    "local_poster_path": "posters/121_Citizen_Kane_tt0033467.jpg",
+    "genres": [
+      "Drama",
+      "Mystery"
+    ],
+    "director": "Orson Welles",
+    "cast": [
+      "Orson Welles",
+      "Joseph Cotten",
+      "Dorothy Comingore"
+    ],
+    "description": "Following the death of publishing tycoon Charles Foster Kane, reporters scramble to uncover the meaning of his final utterance: 'Rosebud.'"
   },
   {
     "rank": 122,
@@ -1827,7 +3213,19 @@
     "votes_count": 308000,
     "imdb_url": "https://www.imdb.com/title/tt0070735/",
     "poster_url": "https://m.media-amazon.com/images/M/MV5BM2E4MGZjOGItNzAwYy00MjU5LTliZTEtNTQ3YTUzNmUzMjE0XkEyXkFqcGc@._V1_.jpg",
-    "local_poster_path": "posters/122_The_Sting_tt0070735.jpg"
+    "local_poster_path": "posters/122_The_Sting_tt0070735.jpg",
+    "genres": [
+      "Comedy",
+      "Crime",
+      "Drama"
+    ],
+    "director": "George Roy Hill",
+    "cast": [
+      "Paul Newman",
+      "Robert Redford",
+      "Robert Shaw"
+    ],
+    "description": "Two grifters team up to pull off the ultimate con."
   },
   {
     "rank": 123,
@@ -1842,7 +3240,18 @@
     "votes_count": 1400000,
     "imdb_url": "https://www.imdb.com/title/tt0120382/",
     "poster_url": "https://m.media-amazon.com/images/M/MV5BNzA3ZjZlNzYtMTdjMy00NjMzLTk5ZGYtMTkyYzNiOGM1YmM3XkEyXkFqcGc@._V1_.jpg",
-    "local_poster_path": "posters/123_The_Truman_Show_tt0120382.jpg"
+    "local_poster_path": "posters/123_The_Truman_Show_tt0120382.jpg",
+    "genres": [
+      "Comedy",
+      "Drama"
+    ],
+    "director": "Peter Weir",
+    "cast": [
+      "Jim Carrey",
+      "Ed Harris",
+      "Laura Linney"
+    ],
+    "description": "An insurance salesman begins to suspect that his whole life is actually some sort of reality TV show."
   },
   {
     "rank": 124,
@@ -1857,7 +3266,19 @@
     "votes_count": 1800000,
     "imdb_url": "https://www.imdb.com/title/tt0993846/",
     "poster_url": "https://m.media-amazon.com/images/M/MV5BMjIxMjgxNTk0MF5BMl5BanBnXkFtZTgwNjIyOTg2MDE@._V1_.jpg",
-    "local_poster_path": "posters/124_The_Wolf_of_Wall_Street_tt0993846.jpg"
+    "local_poster_path": "posters/124_The_Wolf_of_Wall_Street_tt0993846.jpg",
+    "genres": [
+      "Biography",
+      "Comedy",
+      "Crime"
+    ],
+    "director": "Martin Scorsese",
+    "cast": [
+      "Leonardo DiCaprio",
+      "Jonah Hill",
+      "Margot Robbie"
+    ],
+    "description": "Based on the true story of Jordan Belfort, from his rise to a wealthy stock-broker living the high life to his fall involving crime, corruption and the federal government."
   },
   {
     "rank": 125,
@@ -1872,7 +3293,18 @@
     "votes_count": 950000,
     "imdb_url": "https://www.imdb.com/title/tt0066921/",
     "poster_url": "https://m.media-amazon.com/images/M/MV5BMTY3MjM1Mzc4N15BMl5BanBnXkFtZTgwODM0NzAxMDE@._V1_.jpg",
-    "local_poster_path": "posters/125_A_Clockwork_Orange_tt0066921.jpg"
+    "local_poster_path": "posters/125_A_Clockwork_Orange_tt0066921.jpg",
+    "genres": [
+      "Crime",
+      "Sci-Fi"
+    ],
+    "director": "Stanley Kubrick",
+    "cast": [
+      "Malcolm McDowell",
+      "Patrick Magee",
+      "Michael Bates"
+    ],
+    "description": "Alex DeLarge and his droogs barbarize a decaying near-future."
   },
   {
     "rank": 126,
@@ -1887,7 +3319,18 @@
     "votes_count": 793000,
     "imdb_url": "https://www.imdb.com/title/tt8579674/",
     "poster_url": "https://m.media-amazon.com/images/M/MV5BYzkxZjg2NDQtMGVjMy00NWZkLTk0ZDEtZWE3NDYwYjAyMTg1XkEyXkFqcGc@._V1_.jpg",
-    "local_poster_path": "posters/126_1917_tt8579674.jpg"
+    "local_poster_path": "posters/126_1917_tt8579674.jpg",
+    "genres": [
+      "Drama",
+      "War"
+    ],
+    "director": "Sam Mendes",
+    "cast": [
+      "Dean-Charles Chapman",
+      "George MacKay",
+      "Daniel Mays"
+    ],
+    "description": "April 6th, 1917. As an infantry battalion assembles to wage war deep in enemy territory, two soldiers are assigned to race against time and deliver a message that will stop 1,600 men from walking straight into a deadly trap."
   },
   {
     "rank": 127,
@@ -1902,7 +3345,18 @@
     "votes_count": 204000,
     "imdb_url": "https://www.imdb.com/title/tt0017136/",
     "poster_url": "https://m.media-amazon.com/images/M/MV5BMjhjMGYyMjAtMzJkYy00NzhlLWIwY2MtMWQ2ODIxZDUyOGYyXkEyXkFqcGc@._V1_.jpg",
-    "local_poster_path": "posters/127_Metropolis_tt0017136.jpg"
+    "local_poster_path": "posters/127_Metropolis_tt0017136.jpg",
+    "genres": [
+      "Drama",
+      "Sci-Fi"
+    ],
+    "director": "Fritz Lang",
+    "cast": [
+      "Brigitte Helm",
+      "Alfred Abel",
+      "Gustav Fröhlich"
+    ],
+    "description": "In a futuristic city sharply divided between the working class and the city planners, the son of the city's mastermind falls in love with a working-class prophet who predicts the coming of a savior to mediate their differences."
   },
   {
     "rank": 128,
@@ -1917,7 +3371,18 @@
     "votes_count": 991000,
     "imdb_url": "https://www.imdb.com/title/tt0208092/",
     "poster_url": "https://m.media-amazon.com/images/M/MV5BYzk5NjJkMTQtN2IyNC00YWM5LTlhZmMtNGI3MWNhMTU1YTc4XkEyXkFqcGc@._V1_.jpg",
-    "local_poster_path": "posters/128_Snatch_tt0208092.jpg"
+    "local_poster_path": "posters/128_Snatch_tt0208092.jpg",
+    "genres": [
+      "Comedy",
+      "Crime"
+    ],
+    "director": "Guy Ritchie",
+    "cast": [
+      "Jason Statham",
+      "Brad Pitt",
+      "Stephen Graham"
+    ],
+    "description": "Unscrupulous boxing promoters, violent bookmakers, a Russian gangster, incompetent amateur robbers and supposedly Jewish jewelers fight to track down a priceless stolen diamond."
   },
   {
     "rank": 129,
@@ -1932,7 +3397,18 @@
     "votes_count": 1700000,
     "imdb_url": "https://www.imdb.com/title/tt1130884/",
     "poster_url": "https://m.media-amazon.com/images/M/MV5BN2FjNWExYzEtY2YzOC00YjNlLTllMTQtNmIwM2Q1YzBhOWM1XkEyXkFqcGc@._V1_.jpg",
-    "local_poster_path": "posters/129_Shutter_Island_tt1130884.jpg"
+    "local_poster_path": "posters/129_Shutter_Island_tt1130884.jpg",
+    "genres": [
+      "Mystery",
+      "Thriller"
+    ],
+    "director": "Martin Scorsese",
+    "cast": [
+      "Leonardo DiCaprio",
+      "Emily Mortimer",
+      "Mark Ruffalo"
+    ],
+    "description": "Two US marshals are sent to a mental institution on an inhospitable island in order to investigate the disappearance of a patient."
   },
   {
     "rank": 130,
@@ -1947,7 +3423,19 @@
     "votes_count": 406000,
     "imdb_url": "https://www.imdb.com/title/tt0363163/",
     "poster_url": "https://m.media-amazon.com/images/M/MV5BMTU0NTU5NTAyMl5BMl5BanBnXkFtZTYwNzYwMDg2._V1_.jpg",
-    "local_poster_path": "posters/130_Downfall_tt0363163.jpg"
+    "local_poster_path": "posters/130_Downfall_tt0363163.jpg",
+    "genres": [
+      "Biography",
+      "Drama",
+      "History"
+    ],
+    "director": "Oliver Hirschbiegel",
+    "cast": [
+      "Bruno Ganz",
+      "Alexandra Maria Lara",
+      "Ulrich Matthes"
+    ],
+    "description": "Traudl Junge, the final secretary for Adolf Hitler, tells of the Nazi dictator's final days in his Berlin bunker at the end of WWII."
   },
   {
     "rank": 131,
@@ -1962,7 +3450,19 @@
     "votes_count": 667000,
     "imdb_url": "https://www.imdb.com/title/tt0119488/",
     "poster_url": "https://m.media-amazon.com/images/M/MV5BODdiMjY1OGYtNDk0NC00NGQ1LWI4MDItOTJhMTM0YjE1YTAzXkEyXkFqcGc@._V1_.jpg",
-    "local_poster_path": "posters/131_L.A._Confidential_tt0119488.jpg"
+    "local_poster_path": "posters/131_L.A._Confidential_tt0119488.jpg",
+    "genres": [
+      "Crime",
+      "Drama",
+      "Mystery"
+    ],
+    "director": "Curtis Hanson",
+    "cast": [
+      "Kevin Spacey",
+      "Russell Crowe",
+      "Guy Pearce"
+    ],
+    "description": "As corruption grows in 1950s Los Angeles, three policemen - one strait-laced, one brutal, and one sleazy - investigate a series of murders with their own brand of justice."
   },
   {
     "rank": 132,
@@ -1977,7 +3477,19 @@
     "votes_count": 713000,
     "imdb_url": "https://www.imdb.com/title/tt6966692/",
     "poster_url": "https://m.media-amazon.com/images/M/MV5BNDU5YTNmMmItN2QxNy00OGQ0LTg5MTctNzFmYjEzZjcwN2UwXkEyXkFqcGc@._V1_.jpg",
-    "local_poster_path": "posters/132_Green_Book_tt6966692.jpg"
+    "local_poster_path": "posters/132_Green_Book_tt6966692.jpg",
+    "genres": [
+      "Biography",
+      "Comedy",
+      "Drama"
+    ],
+    "director": "Peter Farrelly",
+    "cast": [
+      "Viggo Mortensen",
+      "Mahershala Ali",
+      "Linda Cardellini"
+    ],
+    "description": "A working-class Italian-American bouncer becomes the driver for an African-American classical pianist on a tour of venues through the 1960s American South."
   },
   {
     "rank": 133,
@@ -1992,7 +3504,19 @@
     "votes_count": 251000,
     "imdb_url": "https://www.imdb.com/title/tt5074352/",
     "poster_url": "https://m.media-amazon.com/images/M/MV5BMTQ4MzQzMzM2Nl5BMl5BanBnXkFtZTgwMTQ1NzU3MDI@._V1_.jpg",
-    "local_poster_path": "posters/133_Dangal_tt5074352.jpg"
+    "local_poster_path": "posters/133_Dangal_tt5074352.jpg",
+    "genres": [
+      "Action",
+      "Biography",
+      "Drama"
+    ],
+    "director": "Nitesh Tiwari",
+    "cast": [
+      "Aamir Khan",
+      "Sakshi Tanwar",
+      "Fatima Sana Shaikh"
+    ],
+    "description": "Mahavir Singh Phogat, a former wrestler, decides to fulfill his dream of winning a gold medal for his country by training his daughters for the Commonwealth Games despite the existing social stigmas."
   },
   {
     "rank": 134,
@@ -2007,7 +3531,17 @@
     "votes_count": 194000,
     "imdb_url": "https://www.imdb.com/title/tt0040522/",
     "poster_url": "https://m.media-amazon.com/images/M/MV5BMjIzMzAyMzg1Nl5BMl5BanBnXkFtZTgwMzMyNzk0MTE@._V1_.jpg",
-    "local_poster_path": "posters/134_Bicycle_Thieves_tt0040522.jpg"
+    "local_poster_path": "posters/134_Bicycle_Thieves_tt0040522.jpg",
+    "genres": [
+      "Drama"
+    ],
+    "director": "Vittorio De Sica",
+    "cast": [
+      "Lamberto Maggiorani",
+      "Enzo Staiola",
+      "Lianella Carell"
+    ],
+    "description": "In post-war Italy, a working-class man's bicycle is stolen, endangering his efforts to find work. He and his son set out to find it."
   },
   {
     "rank": 135,
@@ -2022,7 +3556,19 @@
     "votes_count": 99000,
     "imdb_url": "https://www.imdb.com/title/tt0055031/",
     "poster_url": "https://m.media-amazon.com/images/M/MV5BNDc2ODQ5NTE2MV5BMl5BanBnXkFtZTcwODExMjUyNA@@._V1_.jpg",
-    "local_poster_path": "posters/135_Judgment_at_Nuremberg_tt0055031.jpg"
+    "local_poster_path": "posters/135_Judgment_at_Nuremberg_tt0055031.jpg",
+    "genres": [
+      "Drama",
+      "History",
+      "War"
+    ],
+    "director": "Stanley Kramer",
+    "cast": [
+      "Spencer Tracy",
+      "Burt Lancaster",
+      "Richard Widmark"
+    ],
+    "description": "Fictionalized depiction of the 1947 Judges' Trial, the third of 12 trials of Nazi war criminals conducted by the American occupying forces in Nuremberg, Germany, in which former judges of Nazi Germany were tried for their actions."
   },
   {
     "rank": 136,
@@ -2037,7 +3583,18 @@
     "votes_count": 1200000,
     "imdb_url": "https://www.imdb.com/title/tt0107290/",
     "poster_url": "https://m.media-amazon.com/images/M/MV5BMjM2MDgxMDg0Nl5BMl5BanBnXkFtZTgwNTM2OTM5NDE@._V1_.jpg",
-    "local_poster_path": "posters/136_Jurassic_Park_tt0107290.jpg"
+    "local_poster_path": "posters/136_Jurassic_Park_tt0107290.jpg",
+    "genres": [
+      "Adventure",
+      "Sci-Fi"
+    ],
+    "director": "Steven Spielberg",
+    "cast": [
+      "Sam Neill",
+      "Laura Dern",
+      "Jeff Goldblum"
+    ],
+    "description": "An industrialist invites some experts to visit his theme park of cloned dinosaurs. After a power failure, the creatures run loose, putting everyone's lives, including his grandchildren's, in danger."
   },
   {
     "rank": 137,
@@ -2052,7 +3609,17 @@
     "votes_count": 1800000,
     "imdb_url": "https://www.imdb.com/title/tt0372784/",
     "poster_url": "https://m.media-amazon.com/images/M/MV5BMzA2NDQzZDEtNDU5Ni00YTlkLTg2OWEtYmQwM2Y1YTBjMjFjXkEyXkFqcGc@._V1_.jpg",
-    "local_poster_path": "posters/137_Batman_Begins_tt0372784.jpg"
+    "local_poster_path": "posters/137_Batman_Begins_tt0372784.jpg",
+    "genres": [
+      "Crime"
+    ],
+    "director": "Christopher Nolan",
+    "cast": [
+      "Christian Bale",
+      "Michael Caine",
+      "Ken Watanabe"
+    ],
+    "description": "After witnessing his parents' death, billionaire Bruce Wayne learns the art of fighting to confront injustice. When he returns to Gotham as Batman, he must stop a secret society that intends to destroy the city."
   },
   {
     "rank": 138,
@@ -2067,7 +3634,19 @@
     "votes_count": 1100000,
     "imdb_url": "https://www.imdb.com/title/tt15398776/",
     "poster_url": "https://m.media-amazon.com/images/M/MV5BN2JkMDc5MGQtZjg3YS00NmFiLWIyZmQtZTJmNTM5MjVmYTQ4XkEyXkFqcGc@._V1_.jpg",
-    "local_poster_path": "posters/138_Oppenheimer_tt15398776.jpg"
+    "local_poster_path": "posters/138_Oppenheimer_tt15398776.jpg",
+    "genres": [
+      "Biography",
+      "Drama",
+      "History"
+    ],
+    "director": "Christopher Nolan",
+    "cast": [
+      "Cillian Murphy",
+      "Emily Blunt",
+      "Matt Damon"
+    ],
+    "description": "A dramatization of the life story of J. Robert Oppenheimer, the physicist who had a large hand in the development of the atomic bombs that brought an end to World War II."
   },
   {
     "rank": 139,
@@ -2082,7 +3661,18 @@
     "votes_count": 27000,
     "imdb_url": "https://www.imdb.com/title/tt0058625/",
     "poster_url": "https://m.media-amazon.com/images/M/MV5BM2E1ZjY5MjItZTUxZS00NTI1LWEwMmEtODhlMDAyMzUyOTRmXkEyXkFqcGc@._V1_.jpg",
-    "local_poster_path": "posters/139_Woman_of_the_Dunes_tt0058625.jpg"
+    "local_poster_path": "posters/139_Woman_of_the_Dunes_tt0058625.jpg",
+    "genres": [
+      "Drama",
+      "Thriller"
+    ],
+    "director": "Hiroshi Teshigahara",
+    "cast": [
+      "Eiji Okada",
+      "Kyôko Kishida",
+      "Koji Mitsui"
+    ],
+    "description": "An entomologist on vacation is trapped by local villagers into living with a woman whose life task is shoveling sand for them."
   },
   {
     "rank": 140,
@@ -2097,7 +3687,18 @@
     "votes_count": 306000,
     "imdb_url": "https://www.imdb.com/title/tt0059578/",
     "poster_url": "https://m.media-amazon.com/images/M/MV5BNTRmOTcyYmYtMTIwNi00ZGYyLTk4YjYtZGJlZTgwZGY0NGQyXkEyXkFqcGc@._V1_.jpg",
-    "local_poster_path": "posters/140_For_a_Few_Dollars_More_tt0059578.jpg"
+    "local_poster_path": "posters/140_For_a_Few_Dollars_More_tt0059578.jpg",
+    "genres": [
+      "Drama",
+      "Western"
+    ],
+    "director": "Sergio Leone",
+    "cast": [
+      "Clint Eastwood",
+      "Lee Van Cleef",
+      "Gian Maria Volontè"
+    ],
+    "description": "Two bounty killers with similar intentions but different motivations team up to take down a psychotic Mexican outlaw before he and his gang can carry out an audacious bank robbery."
   },
   {
     "rank": 141,
@@ -2112,7 +3713,17 @@
     "votes_count": 725000,
     "imdb_url": "https://www.imdb.com/title/tt0469494/",
     "poster_url": "https://m.media-amazon.com/images/M/MV5BMjAxODQ4MDU5NV5BMl5BanBnXkFtZTcwMDU4MjU1MQ@@._V1_.jpg",
-    "local_poster_path": "posters/141_There_Will_Be_Blood_tt0469494.jpg"
+    "local_poster_path": "posters/141_There_Will_Be_Blood_tt0469494.jpg",
+    "genres": [
+      "Drama"
+    ],
+    "director": "Paul Thomas Anderson",
+    "cast": [
+      "Daniel Day-Lewis",
+      "Paul Dano",
+      "Ciarán Hinds"
+    ],
+    "description": "A story of family, religion, hatred, oil and madness, focusing on a turn-of-the-century prospector in the early days of the business."
   },
   {
     "rank": 142,
@@ -2127,7 +3738,19 @@
     "votes_count": 144000,
     "imdb_url": "https://www.imdb.com/title/tt8503618/",
     "poster_url": "https://m.media-amazon.com/images/M/MV5BYTc3MWIyMzAtMTZmNC00YmNjLWIyZTgtMmU4NjZkYzZkOThkXkEyXkFqcGc@._V1_.jpg",
-    "local_poster_path": "posters/142_Hamilton_tt8503618.jpg"
+    "local_poster_path": "posters/142_Hamilton_tt8503618.jpg",
+    "genres": [
+      "Biography",
+      "Drama",
+      "History"
+    ],
+    "director": "Thomas Kail",
+    "cast": [
+      "Lin-Manuel Miranda",
+      "Phillipa Soo",
+      "Leslie Odom Jr."
+    ],
+    "description": "The real life of one of America's foremost founding fathers and first Secretary of the Treasury, Alexander Hamilton. Captured live on Broadway from the Richard Rodgers Theater with the original Broadway cast."
   },
   {
     "rank": 143,
@@ -2142,7 +3765,19 @@
     "votes_count": 309000,
     "imdb_url": "https://www.imdb.com/title/tt0053291/",
     "poster_url": "https://m.media-amazon.com/images/M/MV5BZTllZDYyNjEtY2RmMS00NmJhLWI4ODAtMTQ0NWFiZTJhZjA0XkEyXkFqcGc@._V1_.jpg",
-    "local_poster_path": "posters/143_Some_Like_It_Hot_tt0053291.jpg"
+    "local_poster_path": "posters/143_Some_Like_It_Hot_tt0053291.jpg",
+    "genres": [
+      "Comedy",
+      "Music",
+      "Romance"
+    ],
+    "director": "Billy Wilder",
+    "cast": [
+      "Marilyn Monroe",
+      "Tony Curtis",
+      "Jack Lemmon"
+    ],
+    "description": "After two male musicians witness a mob hit, they flee the state in an all-female band disguised as women, but further complications set in."
   },
   {
     "rank": 144,
@@ -2157,7 +3792,18 @@
     "votes_count": 1000000,
     "imdb_url": "https://www.imdb.com/title/tt0075314/",
     "poster_url": "https://m.media-amazon.com/images/M/MV5BZDNhMGYwM2UtMTdlZS00MGQ1LWI2YzAtODY5YWI1MjYyNzRmXkEyXkFqcGc@._V1_.jpg",
-    "local_poster_path": "posters/144_Taxi_Driver_tt0075314.jpg"
+    "local_poster_path": "posters/144_Taxi_Driver_tt0075314.jpg",
+    "genres": [
+      "Crime",
+      "Drama"
+    ],
+    "director": "Martin Scorsese",
+    "cast": [
+      "Robert De Niro",
+      "Jodie Foster",
+      "Cybill Shepherd"
+    ],
+    "description": "A mentally unstable veteran works as a nighttime taxi driver in New York City, where the perceived decadence and sleaze fuels his urge for violent action."
   },
   {
     "rank": 145,
@@ -2172,7 +3818,18 @@
     "votes_count": 252000,
     "imdb_url": "https://www.imdb.com/title/tt10272386/",
     "poster_url": "https://m.media-amazon.com/images/M/MV5BYzUxMDAyMDAtNzIyZi00OGQ1LTllMjEtYzRjOThkZTUxNTliXkEyXkFqcGc@._V1_.jpg",
-    "local_poster_path": "posters/145_The_Father_tt10272386.jpg"
+    "local_poster_path": "posters/145_The_Father_tt10272386.jpg",
+    "genres": [
+      "Drama",
+      "Mystery"
+    ],
+    "director": "Florian Zeller",
+    "cast": [
+      "Anthony Hopkins",
+      "Olivia Colman",
+      "Mark Gatiss"
+    ],
+    "description": "A man refuses all assistance from his daughter as he ages. When he tries to understand what is happening around him, he begins to doubt his loved ones, his own mind and even the fabric of his reality."
   },
   {
     "rank": 146,
@@ -2187,7 +3844,19 @@
     "votes_count": 1200000,
     "imdb_url": "https://www.imdb.com/title/tt0167404/",
     "poster_url": "https://m.media-amazon.com/images/M/MV5BZWQ2OTY0M2UtMTQxNC00MmIzLTllNDQtNDQ0MTQyYzI2M2ZiXkEyXkFqcGc@._V1_.jpg",
-    "local_poster_path": "posters/146_The_Sixth_Sense_tt0167404.jpg"
+    "local_poster_path": "posters/146_The_Sixth_Sense_tt0167404.jpg",
+    "genres": [
+      "Drama",
+      "Mystery",
+      "Thriller"
+    ],
+    "director": "M. Night Shyamalan",
+    "cast": [
+      "Bruce Willis",
+      "Haley Joel Osment",
+      "Toni Collette"
+    ],
+    "description": "After being shot by a resentful former patient whom he failed to help, a Philadelphia child psychologist seeks redemption by treating a young boy with a disturbing secret."
   },
   {
     "rank": 147,
@@ -2202,7 +3871,17 @@
     "votes_count": 151000,
     "imdb_url": "https://www.imdb.com/title/tt0042192/",
     "poster_url": "https://m.media-amazon.com/images/M/MV5BMTY2MTAzODI5NV5BMl5BanBnXkFtZTgwMjM4NzQ0MjE@._V1_.jpg",
-    "local_poster_path": "posters/147_All_About_Eve_tt0042192.jpg"
+    "local_poster_path": "posters/147_All_About_Eve_tt0042192.jpg",
+    "genres": [
+      "Drama"
+    ],
+    "director": "Joseph L. Mankiewicz",
+    "cast": [
+      "Bette Davis",
+      "Anne Baxter",
+      "George Sanders"
+    ],
+    "description": "A seemingly timid but secretly ruthless ingénue insinuates herself into the lives of an aging Broadway star and her circle of theater friends."
   },
   {
     "rank": 148,
@@ -2217,7 +3896,19 @@
     "votes_count": 148000,
     "imdb_url": "https://www.imdb.com/title/tt0012349/",
     "poster_url": "https://m.media-amazon.com/images/M/MV5BNjkxMzY1NTQtN2YwOS00NmIwLTlkNTMtMjNkMzk1ZTk3ZDU2XkEyXkFqcGc@._V1_.jpg",
-    "local_poster_path": "posters/148_The_Kid_tt0012349.jpg"
+    "local_poster_path": "posters/148_The_Kid_tt0012349.jpg",
+    "genres": [
+      "Comedy",
+      "Drama",
+      "Family"
+    ],
+    "director": "Charles Chaplin",
+    "cast": [
+      "Charles Chaplin",
+      "Edna Purviance",
+      "Jackie Coogan"
+    ],
+    "description": "The Tramp cares for an abandoned child, but events put their relationship in jeopardy."
   },
   {
     "rank": 149,
@@ -2232,7 +3923,19 @@
     "votes_count": 156000,
     "imdb_url": "https://www.imdb.com/title/tt0089881/",
     "poster_url": "https://m.media-amazon.com/images/M/MV5BZDk2NDY5YjktMjEyMC00OTJhLTkzM2EtY2Q4Y2RjYzc2Yjk4XkEyXkFqcGc@._V1_.jpg",
-    "local_poster_path": "posters/149_Ran_tt0089881.jpg"
+    "local_poster_path": "posters/149_Ran_tt0089881.jpg",
+    "genres": [
+      "Action",
+      "Drama",
+      "War"
+    ],
+    "director": "Akira Kurosawa",
+    "cast": [
+      "Tatsuya Nakadai",
+      "Akira Terao",
+      "Jinpachi Nezu"
+    ],
+    "description": "In Medieval Japan, an elderly warlord retires, handing over his empire to his three sons. However, he vastly underestimates how the new-found power will corrupt them and cause them to turn on each other...and him."
   },
   {
     "rank": 150,
@@ -2247,7 +3950,19 @@
     "votes_count": 543000,
     "imdb_url": "https://www.imdb.com/title/tt0084787/",
     "poster_url": "https://m.media-amazon.com/images/M/MV5BYTA3NDU5MWEtNTk4Yy00ZDNkLThmZTQtMjU3ZGVhYzAyMzU4XkEyXkFqcGc@._V1_.jpg",
-    "local_poster_path": "posters/150_The_Thing_tt0084787.jpg"
+    "local_poster_path": "posters/150_The_Thing_tt0084787.jpg",
+    "genres": [
+      "Horror",
+      "Mystery",
+      "Sci-Fi"
+    ],
+    "director": "John Carpenter",
+    "cast": [
+      "Kurt Russell",
+      "Wilford Brimley",
+      "Keith David"
+    ],
+    "description": "A research team in Antarctica is hunted by a shape-shifting alien that assumes the appearance of its victims."
   },
   {
     "rank": 151,
@@ -2262,7 +3977,18 @@
     "votes_count": 632000,
     "imdb_url": "https://www.imdb.com/title/tt0112641/",
     "poster_url": "https://m.media-amazon.com/images/M/MV5BMDRlZWZjZjYtYzY2NS00ZWVjLTkwYzAtZTA2ZDAzMGRiYmYwXkEyXkFqcGc@._V1_.jpg",
-    "local_poster_path": "posters/151_Casino_tt0112641.jpg"
+    "local_poster_path": "posters/151_Casino_tt0112641.jpg",
+    "genres": [
+      "Crime",
+      "Drama"
+    ],
+    "director": "Martin Scorsese",
+    "cast": [
+      "Robert De Niro",
+      "Sharon Stone",
+      "Joe Pesci"
+    ],
+    "description": "In Las Vegas, two best friends--a casino executive and a Mafia enforcer--compete for a gambling empire and a fast-living, fast-loving socialite."
   },
   {
     "rank": 152,
@@ -2277,7 +4003,19 @@
     "votes_count": 970000,
     "imdb_url": "https://www.imdb.com/title/tt1392214/",
     "poster_url": "https://m.media-amazon.com/images/M/MV5BMTg0NTIzMjQ1NV5BMl5BanBnXkFtZTcwNDc3MzM5OQ@@._V1_.jpg",
-    "local_poster_path": "posters/152_Prisoners_tt1392214.jpg"
+    "local_poster_path": "posters/152_Prisoners_tt1392214.jpg",
+    "genres": [
+      "Crime",
+      "Drama",
+      "Mystery"
+    ],
+    "director": "Denis Villeneuve",
+    "cast": [
+      "Hugh Jackman",
+      "Jake Gyllenhaal",
+      "Viola Davis"
+    ],
+    "description": "A desperate father takes the law into his own hands after police fail to find two kidnapped girls."
   },
   {
     "rank": 153,
@@ -2292,7 +4030,19 @@
     "votes_count": 1200000,
     "imdb_url": "https://www.imdb.com/title/tt0477348/",
     "poster_url": "https://m.media-amazon.com/images/M/MV5BMjA5Njk3MjM4OV5BMl5BanBnXkFtZTcwMTc5MTE1MQ@@._V1_.jpg",
-    "local_poster_path": "posters/153_No_Country_for_Old_Men_tt0477348.jpg"
+    "local_poster_path": "posters/153_No_Country_for_Old_Men_tt0477348.jpg",
+    "genres": [
+      "Crime",
+      "Drama",
+      "Thriller"
+    ],
+    "director": "Ethan Coen",
+    "cast": [
+      "Tommy Lee Jones",
+      "Javier Bardem",
+      "Josh Brolin"
+    ],
+    "description": "Violence and mayhem ensue after a hunter stumbles upon the aftermath of a drug deal gone wrong and over two million dollars in cash near the Rio Grande."
   },
   {
     "rank": 154,
@@ -2307,7 +4057,18 @@
     "votes_count": 914000,
     "imdb_url": "https://www.imdb.com/title/tt1745960/",
     "poster_url": "https://m.media-amazon.com/images/M/MV5BMDBkZDNjMWEtOTdmMi00NmExLTg5MmMtNTFlYTJlNWY5YTdmXkEyXkFqcGc@._V1_.jpg",
-    "local_poster_path": "posters/154_Top_Gun_Maverick_tt1745960.jpg"
+    "local_poster_path": "posters/154_Top_Gun_Maverick_tt1745960.jpg",
+    "genres": [
+      "Action",
+      "Drama"
+    ],
+    "director": "Joseph Kosinski",
+    "cast": [
+      "Tom Cruise",
+      "Jennifer Connelly",
+      "Miles Teller"
+    ],
+    "description": "The story involves Maverick confronting his past while training a group of younger Top Gun graduates, including the son of his deceased best friend, for a dangerous mission."
   },
   {
     "rank": 155,
@@ -2322,7 +4083,19 @@
     "votes_count": 1300000,
     "imdb_url": "https://www.imdb.com/title/tt0266697/",
     "poster_url": "https://m.media-amazon.com/images/M/MV5BZmMyYzJlZmYtY2I3NC00NjAyLTkyZWItZjdjZDI1YTYyYTEwXkEyXkFqcGc@._V1_.jpg",
-    "local_poster_path": "posters/155_Kill_Bill_Vol._1_tt0266697.jpg"
+    "local_poster_path": "posters/155_Kill_Bill_Vol._1_tt0266697.jpg",
+    "genres": [
+      "Action",
+      "Crime",
+      "Thriller"
+    ],
+    "director": "Quentin Tarantino",
+    "cast": [
+      "Uma Thurman",
+      "David Carradine",
+      "Daryl Hannah"
+    ],
+    "description": "After waking from a four-year coma, a former assassin wreaks vengeance on the team of assassins who betrayed her."
   },
   {
     "rank": 156,
@@ -2337,7 +4110,19 @@
     "votes_count": 758000,
     "imdb_url": "https://www.imdb.com/title/tt0457430/",
     "poster_url": "https://m.media-amazon.com/images/M/MV5BOTc1NTAxMWItMWFlNy00MmU2LTkwMTMtNzMwOTg5OTQ5YTFiXkEyXkFqcGc@._V1_.jpg",
-    "local_poster_path": "posters/156_Pan's_Labyrinth_tt0457430.jpg"
+    "local_poster_path": "posters/156_Pan's_Labyrinth_tt0457430.jpg",
+    "genres": [
+      "Drama",
+      "Fantasy",
+      "War"
+    ],
+    "director": "Guillermo del Toro",
+    "cast": [
+      "Ivana Baquero",
+      "Ariadna Gil",
+      "Sergi López"
+    ],
+    "description": "In 1944 Francoist Spain, an imaginative young girl meets a faun who tells her she's a princess and that she must prove her worthiness by completing three dangerous tasks."
   },
   {
     "rank": 157,
@@ -2352,7 +4137,18 @@
     "votes_count": 475000,
     "imdb_url": "https://www.imdb.com/title/tt0105695/",
     "poster_url": "https://m.media-amazon.com/images/M/MV5BNmZmMzM3YWMtZjg5Yi00M2MxLTg3ZGItNGU4YjQxNDAxM2Q4XkEyXkFqcGc@._V1_.jpg",
-    "local_poster_path": "posters/157_Unforgiven_tt0105695.jpg"
+    "local_poster_path": "posters/157_Unforgiven_tt0105695.jpg",
+    "genres": [
+      "Drama",
+      "Western"
+    ],
+    "director": "Clint Eastwood",
+    "cast": [
+      "Clint Eastwood",
+      "Gene Hackman",
+      "Morgan Freeman"
+    ],
+    "description": "Retired Old West gunslinger Will Munny reluctantly takes on one last job to avenge an injustice with the help of his old partner and a young would-be gunman calling himself \"The Schofield Kid\"."
   },
   {
     "rank": 158,
@@ -2367,7 +4163,19 @@
     "votes_count": 1100000,
     "imdb_url": "https://www.imdb.com/title/tt0268978/",
     "poster_url": "https://m.media-amazon.com/images/M/MV5BYjgzNjFkMmItOGJhNi00NWM3LWJlYTUtNDExMGQ3ZTI3NjJkXkEyXkFqcGc@._V1_.jpg",
-    "local_poster_path": "posters/158_A_Beautiful_Mind_tt0268978.jpg"
+    "local_poster_path": "posters/158_A_Beautiful_Mind_tt0268978.jpg",
+    "genres": [
+      "Biography",
+      "Drama",
+      "Mystery"
+    ],
+    "director": "Ron Howard",
+    "cast": [
+      "Russell Crowe",
+      "Ed Harris",
+      "Jennifer Connelly"
+    ],
+    "description": "A mathematical genius, John Nash made an astonishing discovery early in his career and stood on the brink of international acclaim. But Nash soon found himself on a harrowing journey of self-discovery."
   },
   {
     "rank": 159,
@@ -2382,7 +4190,19 @@
     "votes_count": 526000,
     "imdb_url": "https://www.imdb.com/title/tt0347149/",
     "poster_url": "https://m.media-amazon.com/images/M/MV5BMTY1OTg0MjE3MV5BMl5BanBnXkFtZTcwNTUxMTkyMQ@@._V1_.jpg",
-    "local_poster_path": "posters/159_Howl's_Moving_Castle_tt0347149.jpg"
+    "local_poster_path": "posters/159_Howl's_Moving_Castle_tt0347149.jpg",
+    "genres": [
+      "Animation",
+      "Adventure",
+      "Family"
+    ],
+    "director": "Hayao Miyazaki",
+    "cast": [
+      "Chieko Baisho",
+      "Takuya Kimura",
+      "Tatsuya Gashûin"
+    ],
+    "description": "When an unconfident young woman is cursed with an old body by a spiteful witch, her only chance of breaking the spell lies with a self-indulgent yet insecure young wizard and his companions in his legged, walking castle."
   },
   {
     "rank": 160,
@@ -2397,7 +4217,19 @@
     "votes_count": 143000,
     "imdb_url": "https://www.imdb.com/title/tt0040897/",
     "poster_url": "https://m.media-amazon.com/images/M/MV5BOWM1YjFmODEtMWNhMC00YmI1LWI0Y2EtYzg0YTBhZWI4ODE3XkEyXkFqcGc@._V1_.jpg",
-    "local_poster_path": "posters/160_The_Treasure_of_the_Sierra_Madre_tt0040897.jpg"
+    "local_poster_path": "posters/160_The_Treasure_of_the_Sierra_Madre_tt0040897.jpg",
+    "genres": [
+      "Adventure",
+      "Drama",
+      "Western"
+    ],
+    "director": "John Huston",
+    "cast": [
+      "Humphrey Bogart",
+      "Walter Huston",
+      "Tim Holt"
+    ],
+    "description": "Two down-on-their-luck Americans searching for work in 1920s Mexico convince an old prospector to help them mine for gold in the Sierra Madre Mountains."
   },
   {
     "rank": 161,
@@ -2412,7 +4244,19 @@
     "votes_count": 245000,
     "imdb_url": "https://www.imdb.com/title/tt4729430/",
     "poster_url": "https://m.media-amazon.com/images/M/MV5BZDA4ODhlMzctNGRmYi00NmViLTkxZGYtZjRkNGQ5YzYwYWVlXkEyXkFqcGc@._V1_.jpg",
-    "local_poster_path": "posters/161_Klaus_tt4729430.jpg"
+    "local_poster_path": "posters/161_Klaus_tt4729430.jpg",
+    "genres": [
+      "Animation",
+      "Adventure",
+      "Comedy"
+    ],
+    "director": "Carlos Martínez López",
+    "cast": [
+      "Jason Schwartzman",
+      "J.K. Simmons",
+      "Rashida Jones"
+    ],
+    "description": "A simple act of kindness always sparks another, even in a frozen, faraway place. When Smeerensburg's new postman, Jesper, befriends toymaker Klaus, their gifts melt an age-old feud and deliver a sleigh full of holiday traditions."
   },
   {
     "rank": 162,
@@ -2427,7 +4271,19 @@
     "votes_count": 1200000,
     "imdb_url": "https://www.imdb.com/title/tt0266543/",
     "poster_url": "https://m.media-amazon.com/images/M/MV5BMTc5NjExNTA5OV5BMl5BanBnXkFtZTYwMTQ0ODY2._V1_.jpg",
-    "local_poster_path": "posters/162_Finding_Nemo_tt0266543.jpg"
+    "local_poster_path": "posters/162_Finding_Nemo_tt0266543.jpg",
+    "genres": [
+      "Animation",
+      "Adventure",
+      "Comedy"
+    ],
+    "director": "Andrew Stanton",
+    "cast": [
+      "Albert Brooks",
+      "Ellen DeGeneres",
+      "Alexander Gould"
+    ],
+    "description": "After his son is captured in the Great Barrier Reef and taken to Sydney, a timid clownfish sets out on a journey to bring him home."
   },
   {
     "rank": 163,
@@ -2442,7 +4298,19 @@
     "votes_count": 607000,
     "imdb_url": "https://www.imdb.com/title/tt12042730/",
     "poster_url": "https://m.media-amazon.com/images/M/MV5BNTkwNzJiYTctNzI3NC00NjE1LTlhYjktY2Q5MTdmMWFmNzcxXkEyXkFqcGc@._V1_.jpg",
-    "local_poster_path": "posters/163_Project_Hail_Mary_tt12042730.jpg"
+    "local_poster_path": "posters/163_Project_Hail_Mary_tt12042730.jpg",
+    "genres": [
+      "Adventure",
+      "Comedy",
+      "Sci-Fi"
+    ],
+    "director": "Phil Lord",
+    "cast": [
+      "Ryan Gosling",
+      "Sandra Hüller",
+      "James Ortiz"
+    ],
+    "description": "A science teacher wakes up alone on a spaceship. As his memory returns, he uncovers a mission to stop a mysterious substance killing Earth's sun, and realizes that an unexpected friendship may be the key."
   },
   {
     "rank": 164,
@@ -2457,7 +4325,19 @@
     "votes_count": 146000,
     "imdb_url": "https://www.imdb.com/title/tt0055630/",
     "poster_url": "https://m.media-amazon.com/images/M/MV5BYzFkODA1N2QtY2UyMC00NTMwLWEyNzctMmE3YjIzNzE1MzY4XkEyXkFqcGc@._V1_.jpg",
-    "local_poster_path": "posters/164_Yojimbo_tt0055630.jpg"
+    "local_poster_path": "posters/164_Yojimbo_tt0055630.jpg",
+    "genres": [
+      "Action",
+      "Drama",
+      "Thriller"
+    ],
+    "director": "Akira Kurosawa",
+    "cast": [
+      "Toshiro Mifune",
+      "Eijiro Tono",
+      "Tatsuya Nakadai"
+    ],
+    "description": "A crafty ronin comes to a town divided by two criminal gangs and decides to play them against each other to free the town."
   },
   {
     "rank": 165,
@@ -2472,7 +4352,18 @@
     "votes_count": 287000,
     "imdb_url": "https://www.imdb.com/title/tt0080678/",
     "poster_url": "https://m.media-amazon.com/images/M/MV5BMGE2MzViYzEtZDFmOC00YmViLWFkZTQtYmI2NmI3NDJjMDc0XkEyXkFqcGc@._V1_.jpg",
-    "local_poster_path": "posters/165_The_Elephant_Man_tt0080678.jpg"
+    "local_poster_path": "posters/165_The_Elephant_Man_tt0080678.jpg",
+    "genres": [
+      "Biography",
+      "Drama"
+    ],
+    "director": "David Lynch",
+    "cast": [
+      "Anthony Hopkins",
+      "John Hurt",
+      "Anne Bancroft"
+    ],
+    "description": "A Victorian surgeon rescues a heavily-disfigured and mistreated young man working as a sideshow freak, who gradually reveals his capacity for kindness, intelligence and sophistication."
   },
   {
     "rank": 166,
@@ -2487,7 +4378,19 @@
     "votes_count": 282000,
     "imdb_url": "https://www.imdb.com/title/tt0057115/",
     "poster_url": "https://m.media-amazon.com/images/M/MV5BMDRhNmJjMzEtMWU5MC00YmEyLTg3ZmYtNzYxZTI1ZGU4ZjI1XkEyXkFqcGc@._V1_.jpg",
-    "local_poster_path": "posters/166_The_Great_Escape_tt0057115.jpg"
+    "local_poster_path": "posters/166_The_Great_Escape_tt0057115.jpg",
+    "genres": [
+      "Adventure",
+      "Drama",
+      "Thriller"
+    ],
+    "director": "John Sturges",
+    "cast": [
+      "Steve McQueen",
+      "James Garner",
+      "Richard Attenborough"
+    ],
+    "description": "Allied officers in a German POW camp during World War II make a daring plan for a mass escape."
   },
   {
     "rank": 167,
@@ -2502,7 +4405,19 @@
     "votes_count": 91000,
     "imdb_url": "https://www.imdb.com/title/tt32820897/",
     "poster_url": "https://m.media-amazon.com/images/M/MV5BOGQ3YWUzYjEtMTJiYy00ZjQ0LWI0YjktYjhiNGVhNGExYTM3XkEyXkFqcGc@._V1_.jpg",
-    "local_poster_path": "posters/167_Demon_Slayer_Kimetsu_No_Yaiba_Infinity_Castle_tt32820897.jpg"
+    "local_poster_path": "posters/167_Demon_Slayer_Kimetsu_No_Yaiba_Infinity_Castle_tt32820897.jpg",
+    "genres": [
+      "Animation",
+      "Action",
+      "Adventure"
+    ],
+    "director": "Hikaru Kondô",
+    "cast": [
+      "Zach Aguilar",
+      "Saeko Akiho",
+      "Yohei Azakami"
+    ],
+    "description": "The Demon Slayer Corps are drawn into the Infinity Castle, where Tanjiro and the Hashira face terrifying Upper Rank Hindi mein demons in a desperate fight as the final battle against Muzan Kibutsuji begins."
   },
   {
     "rank": 168,
@@ -2517,7 +4432,19 @@
     "votes_count": 611000,
     "imdb_url": "https://www.imdb.com/title/tt0071853/",
     "poster_url": "https://m.media-amazon.com/images/M/MV5BYWY4YmUzZmUtMzQ0ZS00N2Y2LWJlODQtN2IwMDc1MWQwMmU3XkEyXkFqcGc@._V1_.jpg",
-    "local_poster_path": "posters/168_Monty_Python_and_the_Holy_Grail_tt0071853.jpg"
+    "local_poster_path": "posters/168_Monty_Python_and_the_Holy_Grail_tt0071853.jpg",
+    "genres": [
+      "Adventure",
+      "Comedy",
+      "Fantasy"
+    ],
+    "director": "Terry Gilliam",
+    "cast": [
+      "Graham Chapman",
+      "John Cleese",
+      "Eric Idle"
+    ],
+    "description": "King Arthur and his Knights of the Round Table embark on a surreal, low-budget search for the Holy Grail, encountering many, very silly obstacles."
   },
   {
     "rank": 169,
@@ -2532,7 +4459,19 @@
     "votes_count": 208000,
     "imdb_url": "https://www.imdb.com/title/tt0046912/",
     "poster_url": "https://m.media-amazon.com/images/M/MV5BZmYzNDgzYjgtNmU3Ny00YzUxLWE3OWUtMjIxZmNkYTVhNDZmXkEyXkFqcGc@._V1_.jpg",
-    "local_poster_path": "posters/169_Dial_M_for_Murder_tt0046912.jpg"
+    "local_poster_path": "posters/169_Dial_M_for_Murder_tt0046912.jpg",
+    "genres": [
+      "Crime",
+      "Drama",
+      "Mystery"
+    ],
+    "director": "Alfred Hitchcock",
+    "cast": [
+      "Ray Milland",
+      "Grace Kelly",
+      "Robert Cummings"
+    ],
+    "description": "A jealous former tennis player plots the perfect murder of his wealthy wife in their London flat, triggering a tense trap of betrayal and evidence."
   },
   {
     "rank": 170,
@@ -2547,7 +4486,19 @@
     "votes_count": 247000,
     "imdb_url": "https://www.imdb.com/title/tt1305806/",
     "poster_url": "https://m.media-amazon.com/images/M/MV5BMTgwNTI3OTczOV5BMl5BanBnXkFtZTcwMTM3MTUyMw@@._V1_.jpg",
-    "local_poster_path": "posters/170_The_Secret_in_Their_Eyes_tt1305806.jpg"
+    "local_poster_path": "posters/170_The_Secret_in_Their_Eyes_tt1305806.jpg",
+    "genres": [
+      "Drama",
+      "Mystery",
+      "Romance"
+    ],
+    "director": "Juan José Campanella",
+    "cast": [
+      "Ricardo Darín",
+      "Soledad Villamil",
+      "Pablo Rago"
+    ],
+    "description": "A retired court investigator revisits a decades old murder while trying to finish the story that has followed him ever since, forcing old evidence and unfinished feelings back into the light."
   },
   {
     "rank": 171,
@@ -2562,7 +4513,19 @@
     "votes_count": 361000,
     "imdb_url": "https://www.imdb.com/title/tt0031381/",
     "poster_url": "https://m.media-amazon.com/images/M/MV5BYmYxZTE3YzMtYmE2Yy00NmFlLTkzYTAtYTAzN2IzNDFkN2E0XkEyXkFqcGc@._V1_.jpg",
-    "local_poster_path": "posters/171_Gone_with_the_Wind_tt0031381.jpg"
+    "local_poster_path": "posters/171_Gone_with_the_Wind_tt0031381.jpg",
+    "genres": [
+      "Drama",
+      "Romance",
+      "War"
+    ],
+    "director": "Victor Fleming",
+    "cast": [
+      "Clark Gable",
+      "Vivien Leigh",
+      "Thomas Mitchell"
+    ],
+    "description": "A sheltered and manipulative Southern belle and a roguish profiteer face off in a turbulent romance as the society around them crumbles with the end of slavery and is rebuilt during the Civil War and Reconstruction periods."
   },
   {
     "rank": 172,
@@ -2577,7 +4540,18 @@
     "votes_count": 657000,
     "imdb_url": "https://www.imdb.com/title/tt0120735/",
     "poster_url": "https://m.media-amazon.com/images/M/MV5BMmY1M2M5ZmMtYzllZC00YzAxLTk4MjktZDJkNjA1MTUwMGQ4XkEyXkFqcGc@._V1_.jpg",
-    "local_poster_path": "posters/172_Lock,_Stock_and_Two_Smoking_Barrels_tt0120735.jpg"
+    "local_poster_path": "posters/172_Lock,_Stock_and_Two_Smoking_Barrels_tt0120735.jpg",
+    "genres": [
+      "Comedy",
+      "Crime"
+    ],
+    "director": "Guy Ritchie",
+    "cast": [
+      "Jason Flemyng",
+      "Dexter Fletcher",
+      "Nick Moran"
+    ],
+    "description": "When four small-time criminals lose a rigged poker game against a London kingpin, he gives them one week to settle their enormous debt."
   },
   {
     "rank": 173,
@@ -2592,7 +4566,19 @@
     "votes_count": 1300000,
     "imdb_url": "https://www.imdb.com/title/tt0264464/",
     "poster_url": "https://m.media-amazon.com/images/M/MV5BMTY5MzYzNjc5NV5BMl5BanBnXkFtZTYwNTUyNTc2._V1_.jpg",
-    "local_poster_path": "posters/173_Catch_Me_If_You_Can_tt0264464.jpg"
+    "local_poster_path": "posters/173_Catch_Me_If_You_Can_tt0264464.jpg",
+    "genres": [
+      "Biography",
+      "Crime",
+      "Drama"
+    ],
+    "director": "Steven Spielberg",
+    "cast": [
+      "Leonardo DiCaprio",
+      "Tom Hanks",
+      "Christopher Walken"
+    ],
+    "description": "A runaway teenager lives an exciting life by forging checks and impersonating several professions, but his fraudulent activities soon attract the attention of the FBI."
   },
   {
     "rank": 174,
@@ -2607,7 +4593,19 @@
     "votes_count": 382000,
     "imdb_url": "https://www.imdb.com/title/tt0071315/",
     "poster_url": "https://m.media-amazon.com/images/M/MV5BNmRmZTE0NmUtZjhiZi00MzQ3LTk3ZjctN2Q3ODYzY2U3MDk3XkEyXkFqcGc@._V1_.jpg",
-    "local_poster_path": "posters/174_Chinatown_tt0071315.jpg"
+    "local_poster_path": "posters/174_Chinatown_tt0071315.jpg",
+    "genres": [
+      "Drama",
+      "Mystery",
+      "Thriller"
+    ],
+    "director": "Roman Polanski",
+    "cast": [
+      "Jack Nicholson",
+      "Faye Dunaway",
+      "John Huston"
+    ],
+    "description": "A private detective hired to expose an adulterer in 1930s Los Angeles finds himself caught up in a web of deceit, corruption, and murder."
   },
   {
     "rank": 175,
@@ -2622,7 +4620,19 @@
     "votes_count": 1300000,
     "imdb_url": "https://www.imdb.com/title/tt0434409/",
     "poster_url": "https://m.media-amazon.com/images/M/MV5BZDEwOTRjNjgtOGY0MC00NGYxLWFmYmQtNjc1ZjVhMTc0OWUxXkEyXkFqcGc@._V1_.jpg",
-    "local_poster_path": "posters/175_V_for_Vendetta_tt0434409.jpg"
+    "local_poster_path": "posters/175_V_for_Vendetta_tt0434409.jpg",
+    "genres": [
+      "Action",
+      "Drama",
+      "Sci-Fi"
+    ],
+    "director": "James McTeigue",
+    "cast": [
+      "Hugo Weaving",
+      "Natalie Portman",
+      "Rupert Graves"
+    ],
+    "description": "A young woman living in a dystopian society meets a shadowy freedom fighter who is plotting to overthrow their tyrannical government."
   },
   {
     "rank": 176,
@@ -2637,7 +4647,18 @@
     "votes_count": 677000,
     "imdb_url": "https://www.imdb.com/title/tt0097165/",
     "poster_url": "https://m.media-amazon.com/images/M/MV5BMDYwNGVlY2ItMWYxMS00YjZiLWE5MTAtYWM5NWQ2ZWJjY2Q3XkEyXkFqcGc@._V1_.jpg",
-    "local_poster_path": "posters/176_Dead_Poets_Society_tt0097165.jpg"
+    "local_poster_path": "posters/176_Dead_Poets_Society_tt0097165.jpg",
+    "genres": [
+      "Comedy",
+      "Drama"
+    ],
+    "director": "Peter Weir",
+    "cast": [
+      "Robin Williams",
+      "Robert Sean Leonard",
+      "Ethan Hawke"
+    ],
+    "description": "A maverick teacher at a prestigious New England boys' boarding school uses poetry to embolden his pupils to new heights of self-expression."
   },
   {
     "rank": 177,
@@ -2652,7 +4673,19 @@
     "votes_count": 940000,
     "imdb_url": "https://www.imdb.com/title/tt2096673/",
     "poster_url": "https://m.media-amazon.com/images/M/MV5BOTgxMDQwMDk0OF5BMl5BanBnXkFtZTgwNjU5OTg2NDE@._V1_.jpg",
-    "local_poster_path": "posters/177_Inside_Out_tt2096673.jpg"
+    "local_poster_path": "posters/177_Inside_Out_tt2096673.jpg",
+    "genres": [
+      "Animation",
+      "Adventure",
+      "Comedy"
+    ],
+    "director": "Ronnie Del Carmen",
+    "cast": [
+      "Amy Poehler",
+      "Bill Hader",
+      "Lewis Black"
+    ],
+    "description": "After a young girl is uprooted from her Midwest life and moved to San Francisco, her emotions conflict on how best to navigate her new reality."
   },
   {
     "rank": 178,
@@ -2667,7 +4700,19 @@
     "votes_count": 1100000,
     "imdb_url": "https://www.imdb.com/title/tt1201607/",
     "poster_url": "https://m.media-amazon.com/images/M/MV5BOTA1Mzc2N2ItZWRiNS00MjQzLTlmZDQtMjU0NmY1YWRkMGQ4XkEyXkFqcGc@._V1_.jpg",
-    "local_poster_path": "posters/178_Harry_Potter_and_the_Deathly_Hallows_Part_2_tt1201607.jpg"
+    "local_poster_path": "posters/178_Harry_Potter_and_the_Deathly_Hallows_Part_2_tt1201607.jpg",
+    "genres": [
+      "Adventure",
+      "Family",
+      "Fantasy"
+    ],
+    "director": "David Yates",
+    "cast": [
+      "Daniel Radcliffe",
+      "Emma Watson",
+      "Rupert Grint"
+    ],
+    "description": "Harry, Ron and Hermione set out on a quest to eliminate the remaining horcruxes. On the other hand, the students and teachers must unite to defend Hogwarts against Lord Voldemort and his army."
   },
   {
     "rank": 179,
@@ -2682,7 +4727,18 @@
     "votes_count": 778000,
     "imdb_url": "https://www.imdb.com/title/tt0117951/",
     "poster_url": "https://m.media-amazon.com/images/M/MV5BYmVkNGJkMzQtYWQwOS00OTZmLThjODQtZjNjNzllYzRiNTE0XkEyXkFqcGc@._V1_.jpg",
-    "local_poster_path": "posters/179_Trainspotting_tt0117951.jpg"
+    "local_poster_path": "posters/179_Trainspotting_tt0117951.jpg",
+    "genres": [
+      "Crime",
+      "Drama"
+    ],
+    "director": "Danny Boyle",
+    "cast": [
+      "Ewan McGregor",
+      "Ewen Bremner",
+      "Jonny Lee Miller"
+    ],
+    "description": "Renton, deeply immersed in the Edinburgh drug scene, tries to clean up and get out despite the allure of drugs and the influence of friends."
   },
   {
     "rank": 180,
@@ -2697,7 +4753,18 @@
     "votes_count": 29000,
     "imdb_url": "https://www.imdb.com/title/tt0346336/",
     "poster_url": "https://m.media-amazon.com/images/M/MV5BYzcxMTE2YjUtMzIyMy00NDNjLWE3ZWYtODQzYmNhNDVhNDZmXkEyXkFqcGc@._V1_.jpg",
-    "local_poster_path": "posters/180_The_Best_of_Youth_tt0346336.jpg"
+    "local_poster_path": "posters/180_The_Best_of_Youth_tt0346336.jpg",
+    "genres": [
+      "Drama",
+      "Romance"
+    ],
+    "director": "Marco Tullio Giordana",
+    "cast": [
+      "Luigi Lo Cascio",
+      "Alessio Boni",
+      "Jasmine Trinca"
+    ],
+    "description": "An Italian epic that follows the lives of two brothers from the 1960s to the 2000s."
   },
   {
     "rank": 181,
@@ -2712,7 +4779,19 @@
     "votes_count": 621000,
     "imdb_url": "https://www.imdb.com/title/tt5027774/",
     "poster_url": "https://m.media-amazon.com/images/M/MV5BMjI0ODcxNzM1N15BMl5BanBnXkFtZTgwMzIwMTEwNDI@._V1_.jpg",
-    "local_poster_path": "posters/181_Three_Billboards_Outside_Ebbing,_Missouri_tt5027774.jpg"
+    "local_poster_path": "posters/181_Three_Billboards_Outside_Ebbing,_Missouri_tt5027774.jpg",
+    "genres": [
+      "Comedy",
+      "Crime",
+      "Drama"
+    ],
+    "director": "Martin McDonagh",
+    "cast": [
+      "Frances McDormand",
+      "Woody Harrelson",
+      "Sam Rockwell"
+    ],
+    "description": "A mother personally challenges the local authorities to solve her daughter's murder when they fail to catch the culprit."
   },
   {
     "rank": 182,
@@ -2727,7 +4806,19 @@
     "votes_count": 253000,
     "imdb_url": "https://www.imdb.com/title/tt0050212/",
     "poster_url": "https://m.media-amazon.com/images/M/MV5BNzdkYmU2YmItNmZiYy00OWQyLTg0YWYtZmUxM2U3YTRiNTQ1XkEyXkFqcGc@._V1_.jpg",
-    "local_poster_path": "posters/182_The_Bridge_on_the_River_Kwai_tt0050212.jpg"
+    "local_poster_path": "posters/182_The_Bridge_on_the_River_Kwai_tt0050212.jpg",
+    "genres": [
+      "Adventure",
+      "Drama",
+      "War"
+    ],
+    "director": "David Lean",
+    "cast": [
+      "William Holden",
+      "Alec Guinness",
+      "Jack Hawkins"
+    ],
+    "description": "British POWs are forced to build a railway bridge across the river Kwai for their Japanese captors in occupied Burma, not knowing that the allied forces are planning a daring commando raid through the jungle to destroy it."
   },
   {
     "rank": 183,
@@ -2742,7 +4833,19 @@
     "votes_count": 200000,
     "imdb_url": "https://www.imdb.com/title/tt0042876/",
     "poster_url": "https://m.media-amazon.com/images/M/MV5BMTk1MDU5MjQ5NF5BMl5BanBnXkFtZTgwMDM2OTE4MzE@._V1_.jpg",
-    "local_poster_path": "posters/183_Rashomon_tt0042876.jpg"
+    "local_poster_path": "posters/183_Rashomon_tt0042876.jpg",
+    "genres": [
+      "Crime",
+      "Drama",
+      "Mystery"
+    ],
+    "director": "Akira Kurosawa",
+    "cast": [
+      "Toshiro Mifune",
+      "Machiko Kyô",
+      "Masayuki Mori"
+    ],
+    "description": "Three parties and a witness have four versions of a rape/murder in ninth-century Japan."
   },
   {
     "rank": 184,
@@ -2757,7 +4860,19 @@
     "votes_count": 211000,
     "imdb_url": "https://www.imdb.com/title/tt0072684/",
     "poster_url": "https://m.media-amazon.com/images/M/MV5BNmM2MGQ5Y2UtYzA3ZC00ZDJlLTkwNDYtMjBmZGExZDJiN2RlXkEyXkFqcGc@._V1_.jpg",
-    "local_poster_path": "posters/184_Barry_Lyndon_tt0072684.jpg"
+    "local_poster_path": "posters/184_Barry_Lyndon_tt0072684.jpg",
+    "genres": [
+      "Adventure",
+      "Drama",
+      "War"
+    ],
+    "director": "Stanley Kubrick",
+    "cast": [
+      "Ryan O&apos;Neal",
+      "Marisa Berenson",
+      "Patrick Magee"
+    ],
+    "description": "An Irish rogue wins the heart of a rich widow and assumes her dead husband's aristocratic position in 18th-century England."
   },
   {
     "rank": 185,
@@ -2772,7 +4887,18 @@
     "votes_count": 275000,
     "imdb_url": "https://www.imdb.com/title/tt0052618/",
     "poster_url": "https://m.media-amazon.com/images/M/MV5BNjg2M2E1YzYtOThmMC00NjAyLWI5MzgtMDEwOGFiODdlOGUzXkEyXkFqcGc@._V1_.jpg",
-    "local_poster_path": "posters/185_Ben-Hur_tt0052618.jpg"
+    "local_poster_path": "posters/185_Ben-Hur_tt0052618.jpg",
+    "genres": [
+      "Adventure",
+      "Drama"
+    ],
+    "director": "William Wyler",
+    "cast": [
+      "Charlton Heston",
+      "Jack Hawkins",
+      "Stephen Boyd"
+    ],
+    "description": "A Jewish prince is betrayed and sent into slavery by a Roman friend in 1st-century Jerusalem, but it's not long before he regains his freedom and comes back for revenge."
   },
   {
     "rank": 186,
@@ -2787,7 +4913,19 @@
     "votes_count": 243000,
     "imdb_url": "https://www.imdb.com/title/tt29623480/",
     "poster_url": "https://m.media-amazon.com/images/M/MV5BZWNiZjVlZTUtNGUwYi00MjJmLTg2MDctNWEzYTJiMzY1ODc4XkEyXkFqcGc@._V1_.jpg",
-    "local_poster_path": "posters/186_The_Wild_Robot_tt29623480.jpg"
+    "local_poster_path": "posters/186_The_Wild_Robot_tt29623480.jpg",
+    "genres": [
+      "Animation",
+      "Adventure",
+      "Family"
+    ],
+    "director": "Chris Sanders",
+    "cast": [
+      "Lupita Nyong&apos;o",
+      "Pedro Pascal",
+      "Kit Connor"
+    ],
+    "description": "A sentient robot stranded on an uninhabited island raises an orphaned gosling while trying to fit in with the local wildlife."
   },
   {
     "rank": 187,
@@ -2802,7 +4940,19 @@
     "votes_count": 704000,
     "imdb_url": "https://www.imdb.com/title/tt2119532/",
     "poster_url": "https://m.media-amazon.com/images/M/MV5BMjQ1NjM3MTUxNV5BMl5BanBnXkFtZTgwMDc5MTY5OTE@._V1_.jpg",
-    "local_poster_path": "posters/187_Hacksaw_Ridge_tt2119532.jpg"
+    "local_poster_path": "posters/187_Hacksaw_Ridge_tt2119532.jpg",
+    "genres": [
+      "Biography",
+      "Drama",
+      "History"
+    ],
+    "director": "Mel Gibson",
+    "cast": [
+      "Andrew Garfield",
+      "Sam Worthington",
+      "Luke Bracey"
+    ],
+    "description": "World War II American Army Medic Desmond T. Doss, serving during the Battle of Okinawa, refuses to kill people and becomes the first man in American history to receive the Medal of Honor without firing a shot."
   },
   {
     "rank": 188,
@@ -2817,7 +4967,19 @@
     "votes_count": 536000,
     "imdb_url": "https://www.imdb.com/title/tt1291584/",
     "poster_url": "https://m.media-amazon.com/images/M/MV5BMTk4ODk5MTMyNV5BMl5BanBnXkFtZTcwMDMyNTg0Ng@@._V1_.jpg",
-    "local_poster_path": "posters/188_Warrior_tt1291584.jpg"
+    "local_poster_path": "posters/188_Warrior_tt1291584.jpg",
+    "genres": [
+      "Action",
+      "Drama",
+      "Sport"
+    ],
+    "director": "Gavin O&apos;Connor",
+    "cast": [
+      "Tom Hardy",
+      "Nick Nolte",
+      "Joel Edgerton"
+    ],
+    "description": "The youngest son of an alcoholic former boxer returns home, where he's trained by his father for competition in a mixed martial arts tournament - a path that puts the fighter on a collision course with his estranged, older brother."
   },
   {
     "rank": 189,
@@ -2832,7 +4994,19 @@
     "votes_count": 975000,
     "imdb_url": "https://www.imdb.com/title/tt0382932/",
     "poster_url": "https://m.media-amazon.com/images/M/MV5BMTMzODU0NTkxMF5BMl5BanBnXkFtZTcwMjQ4MzMzMw@@._V1_.jpg",
-    "local_poster_path": "posters/189_Ratatouille_tt0382932.jpg"
+    "local_poster_path": "posters/189_Ratatouille_tt0382932.jpg",
+    "genres": [
+      "Animation",
+      "Adventure",
+      "Comedy"
+    ],
+    "director": "Brad Bird",
+    "cast": [
+      "Brad Garrett",
+      "Lou Romano",
+      "Patton Oswalt"
+    ],
+    "description": "A rat who can cook makes an unusual alliance with a young kitchen worker at a famous Paris restaurant."
   },
   {
     "rank": 190,
@@ -2847,7 +5021,19 @@
     "votes_count": 1200000,
     "imdb_url": "https://www.imdb.com/title/tt1392190/",
     "poster_url": "https://m.media-amazon.com/images/M/MV5BZDRkODJhOTgtOTc1OC00NTgzLTk4NjItNDgxZDY4YjlmNDY2XkEyXkFqcGc@._V1_.jpg",
-    "local_poster_path": "posters/190_Mad_Max_Fury_Road_tt1392190.jpg"
+    "local_poster_path": "posters/190_Mad_Max_Fury_Road_tt1392190.jpg",
+    "genres": [
+      "Action",
+      "Adventure",
+      "Sci-Fi"
+    ],
+    "director": "George Miller",
+    "cast": [
+      "Tom Hardy",
+      "Charlize Theron",
+      "Nicholas Hoult"
+    ],
+    "description": "In a post-apocalyptic wasteland, a woman rebels against a tyrannical ruler in search for her homeland with the aid of a group of female prisoners, a psychotic worshipper and a drifter named Max."
   },
   {
     "rank": 191,
@@ -2862,7 +5048,18 @@
     "votes_count": 778000,
     "imdb_url": "https://www.imdb.com/title/tt0405159/",
     "poster_url": "https://m.media-amazon.com/images/M/MV5BMTkxNzA1NDQxOV5BMl5BanBnXkFtZTcwNTkyMTIzMw@@._V1_.jpg",
-    "local_poster_path": "posters/191_Million_Dollar_Baby_tt0405159.jpg"
+    "local_poster_path": "posters/191_Million_Dollar_Baby_tt0405159.jpg",
+    "genres": [
+      "Drama",
+      "Sport"
+    ],
+    "director": "Clint Eastwood",
+    "cast": [
+      "Hilary Swank",
+      "Clint Eastwood",
+      "Morgan Freeman"
+    ],
+    "description": "Frankie, an ill-tempered old coach, reluctantly agrees to train aspiring boxer Maggie. Impressed with her determination and talent, he helps her become the best and the two soon form a close bond."
   },
   {
     "rank": 192,
@@ -2877,7 +5074,19 @@
     "votes_count": 803000,
     "imdb_url": "https://www.imdb.com/title/tt0116282/",
     "poster_url": "https://m.media-amazon.com/images/M/MV5BNjg4MWE0MjEtODFhNy00MjA5LTg5ODktMzgwNWFmZTAwNjBlXkEyXkFqcGc@._V1_.jpg",
-    "local_poster_path": "posters/192_Fargo_tt0116282.jpg"
+    "local_poster_path": "posters/192_Fargo_tt0116282.jpg",
+    "genres": [
+      "Crime",
+      "Drama",
+      "Thriller"
+    ],
+    "director": "Joel Coen",
+    "cast": [
+      "William H. Macy",
+      "Frances McDormand",
+      "Steve Buscemi"
+    ],
+    "description": "A car salesman's inept crime falls apart due to his and his henchmen's bungling and the persistent police work of a dogged detective."
   },
   {
     "rank": 193,
@@ -2892,7 +5101,19 @@
     "votes_count": 92000,
     "imdb_url": "https://www.imdb.com/title/tt0118849/",
     "poster_url": "https://m.media-amazon.com/images/M/MV5BZWZlMjNhNzgtZGRhOS00Y2U5LThjOTctODNjZTI0ZTBiYzBhXkEyXkFqcGc@._V1_.jpg",
-    "local_poster_path": "posters/193_Children_of_Heaven_tt0118849.jpg"
+    "local_poster_path": "posters/193_Children_of_Heaven_tt0118849.jpg",
+    "genres": [
+      "Drama",
+      "Family",
+      "Sport"
+    ],
+    "director": "Majid Majidi",
+    "cast": [
+      "Reza Naji",
+      "Amir Farrokh Hashemian",
+      "Bahare Seddiqi"
+    ],
+    "description": "After a boy loses his sister's pair of shoes, he goes on a series of adventures in order to find them. When he can't, he tries a new way to \"win\" a new pair."
   },
   {
     "rank": 194,
@@ -2907,7 +5128,19 @@
     "votes_count": 444000,
     "imdb_url": "https://www.imdb.com/title/tt0096283/",
     "poster_url": "https://m.media-amazon.com/images/M/MV5BYWM3MDE3YjEtMzIzZC00ODE5LTgxNTItNmUyMTBkM2M2NmNiXkEyXkFqcGc@._V1_.jpg",
-    "local_poster_path": "posters/194_My_Neighbour_Totoro_tt0096283.jpg"
+    "local_poster_path": "posters/194_My_Neighbour_Totoro_tt0096283.jpg",
+    "genres": [
+      "Animation",
+      "Adventure",
+      "Comedy"
+    ],
+    "director": "Hayao Miyazaki",
+    "cast": [
+      "Hitoshi Takagi",
+      "Noriko Hidaka",
+      "Chika Sakamoto"
+    ],
+    "description": "When two girls move to the country to be near their ailing mother, they have adventures with the wondrous forest spirits who live nearby."
   },
   {
     "rank": 195,
@@ -2922,7 +5155,17 @@
     "votes_count": 874000,
     "imdb_url": "https://www.imdb.com/title/tt1205489/",
     "poster_url": "https://m.media-amazon.com/images/M/MV5BMTc5NTk2OTU1Nl5BMl5BanBnXkFtZTcwMDc3NjAwMg@@._V1_.jpg",
-    "local_poster_path": "posters/195_Gran_Torino_tt1205489.jpg"
+    "local_poster_path": "posters/195_Gran_Torino_tt1205489.jpg",
+    "genres": [
+      "Drama"
+    ],
+    "director": "Clint Eastwood",
+    "cast": [
+      "Clint Eastwood",
+      "Bee Vang",
+      "Christopher Carley"
+    ],
+    "description": "After a Hmong teenager tries to steal his prized 1972 Gran Torino, a disgruntled, prejudiced Korean War veteran seeks to redeem both the boy and himself."
   },
   {
     "rank": 196,
@@ -2937,7 +5180,19 @@
     "votes_count": 915000,
     "imdb_url": "https://www.imdb.com/title/tt0892769/",
     "poster_url": "https://m.media-amazon.com/images/M/MV5BMjA5NDQyMjc2NF5BMl5BanBnXkFtZTcwMjg5ODcyMw@@._V1_.jpg",
-    "local_poster_path": "posters/196_How_to_Train_Your_Dragon_tt0892769.jpg"
+    "local_poster_path": "posters/196_How_to_Train_Your_Dragon_tt0892769.jpg",
+    "genres": [
+      "Animation",
+      "Action",
+      "Adventure"
+    ],
+    "director": "Dean DeBlois",
+    "cast": [
+      "Jay Baruchel",
+      "Gerard Butler",
+      "Christopher Mintz-Plasse"
+    ],
+    "description": "A hapless young Viking who aspires to hunt dragons becomes the unlikely friend of a young dragon himself, and learns there may be more to the creatures than he assumed."
   },
   {
     "rank": 197,
@@ -2952,7 +5207,19 @@
     "votes_count": 799000,
     "imdb_url": "https://www.imdb.com/title/tt2024544/",
     "poster_url": "https://m.media-amazon.com/images/M/MV5BMjExMTEzODkyN15BMl5BanBnXkFtZTcwNTU4NTc4OQ@@._V1_.jpg",
-    "local_poster_path": "posters/197_12_Years_a_Slave_tt2024544.jpg"
+    "local_poster_path": "posters/197_12_Years_a_Slave_tt2024544.jpg",
+    "genres": [
+      "Biography",
+      "Drama",
+      "History"
+    ],
+    "director": "Steve McQueen",
+    "cast": [
+      "Chiwetel Ejiofor",
+      "Michael Kenneth Williams",
+      "Michael Fassbender"
+    ],
+    "description": "In the antebellum United States, Solomon Northup, a free black man from upstate New York, is abducted and sold into slavery."
   },
   {
     "rank": 198,
@@ -2967,7 +5234,19 @@
     "votes_count": 417000,
     "imdb_url": "https://www.imdb.com/title/tt0081398/",
     "poster_url": "https://m.media-amazon.com/images/M/MV5BMjlkYmYyZWQtNTZkOS00ZjA0LWEwNWUtNzE2ZGNiYjg0MjA2XkEyXkFqcGc@._V1_.jpg",
-    "local_poster_path": "posters/198_Raging_Bull_tt0081398.jpg"
+    "local_poster_path": "posters/198_Raging_Bull_tt0081398.jpg",
+    "genres": [
+      "Biography",
+      "Drama",
+      "Sport"
+    ],
+    "director": "Martin Scorsese",
+    "cast": [
+      "Robert De Niro",
+      "Cathy Moriarty",
+      "Joe Pesci"
+    ],
+    "description": "The life of boxer Jake LaMotta, whose violence and temper that led him to the top in the ring destroyed his life outside of it."
   },
   {
     "rank": 199,
@@ -2982,7 +5261,19 @@
     "votes_count": 279000,
     "imdb_url": "https://www.imdb.com/title/tt0353969/",
     "poster_url": "https://m.media-amazon.com/images/M/MV5BYmRjOWE5NmMtYTdkYS00ODFlLWJiMTMtYzE2NDZlZjlkZDQ0XkEyXkFqcGc@._V1_.jpg",
-    "local_poster_path": "posters/199_Memories_of_Murder_tt0353969.jpg"
+    "local_poster_path": "posters/199_Memories_of_Murder_tt0353969.jpg",
+    "genres": [
+      "Crime",
+      "Drama",
+      "Mystery"
+    ],
+    "director": "Bong Joon Ho",
+    "cast": [
+      "Song Kang-ho",
+      "Kim Sang-kyung",
+      "Kim Roe-ha"
+    ],
+    "description": "In a small Korean province in 1986, two detectives struggle with the case of multiple young women being found raped and murdered by an unknown culprit."
   },
   {
     "rank": 200,
@@ -2997,7 +5288,18 @@
     "votes_count": 993000,
     "imdb_url": "https://www.imdb.com/title/tt2278388/",
     "poster_url": "https://m.media-amazon.com/images/M/MV5BMzM5NjUxOTEyMl5BMl5BanBnXkFtZTgwNjEyMDM0MDE@._V1_.jpg",
-    "local_poster_path": "posters/200_The_Grand_Budapest_Hotel_tt2278388.jpg"
+    "local_poster_path": "posters/200_The_Grand_Budapest_Hotel_tt2278388.jpg",
+    "genres": [
+      "Comedy",
+      "Drama"
+    ],
+    "director": "Wes Anderson",
+    "cast": [
+      "Ralph Fiennes",
+      "F. Murray Abraham",
+      "Mathieu Amalric"
+    ],
+    "description": "The owner of an aging high-class hotel regales a writer with tales of serving as a lobby boy under an exceptional concierge in the hotel's glory years."
   },
   {
     "rank": 201,
@@ -3012,7 +5314,19 @@
     "votes_count": 1100000,
     "imdb_url": "https://www.imdb.com/title/tt0198781/",
     "poster_url": "https://m.media-amazon.com/images/M/MV5BMTY1NTI0ODUyOF5BMl5BanBnXkFtZTgwNTEyNjQ0MDE@._V1_.jpg",
-    "local_poster_path": "posters/201_Monsters,_Inc._tt0198781.jpg"
+    "local_poster_path": "posters/201_Monsters,_Inc._tt0198781.jpg",
+    "genres": [
+      "Animation",
+      "Adventure",
+      "Comedy"
+    ],
+    "director": "Pete Docter",
+    "cast": [
+      "Billy Crystal",
+      "John Goodman",
+      "Mary Gibbs"
+    ],
+    "description": "Two monsters whose job is to make human children scream accidentally let a little girl into their world and must now protect her from their own kind to return her home unscathed."
   },
   {
     "rank": 202,
@@ -3027,7 +5341,19 @@
     "votes_count": 387000,
     "imdb_url": "https://www.imdb.com/title/tt0112471/",
     "poster_url": "https://m.media-amazon.com/images/M/MV5BZDZhZmI1ZTUtYWI3NC00NTMwLTk3NWMtNDc0OGNjM2I0ZjlmXkEyXkFqcGc@._V1_.jpg",
-    "local_poster_path": "posters/202_Before_Sunrise_tt0112471.jpg"
+    "local_poster_path": "posters/202_Before_Sunrise_tt0112471.jpg",
+    "genres": [
+      "Comedy",
+      "Drama",
+      "Romance"
+    ],
+    "director": "Richard Linklater",
+    "cast": [
+      "Ethan Hawke",
+      "Julie Delpy",
+      "Andrea Eckert"
+    ],
+    "description": "A young man and woman meet on a train in Europe, and wind up spending one evening together in Vienna. Unfortunately, both know that this will probably be their only night together."
   },
   {
     "rank": 203,
@@ -3042,7 +5368,19 @@
     "votes_count": 898000,
     "imdb_url": "https://www.imdb.com/title/tt0083658/",
     "poster_url": "https://m.media-amazon.com/images/M/MV5BOWQ4YTBmNTQtMDYxMC00NGFjLTkwOGQtNzdhNmY1Nzc1MzUxXkEyXkFqcGc@._V1_.jpg",
-    "local_poster_path": "posters/203_Blade_Runner_tt0083658.jpg"
+    "local_poster_path": "posters/203_Blade_Runner_tt0083658.jpg",
+    "genres": [
+      "Action",
+      "Drama",
+      "Sci-Fi"
+    ],
+    "director": "Ridley Scott",
+    "cast": [
+      "Harrison Ford",
+      "Rutger Hauer",
+      "Sean Young"
+    ],
+    "description": "A blade runner must pursue and terminate four replicants who stole a ship in space and have returned to Earth to find their creator."
   },
   {
     "rank": 204,
@@ -3057,7 +5395,19 @@
     "votes_count": 1200000,
     "imdb_url": "https://www.imdb.com/title/tt2267998/",
     "poster_url": "https://m.media-amazon.com/images/M/MV5BMTk0MDQ3MzAzOV5BMl5BanBnXkFtZTgwNzU1NzE3MjE@._V1_.jpg",
-    "local_poster_path": "posters/204_Gone_Girl_tt2267998.jpg"
+    "local_poster_path": "posters/204_Gone_Girl_tt2267998.jpg",
+    "genres": [
+      "Drama",
+      "Mystery",
+      "Thriller"
+    ],
+    "director": "David Fincher",
+    "cast": [
+      "Ben Affleck",
+      "Rosamund Pike",
+      "Neil Patrick Harris"
+    ],
+    "description": "The husband of a missing woman becomes the main suspect in her disappearance."
   },
   {
     "rank": 205,
@@ -3072,7 +5422,19 @@
     "votes_count": 593000,
     "imdb_url": "https://www.imdb.com/title/tt1950186/",
     "poster_url": "https://m.media-amazon.com/images/M/MV5BOTBjNTEyNjYtYjdkNi00YzE5LTljYzUtZjVlYmYwZmJmZWYxXkEyXkFqcGc@._V1_.jpg",
-    "local_poster_path": "posters/205_Le_Mans_'66_tt1950186.jpg"
+    "local_poster_path": "posters/205_Le_Mans_'66_tt1950186.jpg",
+    "genres": [
+      "Action",
+      "Biography",
+      "Drama"
+    ],
+    "director": "James Mangold",
+    "cast": [
+      "Matt Damon",
+      "Christian Bale",
+      "Jon Bernthal"
+    ],
+    "description": "American car designer Carroll Shelby and driver Ken Miles battle corporate interference and the laws of physics to build a revolutionary race car for Ford in order to defeat Ferrari at the 24 Hours of Le Mans in 1966."
   },
   {
     "rank": 206,
@@ -3087,7 +5449,19 @@
     "votes_count": 755000,
     "imdb_url": "https://www.imdb.com/title/tt0073195/",
     "poster_url": "https://m.media-amazon.com/images/M/MV5BYjViNDQzNmUtYzkxZi00NTk5LTljMmItYjJlZmZkODIxNjU1XkEyXkFqcGc@._V1_.jpg",
-    "local_poster_path": "posters/206_Jaws_tt0073195.jpg"
+    "local_poster_path": "posters/206_Jaws_tt0073195.jpg",
+    "genres": [
+      "Adventure",
+      "Drama",
+      "Horror"
+    ],
+    "director": "Steven Spielberg",
+    "cast": [
+      "Roy Scheider",
+      "Robert Shaw",
+      "Richard Dreyfuss"
+    ],
+    "description": "When a massive killer shark unleashes chaos on a beach community off Long Island, it's up to the local police chief, a marine biologist, and an old seafarer to hunt the beast down."
   },
   {
     "rank": 207,
@@ -3102,7 +5476,19 @@
     "votes_count": 74000,
     "imdb_url": "https://www.imdb.com/title/tt30472557/",
     "poster_url": "https://m.media-amazon.com/images/M/MV5BYmUzMTk5MGQtZDg5Yy00MWEzLWIzNjUtNWIyMjFjODhiYjcyXkEyXkFqcGc@._V1_.jpg",
-    "local_poster_path": "posters/207_Chainsaw_Man_-_The_Movie_Reze_Arc_tt30472557.jpg"
+    "local_poster_path": "posters/207_Chainsaw_Man_-_The_Movie_Reze_Arc_tt30472557.jpg",
+    "genres": [
+      "Animation",
+      "Action",
+      "Adventure"
+    ],
+    "director": "Tatsuya Yoshihara",
+    "cast": [
+      "Kikunosuke Toya",
+      "Shiori Izawa",
+      "Tomori Kusunoki"
+    ],
+    "description": "A direct sequel to the first season of the series \"Chainsaw Man\", featuring Denji, a young man who co-exists with a chainsaw demon. Denji encounters a new romantic interest, but will his involvement place them both in danger?"
   },
   {
     "rank": 208,
@@ -3117,7 +5503,19 @@
     "votes_count": 206000,
     "imdb_url": "https://www.imdb.com/title/tt0107207/",
     "poster_url": "https://m.media-amazon.com/images/M/MV5BMGZiZDVjNzYtZWM4ZC00MzVkLThhNDEtMDJlOTBhYzVjMmNhXkEyXkFqcGc@._V1_.jpg",
-    "local_poster_path": "posters/208_In_the_Name_of_the_Father_tt0107207.jpg"
+    "local_poster_path": "posters/208_In_the_Name_of_the_Father_tt0107207.jpg",
+    "genres": [
+      "Biography",
+      "Crime",
+      "Drama"
+    ],
+    "director": "Jim Sheridan",
+    "cast": [
+      "Daniel Day-Lewis",
+      "Pete Postlethwaite",
+      "Anthony Brophy"
+    ],
+    "description": "An Irish man's coerced confession to an I.R.A. bombing he did not commit results in the imprisonment of his father as well. Meanwhile, a British lawyer fights to clear their names and free them."
   },
   {
     "rank": 209,
@@ -3132,7 +5530,19 @@
     "votes_count": 1100000,
     "imdb_url": "https://www.imdb.com/title/tt10872600/",
     "poster_url": "https://m.media-amazon.com/images/M/MV5BMmFiZGZjMmEtMTA0Ni00MzA2LTljMTYtZGI2MGJmZWYzZTQ2XkEyXkFqcGc@._V1_.jpg",
-    "local_poster_path": "posters/209_Spider-Man_No_Way_Home_tt10872600.jpg"
+    "local_poster_path": "posters/209_Spider-Man_No_Way_Home_tt10872600.jpg",
+    "genres": [
+      "Action",
+      "Adventure",
+      "Fantasy"
+    ],
+    "director": "Jon Watts",
+    "cast": [
+      "Tom Holland",
+      "Zendaya",
+      "Benedict Cumberbatch"
+    ],
+    "description": "Peter Parker turns to Doctor Strange after his identity destroys the life he knows, but a magical mistake draws powerful outsiders into his world and forces him to confront what being Spider Man really means."
   },
   {
     "rank": 210,
@@ -3147,7 +5557,19 @@
     "votes_count": 243000,
     "imdb_url": "https://www.imdb.com/title/tt3011894/",
     "poster_url": "https://m.media-amazon.com/images/M/MV5BNzAzMjA1ODAxOV5BMl5BanBnXkFtZTgwODg4NTQzNDE@._V1_.jpg",
-    "local_poster_path": "posters/210_Wild_Tales_tt3011894.jpg"
+    "local_poster_path": "posters/210_Wild_Tales_tt3011894.jpg",
+    "genres": [
+      "Comedy",
+      "Drama",
+      "Thriller"
+    ],
+    "director": "Damián Szifron",
+    "cast": [
+      "Darío Grandinetti",
+      "María Marull",
+      "Mónica Villa"
+    ],
+    "description": "Six short stories that explore the extremities of human behavior involving people in distress."
   },
   {
     "rank": 211,
@@ -3162,7 +5584,18 @@
     "votes_count": 154000,
     "imdb_url": "https://www.imdb.com/title/tt5323662/",
     "poster_url": "https://m.media-amazon.com/images/M/MV5BOTFiNzRiOWEtYTQwNy00NmRiLWE0ZWYtNTE0YjExZjFmZjkwXkEyXkFqcGc@._V1_.jpg",
-    "local_poster_path": "posters/211_A_Silent_Voice_The_Movie_tt5323662.jpg"
+    "local_poster_path": "posters/211_A_Silent_Voice_The_Movie_tt5323662.jpg",
+    "genres": [
+      "Animation",
+      "Drama"
+    ],
+    "director": "Naoko Yamada",
+    "cast": [
+      "Miyu Irino",
+      "Saori Hayami",
+      "Aoi Yûki"
+    ],
+    "description": "A deaf girl, Shoko, is bullied by the popular Shoya. As Shoya continues to bully Shoko, the class turns its back on him. Shoko transfers and Shoya grows up as an outcast. Alone and depressed, the regretful Shoya finds Shoko to mak..."
   },
   {
     "rank": 212,
@@ -3177,7 +5610,19 @@
     "votes_count": 130000,
     "imdb_url": "https://www.imdb.com/title/tt0015864/",
     "poster_url": "https://m.media-amazon.com/images/M/MV5BNGU1NjYzYTAtZmY0YS00NWIzLTkzNzUtYzc2ZTIyOTIxZjVhXkEyXkFqcGc@._V1_.jpg",
-    "local_poster_path": "posters/212_The_Gold_Rush_tt0015864.jpg"
+    "local_poster_path": "posters/212_The_Gold_Rush_tt0015864.jpg",
+    "genres": [
+      "Adventure",
+      "Comedy",
+      "Drama"
+    ],
+    "director": "Charles Chaplin",
+    "cast": [
+      "Charles Chaplin",
+      "Mack Swain",
+      "Tom Murray"
+    ],
+    "description": "A prospector goes to the Klondike during the 1890s gold rush in hopes of making his fortune, and is smitten with a girl he sees in a dance hall."
   },
   {
     "rank": 213,
@@ -3192,7 +5637,19 @@
     "votes_count": 204000,
     "imdb_url": "https://www.imdb.com/title/tt0978762/",
     "poster_url": "https://m.media-amazon.com/images/M/MV5BNzY2Mjc4NjMtNGY4Mi00NzM5LTk3ZTQtN2VkNzVkMzRmM2Y2XkEyXkFqcGc@._V1_.jpg",
-    "local_poster_path": "posters/213_Mary_and_Max_tt0978762.jpg"
+    "local_poster_path": "posters/213_Mary_and_Max_tt0978762.jpg",
+    "genres": [
+      "Animation",
+      "Comedy",
+      "Drama"
+    ],
+    "director": "Adam Elliot",
+    "cast": [
+      "Toni Collette",
+      "Philip Seymour Hoffman",
+      "Eric Bana"
+    ],
+    "description": "In 1976 Melbourne, a lonely 8-year-old girl strikes up a correspondence with an unlikely pen pal: a severely obese 44-year-old New Yorker with Asperger's syndrome."
   },
   {
     "rank": 214,
@@ -3207,7 +5664,19 @@
     "votes_count": 68000,
     "imdb_url": "https://www.imdb.com/title/tt0015324/",
     "poster_url": "https://m.media-amazon.com/images/M/MV5BMjQzM2E2NjYtYmRjMC00ZmVlLTljZTgtNmQ5MGZlNDYyZTc5XkEyXkFqcGc@._V1_.jpg",
-    "local_poster_path": "posters/214_Sherlock_Jr._tt0015324.jpg"
+    "local_poster_path": "posters/214_Sherlock_Jr._tt0015324.jpg",
+    "genres": [
+      "Action",
+      "Comedy",
+      "Romance"
+    ],
+    "director": "Buster Keaton",
+    "cast": [
+      "Buster Keaton",
+      "Kathryn McGuire",
+      "Joe Keaton"
+    ],
+    "description": "A film projectionist longs to be a detective, and puts his meagre skills to work when he is framed by a rival for stealing his girlfriend's father's pocketwatch."
   },
   {
     "rank": 215,
@@ -3222,7 +5691,18 @@
     "votes_count": 709000,
     "imdb_url": "https://www.imdb.com/title/tt0075148/",
     "poster_url": "https://m.media-amazon.com/images/M/MV5BZDEyY2M2MGMtYjg5OC00ZWFjLWFkZDQtNmQzZTdiYmYzZTBkXkEyXkFqcGc@._V1_.jpg",
-    "local_poster_path": "posters/215_Rocky_tt0075148.jpg"
+    "local_poster_path": "posters/215_Rocky_tt0075148.jpg",
+    "genres": [
+      "Drama",
+      "Sport"
+    ],
+    "director": "John G. Avildsen",
+    "cast": [
+      "Sylvester Stallone",
+      "Talia Shire",
+      "Burt Young"
+    ],
+    "description": "A small-time Philadelphia boxer gets a supremely rare chance to fight the world heavyweight champion in a bout in which he strives to go the distance for his self-respect."
   },
   {
     "rank": 216,
@@ -3237,7 +5717,19 @@
     "votes_count": 1400000,
     "imdb_url": "https://www.imdb.com/title/tt0325980/",
     "poster_url": "https://m.media-amazon.com/images/M/MV5BNDhlMzEyNzItMTA5Mi00YWRhLThlNTktYTQyMTA0MDIyNDEyXkEyXkFqcGc@._V1_.jpg",
-    "local_poster_path": "posters/216_Pirates_of_the_Caribbean_The_Curse_of_the_Black_Pe_tt0325980.jpg"
+    "local_poster_path": "posters/216_Pirates_of_the_Caribbean_The_Curse_of_the_Black_Pe_tt0325980.jpg",
+    "genres": [
+      "Action",
+      "Adventure",
+      "Fantasy"
+    ],
+    "director": "Gore Verbinski",
+    "cast": [
+      "Johnny Depp",
+      "Geoffrey Rush",
+      "Orlando Bloom"
+    ],
+    "description": "An intrepid blacksmith teams up with an eccentric pirate captain to save his love from an undead pirate crew."
   },
   {
     "rank": 217,
@@ -3252,7 +5744,19 @@
     "votes_count": 948000,
     "imdb_url": "https://www.imdb.com/title/tt3315342/",
     "poster_url": "https://m.media-amazon.com/images/M/MV5BM2JjODdkMGMtNmY2YS00OGM2LThiY2YtZGYyNzE4Nzc2ODA0XkEyXkFqcGc@._V1_.jpg",
-    "local_poster_path": "posters/217_Logan_tt3315342.jpg"
+    "local_poster_path": "posters/217_Logan_tt3315342.jpg",
+    "genres": [
+      "Action",
+      "Drama",
+      "Sci-Fi"
+    ],
+    "director": "James Mangold",
+    "cast": [
+      "Hugh Jackman",
+      "Patrick Stewart",
+      "Dafne Keen"
+    ],
+    "description": "In a future where mutants are nearly extinct, an elderly and weary Logan leads a quiet life. But when Laura, a mutant child pursued by scientists, comes to him for help, he must get her to safety."
   },
   {
     "rank": 218,
@@ -3267,7 +5771,18 @@
     "votes_count": 392000,
     "imdb_url": "https://www.imdb.com/title/tt0077416/",
     "poster_url": "https://m.media-amazon.com/images/M/MV5BZGI4YmVhMzMtMWExMS00MGZiLTg2MmItM2I2MWZjODAyM2U5XkEyXkFqcGc@._V1_.jpg",
-    "local_poster_path": "posters/218_The_Deer_Hunter_tt0077416.jpg"
+    "local_poster_path": "posters/218_The_Deer_Hunter_tt0077416.jpg",
+    "genres": [
+      "Drama",
+      "War"
+    ],
+    "director": "Michael Cimino",
+    "cast": [
+      "Robert De Niro",
+      "Christopher Walken",
+      "John Cazale"
+    ],
+    "description": "The lives of a group of friends are forever changed by the Vietnam War."
   },
   {
     "rank": 219,
@@ -3282,7 +5797,19 @@
     "votes_count": 75000,
     "imdb_url": "https://www.imdb.com/title/tt0046268/",
     "poster_url": "https://m.media-amazon.com/images/M/MV5BMjI3MjU2Mzg2MF5BMl5BanBnXkFtZTgwOTg2MTMzMjE@._V1_.jpg",
-    "local_poster_path": "posters/219_The_Wages_of_Fear_tt0046268.jpg"
+    "local_poster_path": "posters/219_The_Wages_of_Fear_tt0046268.jpg",
+    "genres": [
+      "Adventure",
+      "Drama",
+      "Thriller"
+    ],
+    "director": "Henri-Georges Clouzot",
+    "cast": [
+      "Yves Montand",
+      "Charles Vanel",
+      "Peter van Eyck"
+    ],
+    "description": "In a decrepit South American village, four men are hired to transport an urgent nitroglycerine shipment without the equipment that would make it safe."
   },
   {
     "rank": 220,
@@ -3297,7 +5824,19 @@
     "votes_count": 107000,
     "imdb_url": "https://www.imdb.com/title/tt0017925/",
     "poster_url": "https://m.media-amazon.com/images/M/MV5BMTVhM2Y1MDUtMDkxYi00Y2UxLWI2MTMtZjMzYTY4ODM4MGIzXkEyXkFqcGc@._V1_.jpg",
-    "local_poster_path": "posters/220_The_General_tt0017925.jpg"
+    "local_poster_path": "posters/220_The_General_tt0017925.jpg",
+    "genres": [
+      "Action",
+      "Adventure",
+      "Comedy"
+    ],
+    "director": "Clyde Bruckman",
+    "cast": [
+      "Buster Keaton",
+      "Marion Mack",
+      "Glen Cavender"
+    ],
+    "description": "After being rejected by the Confederate military, not realizing it was due to his crucial civilian role, an engineer must single-handedly recapture his beloved locomotive after it is seized by Union spies and return it through ene..."
   },
   {
     "rank": 221,
@@ -3312,7 +5851,18 @@
     "votes_count": 131000,
     "imdb_url": "https://www.imdb.com/title/tt0031679/",
     "poster_url": "https://m.media-amazon.com/images/M/MV5BMDU4ZjNmMjEtMjcxYi00NDAxLWFlMjQtNWIyNjg5NWUzNTdjXkEyXkFqcGc@._V1_.jpg",
-    "local_poster_path": "posters/221_Mr._Smith_Goes_to_Washington_tt0031679.jpg"
+    "local_poster_path": "posters/221_Mr._Smith_Goes_to_Washington_tt0031679.jpg",
+    "genres": [
+      "Comedy",
+      "Drama"
+    ],
+    "director": "Frank Capra",
+    "cast": [
+      "James Stewart",
+      "Jean Arthur",
+      "Claude Rains"
+    ],
+    "description": "A naive youth leader is appointed to fill a vacancy in the U.S. Senate. His idealistic plans promptly collide with corruption at home and subterfuge from his hero in Washington, but he tries to forge ahead despite attacks on his c..."
   },
   {
     "rank": 222,
@@ -3327,7 +5877,19 @@
     "votes_count": 88000,
     "imdb_url": "https://www.imdb.com/title/tt26548265/",
     "poster_url": "https://m.media-amazon.com/images/M/MV5BZWQ2YzJmNjMtNGEzMC00YzkwLTk0Y2QtODdkMjFkM2UwNDU1XkEyXkFqcGc@._V1_.jpg",
-    "local_poster_path": "posters/222_Maharaja_tt26548265.jpg"
+    "local_poster_path": "posters/222_Maharaja_tt26548265.jpg",
+    "genres": [
+      "Action",
+      "Crime",
+      "Drama"
+    ],
+    "director": "R. Nandhakumar",
+    "cast": [
+      "Vijay Sethupathi",
+      "Anurag Kashyap",
+      "Mamta Mohandas"
+    ],
+    "description": "A barber seeks vengeance after his home is burglarized, cryptically telling police his \"lakshmi\" has been taken, leaving them uncertain if it's a person or object. His quest to recover the elusive \"lakshmi\" unfolds."
   },
   {
     "rank": 223,
@@ -3342,7 +5904,17 @@
     "votes_count": 79000,
     "imdb_url": "https://www.imdb.com/title/tt0046438/",
     "poster_url": "https://m.media-amazon.com/images/M/MV5BODdkNzcxZjItMDU2Yy00Y2JlLWFkYTQtNzIwM2Q4MWU5MTU2XkEyXkFqcGc@._V1_.jpg",
-    "local_poster_path": "posters/223_Tokyo_Story_tt0046438.jpg"
+    "local_poster_path": "posters/223_Tokyo_Story_tt0046438.jpg",
+    "genres": [
+      "Drama"
+    ],
+    "director": "Yasujiro Ozu",
+    "cast": [
+      "Chishu Ryu",
+      "Chieko Higashiyama",
+      "So Yamamura"
+    ],
+    "description": "An old couple visit their children and grandchildren in the city, but receive little attention."
   },
   {
     "rank": 224,
@@ -3357,7 +5929,18 @@
     "votes_count": 238000,
     "imdb_url": "https://www.imdb.com/title/tt15097216/",
     "poster_url": "https://m.media-amazon.com/images/M/MV5BZjEyNDIzNmEtMjdkYS00ZDAwLTljOWYtNDRhYTVhYTlmOTk1XkEyXkFqcGc@._V1_.jpg",
-    "local_poster_path": "posters/224_Jai_Bhim_tt15097216.jpg"
+    "local_poster_path": "posters/224_Jai_Bhim_tt15097216.jpg",
+    "genres": [
+      "Crime",
+      "Drama"
+    ],
+    "director": "T.J. Gnanavel",
+    "cast": [
+      "Suriya",
+      "Lijo Mol Jose",
+      "Manikandan K."
+    ],
+    "description": "When a tribal man is arrested for a case of alleged theft, his wife turns to a human-rights lawyer to help bring justice."
   },
   {
     "rank": 225,
@@ -3372,7 +5955,19 @@
     "votes_count": 297000,
     "imdb_url": "https://www.imdb.com/title/tt0059742/",
     "poster_url": "https://m.media-amazon.com/images/M/MV5BYWJhYmU4MjQtZDJhYi00ZGVjLTlkNTEtNzkzNGVjOWQ3MjcwXkEyXkFqcGc@._V1_.jpg",
-    "local_poster_path": "posters/225_The_Sound_of_Music_tt0059742.jpg"
+    "local_poster_path": "posters/225_The_Sound_of_Music_tt0059742.jpg",
+    "genres": [
+      "Biography",
+      "Drama",
+      "Family"
+    ],
+    "director": "Robert Wise",
+    "cast": [
+      "Julie Andrews",
+      "Christopher Plummer",
+      "Eleanor Parker"
+    ],
+    "description": "A young novice is sent by her convent in 1930s Austria to become a governess to the seven children of a widowed naval officer."
   },
   {
     "rank": 226,
@@ -3387,7 +5982,18 @@
     "votes_count": 234000,
     "imdb_url": "https://www.imdb.com/title/tt0113247/",
     "poster_url": "https://m.media-amazon.com/images/M/MV5BMThlMDA3NDYtZGM2Zi00NmJhLThlYWItZjViZTkzZWU1ZWRiXkEyXkFqcGc@._V1_.jpg",
-    "local_poster_path": "posters/226_La_haine_tt0113247.jpg"
+    "local_poster_path": "posters/226_La_haine_tt0113247.jpg",
+    "genres": [
+      "Crime",
+      "Drama"
+    ],
+    "director": "Mathieu Kassovitz",
+    "cast": [
+      "Vincent Cassel",
+      "Hubert Koundé",
+      "Saïd Taghmaoui"
+    ],
+    "description": "24 hours in the lives of three young men in the French suburbs the day after a violent riot."
   },
   {
     "rank": 227,
@@ -3402,7 +6008,19 @@
     "votes_count": 544000,
     "imdb_url": "https://www.imdb.com/title/tt1895587/",
     "poster_url": "https://m.media-amazon.com/images/M/MV5BMjIyOTM5OTIzNV5BMl5BanBnXkFtZTgwMDkzODE2NjE@._V1_.jpg",
-    "local_poster_path": "posters/227_Spotlight_tt1895587.jpg"
+    "local_poster_path": "posters/227_Spotlight_tt1895587.jpg",
+    "genres": [
+      "Biography",
+      "Crime",
+      "Drama"
+    ],
+    "director": "Tom McCarthy",
+    "cast": [
+      "Mark Ruffalo",
+      "Michael Keaton",
+      "Rachel McAdams"
+    ],
+    "description": "The true story of how the Boston Globe uncovered the massive scandal of child molestation and cover-up within the local Catholic Archdiocese, shaking the entire Catholic Church to its core."
   },
   {
     "rank": 228,
@@ -3417,7 +6035,19 @@
     "votes_count": 1000000,
     "imdb_url": "https://www.imdb.com/title/tt0088247/",
     "poster_url": "https://m.media-amazon.com/images/M/MV5BZmE0YzIxM2QtMGNlMi00MjRmLWE3MWMtOWQzMGVjMmU0YTFmXkEyXkFqcGc@._V1_.jpg",
-    "local_poster_path": "posters/228_The_Terminator_tt0088247.jpg"
+    "local_poster_path": "posters/228_The_Terminator_tt0088247.jpg",
+    "genres": [
+      "Action",
+      "Adventure",
+      "Sci-Fi"
+    ],
+    "director": "James Cameron",
+    "cast": [
+      "Arnold Schwarzenegger",
+      "Linda Hamilton",
+      "Michael Biehn"
+    ],
+    "description": "A cyborg assassin from the future attempts to find and kill a young woman who is destined to give birth to a warrior that will lead a resistance to save humankind from extinction."
   },
   {
     "rank": 229,
@@ -3432,7 +6062,19 @@
     "votes_count": 78000,
     "imdb_url": "https://www.imdb.com/title/tt0036868/",
     "poster_url": "https://m.media-amazon.com/images/M/MV5BNTgxMzUyODQtMDJmZC00ZGMyLWI3MzAtZTYwYjBjZjFmMzIxXkEyXkFqcGc@._V1_.jpg",
-    "local_poster_path": "posters/229_The_Best_Years_of_Our_Lives_tt0036868.jpg"
+    "local_poster_path": "posters/229_The_Best_Years_of_Our_Lives_tt0036868.jpg",
+    "genres": [
+      "Drama",
+      "Romance",
+      "War"
+    ],
+    "director": "William Wyler",
+    "cast": [
+      "Myrna Loy",
+      "Dana Andrews",
+      "Fredric March"
+    ],
+    "description": "Three WWII veterans return home forever changed and find it difficult to adjust to their new realities."
   },
   {
     "rank": 230,
@@ -3447,7 +6089,18 @@
     "votes_count": 127000,
     "imdb_url": "https://www.imdb.com/title/tt0050986/",
     "poster_url": "https://m.media-amazon.com/images/M/MV5BNWNiMjQ1M2YtZjQyMi00MmY5LTk3OGUtZDhiMjUxZmJjODE2XkEyXkFqcGc@._V1_.jpg",
-    "local_poster_path": "posters/230_Wild_Strawberries_tt0050986.jpg"
+    "local_poster_path": "posters/230_Wild_Strawberries_tt0050986.jpg",
+    "genres": [
+      "Drama",
+      "Romance"
+    ],
+    "director": "Ingmar Bergman",
+    "cast": [
+      "Victor Sjöström",
+      "Bibi Andersson",
+      "Ingrid Thulin"
+    ],
+    "description": "After living a life marked by coldness, an aging professor is forced to confront the emptiness of his existence."
   },
   {
     "rank": 231,
@@ -3462,7 +6115,19 @@
     "votes_count": 183000,
     "imdb_url": "https://www.imdb.com/title/tt0047296/",
     "poster_url": "https://m.media-amazon.com/images/M/MV5BZDJlYTM1ZGYtZTM4YS00MzFhLThiZjktYzQ0ZjAzMGYwZTU3XkEyXkFqcGc@._V1_.jpg",
-    "local_poster_path": "posters/231_On_the_Waterfront_tt0047296.jpg"
+    "local_poster_path": "posters/231_On_the_Waterfront_tt0047296.jpg",
+    "genres": [
+      "Crime",
+      "Drama",
+      "Thriller"
+    ],
+    "director": "Elia Kazan",
+    "cast": [
+      "Marlon Brando",
+      "Karl Malden",
+      "Lee J. Cobb"
+    ],
+    "description": "An ex-prize fighter turned New Jersey longshoreman struggles to stand up to his corrupt union bosses, including his older brother, as he starts to connect with the grieving sister of one of the syndicate's victims."
   },
   {
     "rank": 232,
@@ -3477,7 +6142,19 @@
     "votes_count": 198000,
     "imdb_url": "https://www.imdb.com/title/tt0041959/",
     "poster_url": "https://m.media-amazon.com/images/M/MV5BNGVjMTMxZTQtMmVlNy00YmI0LWJjMDUtYTgyZWU1Njg5ZGRiXkEyXkFqcGc@._V1_.jpg",
-    "local_poster_path": "posters/232_The_Third_Man_tt0041959.jpg"
+    "local_poster_path": "posters/232_The_Third_Man_tt0041959.jpg",
+    "genres": [
+      "Drama",
+      "Film-Noir",
+      "Mystery"
+    ],
+    "director": "Carol Reed",
+    "cast": [
+      "Orson Welles",
+      "Joseph Cotten",
+      "Alida Valli"
+    ],
+    "description": "Pulp novelist Holly Martins travels to shadowy, mystifying post-war Vienna only to find himself investigating the mysterious sudden death of old friend Harry Lime."
   },
   {
     "rank": 233,
@@ -3492,7 +6169,19 @@
     "votes_count": 924000,
     "imdb_url": "https://www.imdb.com/title/tt0317705/",
     "poster_url": "https://m.media-amazon.com/images/M/MV5BMTY5OTU0OTc2NV5BMl5BanBnXkFtZTcwMzU4MDcyMQ@@._V1_.jpg",
-    "local_poster_path": "posters/233_The_Incredibles_tt0317705.jpg"
+    "local_poster_path": "posters/233_The_Incredibles_tt0317705.jpg",
+    "genres": [
+      "Animation",
+      "Action",
+      "Adventure"
+    ],
+    "director": "Brad Bird",
+    "cast": [
+      "Craig T. Nelson",
+      "Samuel L. Jackson",
+      "Holly Hunter"
+    ],
+    "description": "While trying to lead a quiet suburban life, a family of undercover superheroes are forced into action to save the world."
   },
   {
     "rank": 234,
@@ -3507,7 +6196,18 @@
     "votes_count": 929000,
     "imdb_url": "https://www.imdb.com/title/tt0118715/",
     "poster_url": "https://m.media-amazon.com/images/M/MV5BY2E3OWQ5OWYtYTRkMC00NjVjLWIzZDQtNmRmM2ZiYTIyYmYxXkEyXkFqcGc@._V1_.jpg",
-    "local_poster_path": "posters/234_The_Big_Lebowski_tt0118715.jpg"
+    "local_poster_path": "posters/234_The_Big_Lebowski_tt0118715.jpg",
+    "genres": [
+      "Comedy",
+      "Crime"
+    ],
+    "director": "Joel Coen",
+    "cast": [
+      "Jeff Bridges",
+      "John Goodman",
+      "Julianne Moore"
+    ],
+    "description": "Jeff \"The Dude\" Lebowski, mistaken for a millionaire of the same name, seeks restitution for his ruined rug and enlists his bowling buddies to help get it."
   },
   {
     "rank": 235,
@@ -3522,7 +6222,19 @@
     "votes_count": 351000,
     "imdb_url": "https://www.imdb.com/title/tt1028532/",
     "poster_url": "https://m.media-amazon.com/images/M/MV5BNTU5NjYyYTgtZGQ3My00MzRhLThjNGYtZmVjN2JjYjhkMjhhXkEyXkFqcGc@._V1_.jpg",
-    "local_poster_path": "posters/235_Hachi_A_Dog's_Tale_tt1028532.jpg"
+    "local_poster_path": "posters/235_Hachi_A_Dog's_Tale_tt1028532.jpg",
+    "genres": [
+      "Biography",
+      "Drama",
+      "Family"
+    ],
+    "director": "Lasse Hallström",
+    "cast": [
+      "Richard Gere",
+      "Joan Allen",
+      "Cary-Hiroyuki Tagawa"
+    ],
+    "description": "Professor Wilson discovers a lost Akita puppy on his way home. Despite objections from his wife, Hachi endears himself to the family and grows to be Parker's loyal companion. As their bond grows deeper, a beautiful relationship un..."
   },
   {
     "rank": 236,
@@ -3537,7 +6249,18 @@
     "votes_count": 322000,
     "imdb_url": "https://www.imdb.com/title/tt0381681/",
     "poster_url": "https://m.media-amazon.com/images/M/MV5BMTQ1MjAwNTM5Ml5BMl5BanBnXkFtZTYwNDM0MTc3._V1_.jpg",
-    "local_poster_path": "posters/236_Before_Sunset_tt0381681.jpg"
+    "local_poster_path": "posters/236_Before_Sunset_tt0381681.jpg",
+    "genres": [
+      "Drama",
+      "Romance"
+    ],
+    "director": "Richard Linklater",
+    "cast": [
+      "Ethan Hawke",
+      "Julie Delpy",
+      "Vernon Dobtcheff"
+    ],
+    "description": "Nine years after Jesse and Celine first met, they encounter each other again on the French leg of Jesse's book tour."
   },
   {
     "rank": 237,
@@ -3552,7 +6275,19 @@
     "votes_count": 268000,
     "imdb_url": "https://www.imdb.com/title/tt0129167/",
     "poster_url": "https://m.media-amazon.com/images/M/MV5BODM4ZjZjMGEtYmFiMy00MThjLWIzZjUtMDU0ODg1NTI2MzIwXkEyXkFqcGc@._V1_.jpg",
-    "local_poster_path": "posters/237_The_Iron_Giant_tt0129167.jpg"
+    "local_poster_path": "posters/237_The_Iron_Giant_tt0129167.jpg",
+    "genres": [
+      "Animation",
+      "Action",
+      "Adventure"
+    ],
+    "director": "Brad Bird",
+    "cast": [
+      "Eli Marienthal",
+      "Harry Connick Jr.",
+      "Jennifer Aniston"
+    ],
+    "description": "A young boy befriends a giant robot from outer space that a paranoid government agent wants to destroy."
   },
   {
     "rank": 238,
@@ -3567,7 +6302,17 @@
     "votes_count": 510000,
     "imdb_url": "https://www.imdb.com/title/tt0070047/",
     "poster_url": "https://m.media-amazon.com/images/M/MV5BZjg3YjE4ZjAtYTdmYS00ZTBkLWE1ZjgtNzAzODUwNzRiYjlmXkEyXkFqcGc@._V1_.jpg",
-    "local_poster_path": "posters/238_The_Exorcist_tt0070047.jpg"
+    "local_poster_path": "posters/238_The_Exorcist_tt0070047.jpg",
+    "genres": [
+      "Horror"
+    ],
+    "director": "William Friedkin",
+    "cast": [
+      "Ellen Burstyn",
+      "Max von Sydow",
+      "Linda Blair"
+    ],
+    "description": "When a mysterious entity possesses a young girl, her mother seeks the help of two Catholic priests to save her life."
   },
   {
     "rank": 239,
@@ -3582,7 +6327,18 @@
     "votes_count": 487000,
     "imdb_url": "https://www.imdb.com/title/tt3170832/",
     "poster_url": "https://m.media-amazon.com/images/M/MV5BMjE4NzgzNzEwMl5BMl5BanBnXkFtZTgwMTMzMDE0NjE@._V1_.jpg",
-    "local_poster_path": "posters/239_Room_tt3170832.jpg"
+    "local_poster_path": "posters/239_Room_tt3170832.jpg",
+    "genres": [
+      "Drama",
+      "Thriller"
+    ],
+    "director": "Lenny Abrahamson",
+    "cast": [
+      "Brie Larson",
+      "Jacob Tremblay",
+      "Sean Bridgers"
+    ],
+    "description": "A little boy is held captive in a room with his mother since his birth, so he has never known the world outside."
   },
   {
     "rank": 240,
@@ -3597,7 +6353,19 @@
     "votes_count": 396000,
     "imdb_url": "https://www.imdb.com/title/tt0395169/",
     "poster_url": "https://m.media-amazon.com/images/M/MV5BY2FmMWRmZmQtN2IzMS00OGVmLWFmNjktMTM0YWQzODcwYTEwXkEyXkFqcGc@._V1_.jpg",
-    "local_poster_path": "posters/240_Hotel_Rwanda_tt0395169.jpg"
+    "local_poster_path": "posters/240_Hotel_Rwanda_tt0395169.jpg",
+    "genres": [
+      "Biography",
+      "Drama",
+      "History"
+    ],
+    "director": "Terry George",
+    "cast": [
+      "Don Cheadle",
+      "Sophie Okonedo",
+      "Joaquin Phoenix"
+    ],
+    "description": "Paul Rusesabagina, a hotel manager, houses over a thousand Tutsi refugees during their struggle against the Hutu militia in Rwanda, Africa."
   },
   {
     "rank": 241,
@@ -3612,7 +6380,18 @@
     "votes_count": 480000,
     "imdb_url": "https://www.imdb.com/title/tt0091763/",
     "poster_url": "https://m.media-amazon.com/images/M/MV5BZjE4YjllODAtZGMxZS00Mjg2LThkOWUtZjNkMjQ5YThiNDU4XkEyXkFqcGc@._V1_.jpg",
-    "local_poster_path": "posters/241_Platoon_tt0091763.jpg"
+    "local_poster_path": "posters/241_Platoon_tt0091763.jpg",
+    "genres": [
+      "Drama",
+      "War"
+    ],
+    "director": "Oliver Stone",
+    "cast": [
+      "Charlie Sheen",
+      "Tom Berenger",
+      "Willem Dafoe"
+    ],
+    "description": "Chris Taylor, a naive American, volunteers for Vietnam combat. He feels insignificant among experienced soldiers. Two sergeants, harsh Barnes and cooperative Elias, clash over an illegal killing during a raid. Chris faces meltdown."
   },
   {
     "rank": 242,
@@ -3627,7 +6406,19 @@
     "votes_count": 570000,
     "imdb_url": "https://www.imdb.com/title/tt1979320/",
     "poster_url": "https://m.media-amazon.com/images/M/MV5BMTZhOGQxM2ItNGQyYy00YzE5LWI5MjMtNmMzNGQzNDE1OTUzXkEyXkFqcGc@._V1_.jpg",
-    "local_poster_path": "posters/242_Rush_tt1979320.jpg"
+    "local_poster_path": "posters/242_Rush_tt1979320.jpg",
+    "genres": [
+      "Biography",
+      "Drama",
+      "Sport"
+    ],
+    "director": "Ron Howard",
+    "cast": [
+      "Daniel Brühl",
+      "Chris Hemsworth",
+      "Olivia Wilde"
+    ],
+    "description": "James Hunt and Niki Lauda, two extremely skilled Formula One racers, have an intense rivalry with each other. However, it is their enmity that pushes them to their limits."
   },
   {
     "rank": 243,
@@ -3642,7 +6433,18 @@
     "votes_count": 219000,
     "imdb_url": "https://www.imdb.com/title/tt0050976/",
     "poster_url": "https://m.media-amazon.com/images/M/MV5BZDlmYTkzOWUtODQ0MS00MmM4LWE3ZjMtYTEwNGUwMmJkYzIxXkEyXkFqcGc@._V1_.jpg",
-    "local_poster_path": "posters/243_The_Seventh_Seal_tt0050976.jpg"
+    "local_poster_path": "posters/243_The_Seventh_Seal_tt0050976.jpg",
+    "genres": [
+      "Drama",
+      "Fantasy"
+    ],
+    "director": "Ingmar Bergman",
+    "cast": [
+      "Max von Sydow",
+      "Gunnar Björnstrand",
+      "Bengt Ekerot"
+    ],
+    "description": "A knight returning to Sweden after the Crusades seeks answers about life, death, and the existence of God as he plays chess against the Grim Reaper during the Black Plague."
   },
   {
     "rank": 244,
@@ -3657,7 +6459,18 @@
     "votes_count": 78000,
     "imdb_url": "https://www.imdb.com/title/tt0058946/",
     "poster_url": "https://m.media-amazon.com/images/M/MV5BMTY2Mjk0OGEtYTM3Yy00ZWZiLWFhNjAtNGExMjEzNGVmMDMxXkEyXkFqcGc@._V1_.jpg",
-    "local_poster_path": "posters/244_The_Battle_of_Algiers_tt0058946.jpg"
+    "local_poster_path": "posters/244_The_Battle_of_Algiers_tt0058946.jpg",
+    "genres": [
+      "Drama",
+      "War"
+    ],
+    "director": "Gillo Pontecorvo",
+    "cast": [
+      "Brahim Hadjadj",
+      "Jean Martin",
+      "Yacef Saadi"
+    ],
+    "description": "In the 1950s, fear and violence escalate as the people of Algiers fight for independence from the French government."
   },
   {
     "rank": 245,
@@ -3672,7 +6485,18 @@
     "votes_count": 499000,
     "imdb_url": "https://www.imdb.com/title/tt0092005/",
     "poster_url": "https://m.media-amazon.com/images/M/MV5BNGJkNTUwM2MtZWE2MS00YjNkLWE3MjktNWQwZDQxMDIyZWVmXkEyXkFqcGc@._V1_.jpg",
-    "local_poster_path": "posters/245_Stand_by_Me_tt0092005.jpg"
+    "local_poster_path": "posters/245_Stand_by_Me_tt0092005.jpg",
+    "genres": [
+      "Adventure",
+      "Drama"
+    ],
+    "director": "Rob Reiner",
+    "cast": [
+      "Wil Wheaton",
+      "River Phoenix",
+      "Corey Feldman"
+    ],
+    "description": "A writer recounts a childhood journey with his friends to view the body of a boy who went missing in the woods."
   },
   {
     "rank": 246,
@@ -3687,7 +6511,19 @@
     "votes_count": 475000,
     "imdb_url": "https://www.imdb.com/title/tt0032138/",
     "poster_url": "https://m.media-amazon.com/images/M/MV5BNjIwNzAzODc1MF5BMl5BanBnXkFtZTgwNzczMjM5MzE@._V1_.jpg",
-    "local_poster_path": "posters/246_The_Wizard_of_Oz_tt0032138.jpg"
+    "local_poster_path": "posters/246_The_Wizard_of_Oz_tt0032138.jpg",
+    "genres": [
+      "Adventure",
+      "Family",
+      "Fantasy"
+    ],
+    "director": "Victor Fleming",
+    "cast": [
+      "Judy Garland",
+      "Frank Morgan",
+      "Ray Bolger"
+    ],
+    "description": "Young Dorothy Gale and her dog Toto are swept away by a tornado from their Kansas farm to the magical Land of Oz and embark on a quest with three new friends to see the Wizard, who can return her to her home and fulfill the others..."
   },
   {
     "rank": 247,
@@ -3702,7 +6538,17 @@
     "votes_count": 103000,
     "imdb_url": "https://www.imdb.com/title/tt0476735/",
     "poster_url": "https://m.media-amazon.com/images/M/MV5BZDE3MTBkNmQtNGFjMC00YTcwLWExY2ItN2MyMGZkNWJlMmFmXkEyXkFqcGc@._V1_.jpg",
-    "local_poster_path": "posters/247_My_Father_and_My_Son_tt0476735.jpg"
+    "local_poster_path": "posters/247_My_Father_and_My_Son_tt0476735.jpg",
+    "genres": [
+      "Drama"
+    ],
+    "director": "Çagan Irmak",
+    "cast": [
+      "Çetin Tekindor",
+      "Fikret Kuskan",
+      "Hümeyra"
+    ],
+    "description": "The family of a left-wing journalist is torn apart after the military coup of Turkey in 1980."
   },
   {
     "rank": 248,
@@ -3717,7 +6563,19 @@
     "votes_count": 113000,
     "imdb_url": "https://www.imdb.com/title/tt4430212/",
     "poster_url": "https://m.media-amazon.com/images/M/MV5BYjMzZTU0NzUtZGQ0MC00Y2M4LWI5ZDUtZjY1YmNjMjNmNmI3XkEyXkFqcGc@._V1_.jpg",
-    "local_poster_path": "posters/248_Drishyam_tt4430212.jpg"
+    "local_poster_path": "posters/248_Drishyam_tt4430212.jpg",
+    "genres": [
+      "Crime",
+      "Drama",
+      "Mystery"
+    ],
+    "director": "Nishikant Kamat",
+    "cast": [
+      "Ajay Devgn",
+      "Shriya Saran",
+      "Tabu"
+    ],
+    "description": "Desperate measures are taken by a man who tries to save his family from the dark side of the law, after they commit an unexpected crime."
   },
   {
     "rank": 249,
@@ -3732,7 +6590,19 @@
     "votes_count": 70000,
     "imdb_url": "https://www.imdb.com/title/tt0019254/",
     "poster_url": "https://m.media-amazon.com/images/M/MV5BNTE1MDliZjgtYTU2Yy00YjAxLTljYTItNDE2ZGYwYTY1MGQ1XkEyXkFqcGc@._V1_.jpg",
-    "local_poster_path": "posters/249_The_Passion_of_Joan_of_Arc_tt0019254.jpg"
+    "local_poster_path": "posters/249_The_Passion_of_Joan_of_Arc_tt0019254.jpg",
+    "genres": [
+      "Biography",
+      "Drama",
+      "History"
+    ],
+    "director": "Carl Theodor Dreyer",
+    "cast": [
+      "Maria Falconetti",
+      "Eugene Silvain",
+      "André Berley"
+    ],
+    "description": "In 1431, Jeanne d'Arc is placed on trial on charges of heresy, and the ecclesiastical jurists attempt to force her to recant her claims of holy visions."
   },
   {
     "rank": 250,
@@ -3747,6 +6617,18 @@
     "votes_count": 117000,
     "imdb_url": "https://www.imdb.com/title/tt1954470/",
     "poster_url": "https://m.media-amazon.com/images/M/MV5BNWQyMmJkYTItNDUyYS00MjgwLWFmYjUtOWQ1NmRjOGZlOTZhXkEyXkFqcGc@._V1_.jpg",
-    "local_poster_path": "posters/250_Gangs_of_Wasseypur_tt1954470.jpg"
+    "local_poster_path": "posters/250_Gangs_of_Wasseypur_tt1954470.jpg",
+    "genres": [
+      "Action",
+      "Comedy",
+      "Crime"
+    ],
+    "director": "Anurag Kashyap",
+    "cast": [
+      "Manoj Bajpayee",
+      "Nawazuddin Siddiqui",
+      "Tigmanshu Dhulia"
+    ],
+    "description": "A clash between Sultan and Shahid Khan leads to the expulsion of Khan from Wasseypur, and ignites a deadly blood feud spanning three generations."
   }
 ]

@@ -262,18 +262,29 @@ export const MovieDetailModal: React.FC<MovieDetailModalProps> = ({
 
                     {/* Movie Quick Overview Insights */}
                     <div className="text-xs text-gray-400 space-y-1.5 mb-4 leading-relaxed">
-                      <p>
-                        <span className="text-gray-200 font-medium">Decade:</span>{" "}
-                        {Math.floor(activeMovie.year / 10) * 10}s cinema classic
-                      </p>
-                      <p>
-                        <span className="text-gray-200 font-medium">Runtime:</span>{" "}
-                        {activeMovie.duration_minutes >= 150
-                          ? "Epic runtime feature (>2.5 hours)"
-                          : activeMovie.duration_minutes <= 105
-                          ? "Brisk, fast-paced feature (under 1h 45m)"
-                          : "Standard feature presentation"}
-                      </p>
+                      {activeMovie.director && activeMovie.director !== "Unknown" && (
+                        <p>
+                          <span className="text-gray-200 font-semibold">Director:</span>{" "}
+                          <span className="text-purple-300 font-medium">{activeMovie.director}</span>
+                        </p>
+                      )}
+                      {activeMovie.genres && activeMovie.genres.length > 0 && (
+                        <p>
+                          <span className="text-gray-200 font-semibold">Genres:</span>{" "}
+                          <span className="text-amber-300 font-medium">{activeMovie.genres.join(" • ")}</span>
+                        </p>
+                      )}
+                      {activeMovie.cast && activeMovie.cast.length > 0 && (
+                        <p>
+                          <span className="text-gray-200 font-semibold">Cast:</span>{" "}
+                          <span className="text-gray-300">{activeMovie.cast.slice(0, 4).join(", ")}</span>
+                        </p>
+                      )}
+                      {activeMovie.description && (
+                        <p className="pt-2 text-gray-300 italic border-t border-[#242731]">
+                          "{activeMovie.description}"
+                        </p>
+                      )}
                     </div>
                   </div>
 

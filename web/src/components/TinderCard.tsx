@@ -2,7 +2,7 @@
 
 import React, { useRef } from "react";
 import { motion, useMotionValue, useTransform, PanInfo } from "framer-motion";
-import { Star, Clock, Info, CheckCircle2, Bookmark, XCircle } from "lucide-react";
+import { Star, Clock, Info, CheckCircle2, Bookmark, XCircle, Clapperboard, Users } from "lucide-react";
 import { Movie, SwipeAction } from "../types/movie";
 
 interface TinderCardProps {
@@ -32,14 +32,20 @@ export const TinderCard: React.FC<TinderCardProps> = ({
   const watchlistOpacity = useTransform(x, [-40, -140], [0, 1]);
   // Drag Down -> Not Interested / Pass (Red)
   const passOpacity = useTransform(y, [40, 140], [0, 1]);
+  // Drag Up -> Super Like (Cyan)
+  const superLikeOpacity = useTransform(y, [-40, -130], [0, 1]);
 
   const handleDragEnd = (_: MouseEvent | TouchEvent | PointerEvent, info: PanInfo) => {
-    const thresholdX = 110;
-    const thresholdY = 120;
-    const velocityThreshold = 400;
+    const thresholdX = 100;
+    const thresholdY = 100;
+    const velocityThreshold = 350;
 
+    // Swipe Up -> Super Like
+    if (info.offset.y < -thresholdY || info.velocity.y < -velocityThreshold) {
+      onSwipe("superlike");
+    }
     // Swipe Right -> Watched
-    if (info.offset.x > thresholdX || info.velocity.x > velocityThreshold) {
+    else if (info.offset.x > thresholdX || info.velocity.x > velocityThreshold) {
       onSwipe("watched");
     }
     // Swipe Left -> Haven't watched (Watchlist)
@@ -87,8 +93,8 @@ export const TinderCard: React.FC<TinderCardProps> = ({
             draggable={false}
           />
           {/* Subtle vignette and bottom dark gradient */}
-          <div className="absolute inset-0 bg-gradient-to-t from-[#0b0c0e] via-[#0b0c0e]/60 to-transparent" />
-          <div className="absolute inset-0 bg-gradient-to-b from-black/40 via-transparent to-transparent" />
+          <div className="absolute inset-0 bg-gradient-to-t from-[#0b0c0e] via-[#0b0c0e]/70 to-transparent" />
+          <div className="absolute inset-0 bg-gradient-to-b from-black/50 via-transparent to-transparent" />
         </div>
 
         {/* Dynamic Stamp Badges */}
@@ -120,6 +126,15 @@ export const TinderCard: React.FC<TinderCardProps> = ({
               <XCircle className="w-7 h-7 text-rose-500" />
               NOT INTERESTED
             </motion.div>
+
+            {/* SWIPE UP: SUPER LIKE */}
+            <motion.div
+              style={{ opacity: superLikeOpacity }}
+              className="stamp stamp-superlike flex items-center gap-2"
+            >
+              <Star className="w-7 h-7 text-cyan-400 fill-current" />
+              SUPER LIKE
+            </motion.div>
           </>
         )}
 
@@ -132,6 +147,11 @@ export const TinderCard: React.FC<TinderCardProps> = ({
             <span className="px-2.5 py-1 rounded-full text-xs font-semibold bg-black/50 backdrop-blur-md border border-white/10 text-gray-300">
               {movie.certificate}
             </span>
+            {movie.genres && movie.genres[0] && (
+              <span className="px-2.5 py-1 rounded-full text-xs font-semibold bg-purple-950/60 backdrop-blur-md border border-purple-500/30 text-purple-300 hidden sm:inline-block">
+                {movie.genres[0]}
+              </span>
+            )}
           </div>
 
           <button
@@ -147,12 +167,12 @@ export const TinderCard: React.FC<TinderCardProps> = ({
         </div>
 
         {/* Bottom Movie Details Panel */}
-        <div className="relative z-10 p-6 pt-12">
-          <h2 className="text-2xl sm:text-3xl font-extrabold text-white leading-tight drop-shadow-md">
+        <div className="relative z-10 p-5 sm:p-6 pt-10">
+          <h2 className="text-2xl sm:text-3xl font-extrabold text-white leading-tight drop-shadow-md line-clamp-2">
             {movie.title}
           </h2>
 
-          <div className="flex flex-wrap items-center gap-3 mt-3 text-sm font-medium text-gray-300">
+          <div className="flex flex-wrap items-center gap-3 mt-2.5 text-sm font-medium text-gray-300">
             <div className="flex items-center gap-1.5 text-[#f5c518] font-bold">
               <Star className="w-4 h-4 fill-current" />
               <span>{movie.rating}</span>
@@ -167,17 +187,28 @@ export const TinderCard: React.FC<TinderCardProps> = ({
             </div>
           </div>
 
+          {/* Director & Cast Tags */}
+          <div className="mt-2.5 space-y-1 text-xs text-gray-300">
+            {movie.director && movie.director !== "Unknown" && (
+              <div className="flex items-center gap-1.5 text-purple-300 font-medium">
+                <Clapperboard className="w-3.5 h-3.5 text-purple-400 shrink-0" />
+                <span>Dir: {movie.director}</span>
+              </div>
+            )}
+            {movie.cast && movie.cast.length > 0 && (
+              <div className="flex items-center gap-1.5 text-gray-400">
+                <Users className="w-3.5 h-3.5 text-gray-400 shrink-0" />
+                <span className="truncate">{movie.cast.slice(0, 3).join(", ")}</span>
+              </div>
+            )}
+          </div>
+
           {/* Swipe hints */}
-          <div className="mt-4 pt-3 border-t border-white/10 flex items-center justify-between text-[11px] text-gray-400 font-medium">
-            <span className="flex items-center gap-1 text-blue-400/90">
-              ← Haven't seen
-            </span>
-            <span className="flex items-center gap-1 text-rose-400/90">
-              ↓ Not interested
-            </span>
-            <span className="flex items-center gap-1 text-emerald-400/90">
-              Watched →
-            </span>
+          <div className="mt-3.5 pt-2.5 border-t border-white/10 grid grid-cols-4 text-center text-[10px] text-gray-400 font-semibold">
+            <span className="text-blue-400">← Watchlist</span>
+            <span className="text-cyan-400">↑ Super Like</span>
+            <span className="text-rose-400">↓ Pass</span>
+            <span className="text-emerald-400">Watched →</span>
           </div>
         </div>
       </div>
